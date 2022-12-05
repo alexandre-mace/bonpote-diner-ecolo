@@ -1,0 +1,443 @@
+[
+  {
+    "Nom": "Jean-Marc Ecolo",
+    "Description": "L'écolo relou - réponse à tout",
+    "Arguments": null,
+    "Réponse": null,
+    "En savoir plus": null
+  },
+  {
+    "Nom": null,
+    "Description": null,
+    "Arguments": null,
+    "Réponse": null,
+    "En savoir plus": null
+  },
+  {
+    "Nom": "Jean-Michel Cyclesolaire",
+    "Description": "Tonton climatosceptique",
+    "Arguments": "Les scientifiques sont pas sûrs entre eux pour le réchauffement",
+    "Réponse": "C’est FAUX. Le consensus sur le réchauffement climatique est bien établi et sans équivoque.",
+    "En savoir plus": "https://bonpote.com/le-consensus-scientifique-sur-le-rechauffement-climatique-est-il-de-100/"
+  },
+  {
+    "Nom": "Jean-Michel Cyclesolaire",
+    "Description": "Tonton climatosceptique",
+    "Arguments": "Oui mais dans le passé on a déjà eu ça, ce sont des cycles !",
+    "Réponse": "Tout dépend de quoi on parle, mais surtout, le sujet, c’est la vitesse du changement actuel.",
+    "En savoir plus": "https://bonpote.com/le-climat-a-t-il-vraiment-toujours-change/"
+  },
+  {
+    "Nom": "Jean-Michel Cyclesolaire",
+    "Description": "Tonton climatosceptique",
+    "Arguments": "Ils savent pas prédire la météo à 10 jours et ils veulent nous faire croire qu’ils peuvent savoir le temps qu’il fera en 2100 !",
+    "Réponse": "la météo est susceptible de changer d’une heure à l’autre et d’un jour à l’autre. Le climat, pour sa part, se réfère généralement aux statistiques des conditions météorologiques sur une décennie ou plus.",
+    "En savoir plus": "https://bonpote.com/comment-ne-plus-confondre-meteo-et-climat/"
+  },
+  {
+    "Nom": "Jean-Michel Cyclesolaire",
+    "Description": "Tonton climatosceptique",
+    "Arguments": "Et le GIEC là, c’est pire qu’une secte, un lobby financé par les réchauffistes !",
+    "Réponse": "La transparence du GIEC est totale, et les auteurs sont bénévoles...",
+    "En savoir plus": "https://bonpote.com/climat-peut-on-vraiment-faire-confiance-au-giec/"
+  },
+  {
+    "Nom": "Jean-Michel Cyclesolaire",
+    "Description": "Tonton climatosceptique",
+    "Arguments": "Le CO2 c’est bon pour les plantes !",
+    "Réponse": "Le CO2 à petite dose, c’est très bien ! C’est en partie d’ailleurs grâce au CO2 que la Terre n’est pas une planète complétement gelée. Mais l’augmentation du CO2 n’est pas sans poser de problèmes aux sociétés humaines",
+    "En savoir plus": "https://bonpote.com/co2-nourriture-des-plantes-ou-poison-du-climat/"
+  },
+  {
+    "Nom": "Jean-Michel Cyclesolaire",
+    "Description": "Tonton climatosceptique",
+    "Arguments": "Tu émets du CO2 quand tu respires, pour être écolo faut tuer tout le monde c’est ça ??",
+    "Réponse": "Expirer ne participe pas à l’augmentation durable de la concentration de CO2 atmosphérique",
+    "En savoir plus": "https://bonpote.com/co2-nourriture-des-plantes-ou-poison-du-climat/"
+  },
+  {
+    "Nom": "Jean-Michel Cyclesolaire",
+    "Description": "Tonton climatosceptique",
+    "Arguments": "Oui mais les modèles climatiques sont pas fiables",
+    "Réponse": "C'est faux ! Les modèles ont été très bons jusqu'à aujourd'hui !",
+    "En savoir plus": "https://bonpote.com/les-modeles-climatiques-sont-ils-fiables/"
+  },
+  {
+    "Nom": "Jean-Michel Cyclesolaire",
+    "Description": "Tonton climatosceptique",
+    "Arguments": "Ça va, des incendies/inondations/sécheresses/canicules, y en a déjà eu avant !!”",
+    "Réponse": "Les tendances pour ces 4 aléas climatiques sont très claires, avec une augmentation de la fréquence et de l’intensité",
+    "En savoir plus": "https://bonpote.com/canicules-a-venir-des-etes-a-50-degres-en-france/"
+  },
+  {
+    "Nom": null,
+    "Description": null,
+    "Arguments": null,
+    "Réponse": null,
+    "En savoir plus": null
+  },
+  {
+    "Nom": null,
+    "Description": null,
+    "Arguments": null,
+    "Réponse": null,
+    "En savoir plus": null
+  },
+  {
+    "Nom": "Catherine de France",
+    "Description": "Tante conservatrice",
+    "Arguments": "La France c'est que 1% des émissions !",
+    "Réponse": "Oui, mais 8e plus grand émetteur historique de CO2. Et puis c'est le cas de 200 pays, si tout le monde attend que l'autre agisse, comment avance-t-on ?",
+    "En savoir plus": "https://bonpote.com/analyse-la-france-ne-represente-que-1-des-emissions-de-co2/"
+  },
+  {
+    "Nom": "Catherine de France",
+    "Description": "Tante conservatrice",
+    "Arguments": "C'est pas de ma faute, c'est mon striatum, t'as pas lu le bug humain de Sébastien Bohler ?",
+    "Réponse": "Je l'ai lu, et sa thèse ne vaut rien. C'est pas ton cerveau qui te pousse à détruire la planète, ce sont des constructions sociales.. le capitalisme ?",
+    "En savoir plus": "https://bonpote.com/la-faute-a-notre-cerveau-vraiment-les-erreurs-du-bug-humain-de-s-bohler/"
+  },
+  {
+    "Nom": "Catherine de France",
+    "Description": "Tante conservatrice",
+    "Arguments": "Arrêtez de culpabiliser les Français, merde !",
+    "Réponse": "T'as raison Catherine, Merde !",
+    "En savoir plus": "https://bonpote.com/ecologie-arretons-de-culpabiliser-les-francais/"
+  },
+  {
+    "Nom": "Catherine de France",
+    "Description": "Tante conservatrice",
+    "Arguments": "La France est le 4e pays le plus vert au monde !",
+    "Réponse": "Quel classement ? ça n'a aucun sens Catherine... as-tu bien regardé les critères ?",
+    "En savoir plus": "https://bonpote.com/la-france-est-elle-vraiment-4e-pays-le-plus-vert-au-monde/"
+  },
+  {
+    "Nom": "Catherine de France",
+    "Description": "Tante conservatrice",
+    "Arguments": "De toute façon on est trop sur Terre !",
+    "Réponse": "non, nous ne sommes pas trop sur Terre, mais nous serions trop à vouloir vivre avec le mode de vie d’un Américain ‘moyen",
+    "En savoir plus": "https://bonpote.com/la-demographie-sujet-tabou-de-lecologie/"
+  },
+  {
+    "Nom": "Catherine de France",
+    "Description": "Tante conservatrice",
+    "Arguments": "Marre de l'écologie punitive !",
+    "Réponse": "C'est quoi punitif ? Et pour qui ? Et si on change rien, ça sera punitif ? Les milliers de morts des canicules en 2022, c'est punitif ?",
+    "En savoir plus": "https://bonpote.com/lecologie-punitive-a-t-elle-un-sens/"
+  },
+  {
+    "Nom": "Catherine de France",
+    "Description": "Tante conservatrice",
+    "Arguments": "La décroissance c'est le retour à la lampe à l'huile",
+    "Réponse": "Pas du tout ! la décroissance souhaite juste qu'il soit possible de vivre en respectant les limites planétaires !",
+    "En savoir plus": "https://bonpote.com/decroissance-et-prejuges/"
+  },
+  {
+    "Nom": "Catherine de France",
+    "Description": "Tante conservatrice",
+    "Arguments": "On va pas s’arrêter de vivre, faut quand même profiter de la vie !",
+    "Réponse": "Personne n’a demandé de mettre fin à vos loisirs et petits plaisirs du quotidien. Il est juste demandé (par certaines personnes) de comprendre que chaque action a des conséquences",
+    "En savoir plus": "https://bonpote.com/comment-calculer-son-empreinte-carbone/"
+  },
+  {
+    "Nom": "Catherine de France",
+    "Description": "Tante conservatrice",
+    "Arguments": "T'es écolo mais t'as un iphone ! ahah !",
+    "Réponse": "La technologie est omniprésente dans nos vies et de la difficulté de s’en passer. Le système n’allant pas disparaître du jour au lendemain, deux étapes s’imposent. La première, c’est de comprendre comment ce système nous impose la technologie et à quel point il est difficile d’en échapper. La deuxième étape consiste à réfléchir à comment ne pas perpétuer ce système mortifère et le changer. Par tous les moyens.",
+    "En savoir plus": "https://bonpote.com/tes-ecolo-mais-tas-un-iphone/"
+  },
+  {
+    "Nom": "Catherine de France",
+    "Description": "Tante conservatrice",
+    "Arguments": "Les activistes climat font des actions contre-productives !",
+    "Réponse": "Contre-productives ? Pour qui ? Pour quoi ? Quelle est ta source Catherine ?",
+    "En savoir plus": "https://bonpote.com/cest-contre-productif-ca-dessert-la-cause-lactivisme-est-il-toujours-efficace/"
+  },
+  {
+    "Nom": "Catherine de France",
+    "Description": "Tante conservatrice",
+    "Arguments": "La sobriété ça menace nos libertés ! Et puis personne n'en veut !",
+    "Réponse": "Est-ce que nous sommes vraiment libres de consommer ce que l'on veut ? Est-ce qu'aujourd'hui être obligé d'avoir une voiture pour se déplacer, c'est une liberté ? Est-ce que continuer à consommer sans limite et avoir des étés avec des pointes à 50°C ne va pas ruiner nos libertés ?",
+    "En savoir plus": "https://bonpote.com/10-idees-recues-sur-la-sobriete-des-modes-de-vie/"
+  },
+  {
+    "Nom": "Catherine de France",
+    "Description": "Tante conservatrice",
+    "Arguments": "Les écolos ils ont que ça à faire d'emmerder les gens !",
+    "Réponse": "Les activistes climat ne sont pas là pour vous emmerder. ils se battent pour garder une Terre habitable pour le plus grand nombre. Ils se battent pour que les petits plaisirs des uns ne puissent pas ruiner la vie des autres. Alors il serait peut-être temps d’inverser les rôles : mettez-vous à leur place, et essayez de comprendre pourquoi ces personnes sont dans la rue ou vous interpellent sur les réseaux sociaux. Ce n’est ni par supériorité morale ni par plaisir d’avoir raison : c’est une question de survie.",
+    "En savoir plus": "https://bonpote.com/et-si-les-ecolos-climat-avaient-autre-chose-a-faire-que-vous-emmerder/"
+  },
+  {
+    "Nom": "Catherine de France",
+    "Description": "Tante conservatrice",
+    "Arguments": "Le monde des écolos ne fait pas rêver !",
+    "Réponse": "Pardon, mais un monde où il fait parfois tellement chaud dans votre ville que vous ne pouvez plus rien faire, c’est pas punitif ? A 50°C, vous arrivez à travailler vous ? A profiter pleinement de votre famille et de vos ami(e)s ? A faire du sport ? A faire l’amour ? A jouir des petits plaisirs de la vie ?",
+    "En savoir plus": "https://bonpote.com/le-monde-des-ecologistes-ne-fait-pas-rever/"
+  },
+  {
+    "Nom": "Catherine de France",
+    "Description": "Tante conservatrice",
+    "Arguments": "Et ta grand mère, elle va faire du vélo dans son village ! Bobo !!",
+    "Réponse": "Avec des aménagements et un équipement adaptés, oui, ma grand-mère pourrait faire du vélo. Seulement voilà : pour construire un système vélo capacitant et inclusif, il faut travailler encore plus sur l’apaisement de l’espace public et sur la sécurisation des aménagements cyclables.",
+    "En savoir plus": "https://bonpote.com/ma-grand-mere-ou-mon-plombier-ne-feront-jamais-de-velo-stop-aux-idees-recues-3-5/"
+  },
+  {
+    "Nom": "Catherine de France",
+    "Description": "Tante conservatrice",
+    "Arguments": "Demandez d'abord aux Chinois, aux Indiens et aux Africains d'agir !",
+    "Réponse": null,
+    "En savoir plus": null
+  },
+  {
+    "Nom": null,
+    "Description": null,
+    "Arguments": null,
+    "Réponse": null,
+    "En savoir plus": null
+  },
+  {
+    "Nom": "David Rassuriste",
+    "Description": "C'est pas si grave - La technologie va nous sauver",
+    "Arguments": "La croissance verte c'est la seule évidente",
+    "Réponse": "La croissance verte revient à jouer à la roulette russe notre avenir et celui de nos enfants, on prend le risque ?",
+    "En savoir plus": "https://bonpote.com/mort-de-la-croissance-verte-et-du-decouplage/"
+  },
+  {
+    "Nom": "David Rassuriste",
+    "Description": "C'est pas si grave - La technologie va nous sauver",
+    "Arguments": "La décroissance c'est la récession !",
+    "Réponse": "Si nous avons deux mots différents pour désigner la récession et la décroissance, c’est tout simplement car ce sont deux choses différentes. Les récessions se produisent lorsque les économies dépendantes de la croissance cessent de croître. C’est une catastrophe qui ruine la vie des gens et exacerbe les injustices. La décroissance est un projet de société et appelle à un tout autre type d’économie",
+    "En savoir plus": "https://bonpote.com/decroissance-et-prejuges/"
+  },
+  {
+    "Nom": "David Rassuriste",
+    "Description": "C'est pas si grave - La technologie va nous sauver",
+    "Arguments": "La technologie va nous sauver ! La fusion nucléaire arrive !",
+    "Réponse": "Non seulement le pari technologique est extrêmement risqué, mais pour l’instant, nous n’avons pas l’ombre d’un iota qui prouverait qu’il est possible qu’une énergie propre remplace toutes les énergies existantes",
+    "En savoir plus": "https://bonpote.com/climat-les-12-excuses-de-linaction-et-comment-y-repondre/"
+  },
+  {
+    "Nom": "David Rassuriste",
+    "Description": "C'est pas si grave - La technologie va nous sauver",
+    "Arguments": "L'Homme s'est toujours adapté",
+    "Réponse": "C’est totalement faux. L’Homme s’est historiquement adapté après avoir subi les aléas climatiques, et cela a pris des décennies. Problème : nous n’avons pas plusieurs décennies devant nous, et le changement n’a jamais été aussi rapide.",
+    "En savoir plus": "https://bonpote.com/non-lhomme-ne-sest-pas-toujours-adapte/"
+  },
+  {
+    "Nom": "David Rassuriste",
+    "Description": "C'est pas si grave - La technologie va nous sauver",
+    "Arguments": "C’est pas si grave, regarde les ours polaires prospèrent !",
+    "Réponse": "C’est un argument fallacieux. Les éléments scientifiques publiés amènent tous à la conclusion suivante : les ours polaires dépendent de la banquise pour leur survie",
+    "En savoir plus": "https://bonpote.com/ce-que-les-ours-polaires-nous-apprennent-des-climato-denialistes/"
+  },
+  {
+    "Nom": "David Rassuriste",
+    "Description": "C'est pas si grave - La technologie va nous sauver",
+    "Arguments": "Tu vas pas m’emmerder pour 2 degrés de plus, c’est pas si terrible !",
+    "Réponse": "2 degrés de plus, c’est une moyenne mondiale. une moyenne, ça veut tout et rien dire. La moyenne cache par exemple qu’il va faire 50 degrés dans votre ville et qu’enlever un pull ne vous empêchera pas de souffrir.",
+    "En savoir plus": "https://bonpote.com/canicules-a-venir-des-etes-a-50-degres-en-france/"
+  },
+  {
+    "Nom": "David Rassuriste",
+    "Description": "C'est pas si grave - La technologie va nous sauver",
+    "Arguments": "On a le temps, c’est qu’en 2050 que ça sera difficile !",
+    "Réponse": "Pas vraiment, on a surtout 40 ans de retard pour agir. Mais il n'est jamais trop tard",
+    "En savoir plus": "https://bonpote.com/synthese-et-analyse-du-nouveau-rapport-du-giec/"
+  },
+  {
+    "Nom": "David Rassuriste",
+    "Description": "C'est pas si grave - La technologie va nous sauver",
+    "Arguments": "je fais ma part, je recycle",
+    "Réponse": "Oui, mais tu prends l'avion 10 fois par an, les comptes sont pas bons David...",
+    "En savoir plus": "https://bonpote.com/pourquoi-arreter-lavion-ne-devrait-plus-etre-un-debat/"
+  },
+  {
+    "Nom": "David Rassuriste",
+    "Description": "C'est pas si grave - La technologie va nous sauver",
+    "Arguments": "Le changement viendra des individus !",
+    "Réponse": "C'est faux. C'est un classique de l'inaction climatique, et redirige le poids du changement sur les individus",
+    "En savoir plus": "https://bonpote.com/climat-les-12-excuses-de-linaction-et-comment-y-repondre/"
+  },
+  {
+    "Nom": "David Rassuriste",
+    "Description": "C'est pas si grave - La technologie va nous sauver",
+    "Arguments": "Il faut compter sur le volontariat, il ne faut pas interdire",
+    "Réponse": "Tu penses que c'est sur la base du volontariat que Bernard Arnaud va arrêter de prendre son jet privé ?",
+    "En savoir plus": "https://bonpote.com/doit-on-interdire-les-jets-prives/"
+  },
+  {
+    "Nom": "David Rassuriste",
+    "Description": "C'est pas si grave - La technologie va nous sauver",
+    "Arguments": "Ca coûte trop cher la transition écologique....",
+    "Réponse": "C'est faux. L'inaction coûtera plus cher que le changement",
+    "En savoir plus": "https://bonpote.com/nouveau-rapport-du-giec-agir-coutera-moins-cher-que-le-business-as-usual/"
+  },
+  {
+    "Nom": null,
+    "Description": null,
+    "Arguments": null,
+    "Réponse": null,
+    "En savoir plus": null
+  },
+  {
+    "Nom": null,
+    "Description": null,
+    "Arguments": null,
+    "Réponse": null,
+    "En savoir plus": null
+  },
+  {
+    "Nom": null,
+    "Description": null,
+    "Arguments": null,
+    "Réponse": null,
+    "En savoir plus": null
+  },
+  {
+    "Nom": null,
+    "Description": null,
+    "Arguments": null,
+    "Réponse": null,
+    "En savoir plus": null
+  },
+  {
+    "Nom": "Claire Céfoutu",
+    "Description": "C'est eux les méchants - et puis c'est trop tard",
+    "Arguments": "Faut plus faire d'enfants avec un monde pareil !",
+    "Réponse": "C'est un peu plus compliqué que ça...",
+    "En savoir plus": "https://bonpote.com/faut-il-arreter-de-faire-des-enfants-pour-sauver-la-planete/"
+  },
+  {
+    "Nom": "Claire Céfoutu",
+    "Description": "C'est eux les méchants - et puis c'est trop tard",
+    "Arguments": "Les COPs ça sert à rien !",
+    "Réponse": "S’il est au courant de lire que les COP ne servent à rien, ce n’est pas le reflet de la réalité. Il est vrai que les émissions de GES ne sont toujours pas sur une pente descendante et que la concentration atmosphérique de CO2 n’est pas prête d’atteindre un plateau. Mais il est faux de dire qu’elles ne servent à rien. \nous pourriez plutôt vous poser la question “où en serions-nous sans ces COP ?”",
+    "En savoir plus": "https://bonpote.com/5-ans-apres-peut-on-dire-que-laccord-de-paris-na-servi-a-rien/"
+  },
+  {
+    "Nom": "Claire Céfoutu",
+    "Description": "C'est eux les méchants - et puis c'est trop tard",
+    "Arguments": "C'est trop tard, on est foutus !",
+    "Réponse": "La littérature scientifique est très claire : nous avons notre avenir climatique entre nos mains. Nos actions individuelles et collectives peuvent opérer des changements dont nous tirerons les bénéfices rapidement.",
+    "En savoir plus": "https://bonpote.com/cest-trop-tard-on-est-foutus-pourquoi-cest-faux-et-comment-y-repondre/"
+  },
+  {
+    "Nom": "Claire Céfoutu",
+    "Description": "C'est eux les méchants - et puis c'est trop tard",
+    "Arguments": "Avec les bombes de méthane du permafrost, ça va mal finir !",
+    "Réponse": null,
+    "En savoir plus": null
+  },
+  {
+    "Nom": "Claire Céfoutu",
+    "Description": "C'est eux les méchants - et puis c'est trop tard",
+    "Arguments": "En calculant mon empreinte carbone, rien qu'avec les services publics j'éclate mon budget carbone !",
+    "Réponse": "Bonne nouvelle : les services publics doivent aussi tendre vers la neutralité carbone, et il va falloir les y aider...",
+    "En savoir plus": "https://bonpote.com/empreinte-carbone-des-services-publics/"
+  },
+  {
+    "Nom": "Claire Céfoutu",
+    "Description": "C'est eux les méchants - et puis c'est trop tard",
+    "Arguments": "Il nous reste 3 ans pour agir !",
+    "Réponse": "nous n’avons pas 3 ans pour réduire nos émissions ou infléchir la courbe, mais 30 ans de retard. La logique est toujours la même : plus nous agissons tard, plus nous réduisons les marges de manœuvre et serons susceptibles de ne pas respecter l’Accord de Paris.",
+    "En savoir plus": "https://bonpote.com/we-have-1028-days-left-une-militante-climat-interrompt-roland-garros/"
+  },
+  {
+    "Nom": "Claire Céfoutu",
+    "Description": "C'est eux les méchants - et puis c'est trop tard",
+    "Arguments": "Les gestes individuels c'est que 25% des émissions alors à quoi bon...",
+    "Réponse": "Non, c'est pas vraiment comme ça que ça marche. Les actions individuelles et collectivent sont combinées, pas additionnées",
+    "En savoir plus": "https://bonpote.com/les-actions-individuelles-comptent-elles-vraiment-pour-25-des-emissions/"
+  },
+  {
+    "Nom": "Claire Céfoutu",
+    "Description": "C'est eux les méchants - et puis c'est trop tard",
+    "Arguments": "Limiter le réchauffement mondial à 1,5°C c'est foutu, il faut viser +2°C",
+    "Réponse": "Si nous échouons à maintenir le réchauffement à +1.5°C, la prochaine cible n’est pas +2.°C, mais +1.51°C. Le GIEC est très clair sur le sujet : chaque tonne émise participe au réchauffement.",
+    "En savoir plus": "https://bonpote.com/cest-trop-tard-on-est-foutus-pourquoi-cest-faux-et-comment-y-repondre/"
+  },
+  {
+    "Nom": null,
+    "Description": null,
+    "Arguments": null,
+    "Réponse": null,
+    "En savoir plus": null
+  },
+  {
+    "Nom": "Roxane Bobo",
+    "Description": "aime les retraites yoga et les fraises sur le balcon",
+    "Arguments": "Le concept d'empreinte carbone a été inventé par les pétroliers !",
+    "Réponse": "Pas vraiment, et même si c'était le cas, ils seraient contents les pétroliers de savoir qu'on doit avoir une empreinte carbone inférieure à 2 tonnes / an ?",
+    "En savoir plus": "https://bonpote.com/analyse-le-concept-dempreinte-carbone-a-t-il-ete-invente-par-les-petroliers/"
+  },
+  {
+    "Nom": "Roxane Bobo",
+    "Description": "aime les retraites yoga et les fraises sur le balcon",
+    "Arguments": "100 entreprises sont responsables de 71% des émissions ! Dis-leur d'agir à eux !",
+    "Réponse": "Non, c’est à tout le monde de faire des efforts, selon ses moyens",
+    "En savoir plus": "https://bonpote.com/100-entreprises-sont-elles-responsables-de-71-des-emissions/"
+  },
+  {
+    "Nom": "Roxane Bobo",
+    "Description": "aime les retraites yoga et les fraises sur le balcon",
+    "Arguments": "Ah ouais moi aussi je suis écolo, je recycle !",
+    "Réponse": "C'est très bien de recycler, et nécessaire, mais les ordres de grandeur sont importants...",
+    "En savoir plus": "https://bonpote.com/comment-calculer-son-empreinte-carbone/"
+  },
+  {
+    "Nom": "Roxane Bobo",
+    "Description": "aime les retraites yoga et les fraises sur le balcon",
+    "Arguments": "C'est génial d'être digital nomad, en plus je peux me reconnecter à la nature à Bali",
+    "Réponse": "Non seulement la nature tu ne vas pas en voir la couleur dans ton hotel 5 étoiles, mais tu vas surtout la brûler avec ton aller-retour en avion...",
+    "En savoir plus": "https://bonpote.com/le-digital-nomad-un-cauchemar-pour-le-climat/"
+  },
+  {
+    "Nom": "Roxane Bobo",
+    "Description": "aime les retraites yoga et les fraises sur le balcon",
+    "Arguments": "Pas besoin d'être irréprochable, on peut bien prendre l'avion de temps en temps...",
+    "Réponse": "Etre parfait dans une société imparfaite c'est très difficile, voire impossible. Mais être le plus possible irréprochable aide à faire passer des messages !",
+    "En savoir plus": "https://bonpote.com/doit-on-etre-irreprochable-pour-parler-du-changement-climatique/"
+  },
+  {
+    "Nom": "Roxane Bobo",
+    "Description": "aime les retraites yoga et les fraises sur le balcon",
+    "Arguments": "Franchement c'est simple l'agriculture, moi mes fraises elles poussent sans problème sur mon balcon !",
+    "Réponse": "Dire \"simple\" et \"agriculture\" dans la même phase, c'est être certain ne rien avoir compris à l'agriculture...",
+    "En savoir plus": "https://bonpote.com/4-infographies-pour-comprendre-lagriculture/"
+  },
+  {
+    "Nom": "Roxane Bobo",
+    "Description": "aime les retraites yoga et les fraises sur le balcon",
+    "Arguments": "Pour se reconnecter à la nature, rien de tel qu'une retraite yoga à Marrakech !",
+    "Réponse": "L'aller-retour en avion participe grandement au réchauffement climatique, est-ce que cela peut avoir lieu autre part ?",
+    "En savoir plus": "https://bonpote.com/avion-calculer-en-3-clics-votre-empreinte-carbone/"
+  },
+  {
+    "Nom": null,
+    "Description": null,
+    "Arguments": null,
+    "Réponse": null,
+    "En savoir plus": null
+  },
+  {
+    "Nom": "Suggestions",
+    "Description": null,
+    "Arguments": null,
+    "Réponse": null,
+    "En savoir plus": null
+  },
+  {
+    "Nom": "xxxx",
+    "Description": null,
+    "Arguments": null,
+    "Réponse": null,
+    "En savoir plus": null
+  },
+  {
+    "Nom": "xxxx",
+    "Description": null,
+    "Arguments": null,
+    "Réponse": null,
+    "En savoir plus": null
+  }
+]
