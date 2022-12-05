@@ -7,7 +7,7 @@ const Header = ({opacity}) => (
             </div>
         </div>
         <div
-            className={`text-4xl md:text-5xl text-center font-display text-white font-extrabold mb-8 uppercase opacity-${opacity}`}>
+            className={`text-4xl md:text-5xl text-center font-display text-white font-extrabold mb-8 md:mb-24 uppercase opacity-${opacity}`}>
             Le diner <span className="italic">(écolo)</span> <br/>
             du siecle
         </div>

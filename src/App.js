@@ -117,7 +117,7 @@ function App() {
                         <Restart reset={reset}/>
                     }
                     <div
-                        className={`mt-[22rem] md:mt-48 w-full inline-block relative ${((!started || (pickedPerson && !pickedArgument)) ? ' opacity-30' : '')}`}>
+                        className={`mt-[22rem] md:mt-56 w-full inline-block relative ${((!started || (pickedPerson && !pickedArgument)) ? ' opacity-30' : '')}`}>
                         <div>
                             <Toaster containerStyle={width > 800 ? {position: "absolute", top: -200} : {position: "absolute", top: -500}}/>
                             <TableWithPeople
@@ -138,8 +138,8 @@ function App() {
                     name={hoveredPerson.name}
                     icon={hoveredPerson.icon}
                     position={'absolute'}
-                    left={hoveredPerson.left}
-                    top={hoveredPerson.top - 60}
+                    left={hoveredPerson.left - 90}
+                    top={hoveredPerson.top - 50}
                     description={hoveredPerson.description}
                 />
             }

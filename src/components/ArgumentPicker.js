@@ -5,7 +5,7 @@ import PersonInfo from "./PersonInfo";
 
 const ArgumentPicker = ({setSpeaking, setPickedArgument, pickedPerson, setPickedPerson}) => (
     <div className="absolute -top-6 left-1/2 z-20 -translate-x-1/2 w-full flex justify-center">
-        <div className={"absolute -top-8 -left-36 underline text-vert-1 cursor-pointer"} onClick={() => setPickedPerson(null)}>
+        <div className={"absolute -top-8 md:top-2 -left-40 md:-left-0 underline text-vert-1 cursor-pointer"} onClick={() => setPickedPerson(null)}>
             <span className={"-rotate-90 inline-block text-xs"}>⌃</span> Retour
         </div>
         <div className="text-right">
