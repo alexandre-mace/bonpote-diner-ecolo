@@ -93,7 +93,7 @@ const TableWithPeople = ({
         <style>{`
             #roxanne {
             position: absolute;
-            top: -${150 * zoom}px;
+            top: -${75 * zoom}px;
             left: ${224 * zoom}px;
         }
 
@@ -112,13 +112,13 @@ const TableWithPeople = ({
 
             #claire {
             position: absolute;
-            top: -${168 * zoom}px;
+            top: -${86 * zoom}px;
             right: ${280 * zoom}px;
         }
 
             #david {
             position: absolute;
-            top: -${145 * zoom}px;
+            top: -${55 * zoom}px;
             right: ${130 * zoom}px;
             z-index: 20;
         }

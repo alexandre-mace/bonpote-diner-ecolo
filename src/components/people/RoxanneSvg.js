@@ -11,7 +11,7 @@ function RoxanneSvg({handleHoveredPerson, setHoveredPerson, handlePickedPerson, 
             onClick={(e) => handlePickedPerson(e)}
             xmlns="http://www.w3.org/2000/svg"
             width={106 * zoom}
-            height={315 * zoom}
+            height={160 * zoom}
             fill="none"
             viewBox="0 0 510 741"
         >

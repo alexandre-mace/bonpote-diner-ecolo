@@ -12,7 +12,7 @@ const MobilePersonPicker = ({setPickedPerson}) => {
                             onClick={() => setPickedPerson(person[1])}
                         >
                             <img className={"inline-block"} src={person[1].icon} alt={person[1].name} width={45}/>
-                            <div className={"text-white text-center text-sm"}>{person[1].name.split(' ')[0]}</div>
+                            <div className={"text-white text-center text-xs"}>{person[1].name.split(' ')[0]}</div>
                         </div>
                     ))
                 }

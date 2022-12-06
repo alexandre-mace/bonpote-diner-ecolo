@@ -1,12 +1,11 @@
-import PersonInfo from "./PersonInfo";
+import PhraseAuthor from "./PhraseAuthor";
 
 const Phrase = ({content, name, icon, link = null}) => (
-    <div style={{}}>
-        <PersonInfo
-            name={name}
-            icon={icon}
-        />
-        {content}
+    <div>
+        <PhraseAuthor name={name} icon={icon}/>
+        <div className={"mt-2"}>
+            {content}
+        </div>
         {link &&
             <a
                 href={link}

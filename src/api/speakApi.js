@@ -18,10 +18,11 @@ const sayArgument = async (pickedArgument, pickedPerson, width) => {
             color: 'white',
             marginRight: (width > 800 ? '-30%' : '0'),
             borderRadius: '20px',
+            borderBottomLeftRadius: '5px'
         }), position: (width > 800 ? 'top-right' : 'top-center'),
     })
 
-    await delay(1500)
+    await delay(2000)
     document.querySelectorAll(`[data-name="${pickedPerson.name}"] path.colorable`)
         .forEach((svgElement) => svgElement.setAttribute('fill', "#fff"))
 }
@@ -40,10 +41,11 @@ const answerArgument = async (pickedArgument, width) => {
             backgroundColor: 'rgba(21, 25, 36, 1)',
             color: 'white',
             borderRadius: '20px',
+            borderBottomRightRadius: '5px',
             marginLeft: (width > 800 ? '-40%' : '0')
         }), position: (width > 800 ? 'top-left' : 'top-center'),
     })
-    await delay(1500)
+    await delay(2000)
     document.querySelectorAll(`[data-name="${ecoloData.name}"] path.colorable`)
         .forEach((svgElement) => svgElement.setAttribute('fill', "#fff"))
 }

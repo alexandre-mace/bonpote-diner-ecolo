@@ -20,7 +20,7 @@ function App() {
     const [pickedArgument, setPickedArgument] = useState(false)
     const [speaking, setSpeaking] = useState(false)
     const [spoken, setSpoken] = useState(false)
-    const { height, width } = useWindowDimensions();
+    const { width } = useWindowDimensions();
 
     const speak = async (pickedArgument, width) => {
         await sayArgument(pickedArgument, pickedPerson, width)
@@ -50,7 +50,9 @@ function App() {
         if (!e || !e.target) {
             return
         }
-        const svgNode = (e.target.parentElement.dataset.name !== undefined) ? e.target.parentElement : e.target.parentElement.parentElement
+        const svgNode = (e.target.parentElement.dataset.name !== undefined)
+            ? e.target.parentElement
+            : e.target.parentElement.parentElement
         const person = peopleData.get(svgNode.dataset.name)
         if (!person) {
             return;
@@ -68,7 +70,9 @@ function App() {
         if (!e || !e.target) {
             return
         }
-        const svgNode = (e.target.parentElement.dataset.name !== undefined) ? e.target.parentElement : e.target.parentElement.parentElement
+        const svgNode = (e.target.parentElement.dataset.name !== undefined)
+            ? e.target.parentElement
+            : e.target.parentElement.parentElement
         const person = peopleData.get(svgNode.dataset.name)
         if (!person) {
             return;
@@ -83,7 +87,7 @@ function App() {
     }
 
 
-    const zoom = width > 1200 ? .7 : ((width > 800) ? .5 : .4)
+    const zoom = width > 1200 ? .7 : (width > 800 ? .5 : .4)
 
     return (
         <div className="flex md:h-screen">
@@ -95,7 +99,7 @@ function App() {
                         <OnBoarding setStarted={setStarted}/>
                     }
                     {(started && !pickedPerson) &&
-                        <div className="w-[100%] absolute top-2 left-1/2 -translate-x-1/2 text-center">
+                        <div className="w-[100%] absolute -top-4 left-1/2 -translate-x-1/2 text-center">
                             <div className="text-vert-1 text-lg">Sélectionnez un personnage pour commencer un dialogue</div>
                         </div>
                     }
@@ -138,8 +142,8 @@ function App() {
                     name={hoveredPerson.name}
                     icon={hoveredPerson.icon}
                     position={'absolute'}
-                    left={hoveredPerson.left - 90}
-                    top={hoveredPerson.top - 50}
+                    left={hoveredPerson.left + hoveredPerson.width / 2}
+                    top={hoveredPerson.top - 100}
                     description={hoveredPerson.description}
                 />
             }

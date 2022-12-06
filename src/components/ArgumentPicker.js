@@ -23,7 +23,7 @@ const ArgumentPicker = ({setSpeaking, setPickedArgument, pickedPerson, setPicked
                             <Menu.Button
                                 onClick={() => close()}
                                 data-headlessui-state="open"
-                                className="inline-flex w-full mt-2 items-center justify-center rounded-full bg-white px-5 py-2 font-medium text-black text-md hover:bg-opacity-90 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75">
+                                className="inline-flex w-full mt-3 items-center justify-center rounded-full bg-white px-5 py-2 font-medium text-black text-md hover:bg-opacity-90 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75">
                                 Choisir un sujet spécifique
                                 <img src={chevronDown} alt="Chevron down"
                                      className="ml-2 h-3 w-3"/>
@@ -54,7 +54,7 @@ const ArgumentPicker = ({setSpeaking, setPickedArgument, pickedPerson, setPicked
                                                     }}
                                                     className={`${
                                                         active ? 'text-blue-1' : 'text-black'
-                                                    } group flex w-full items-center rounded-md px-2 py-2 text-xs`}
+                                                    } group flex w-full rounded-md px-2 py-2 text-xs text-left`}
                                                 >
                                                     {argument.content}
                                                 </button>

@@ -8,7 +8,7 @@ function ClaireSvg({handleHoveredPerson, setHoveredPerson, handlePickedPerson, z
             data-name={Claire}
             xmlns="http://www.w3.org/2000/svg"
             width={106 * zoom}
-            height={321 * zoom}
+            height={160 * zoom}
             fill="none"
             viewBox="0 0 505 691"
         >

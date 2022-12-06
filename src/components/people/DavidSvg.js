@@ -11,7 +11,7 @@ function DavidSvg({handleHoveredPerson, setHoveredPerson, handlePickedPerson, zo
             onClick={(e) => handlePickedPerson(e)}
             xmlns="http://www.w3.org/2000/svg"
             width={127 * zoom}
-            height={303 * zoom}
+            height={125 * zoom}
             fill="none"
             viewBox="0 0 636 617"
         >
