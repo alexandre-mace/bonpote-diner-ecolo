@@ -17,6 +17,7 @@ function JeanMichelSvg({handleHoveredPerson, setHoveredPerson, handlePickedPerso
                     onMouseOver={(e) => handleHoveredPerson(e)}
                     onMouseLeave={() => setHoveredPerson(null)}
                     onClick={(e) => handlePickedPerson(e)}
+                    className={"clickable"}
                     fill="#fff"
                     stroke="#151924"
                     strokeLinejoin="round"
@@ -27,6 +28,7 @@ function JeanMichelSvg({handleHoveredPerson, setHoveredPerson, handlePickedPerso
                     onMouseOver={(e) => handleHoveredPerson(e)}
                     onMouseLeave={() => setHoveredPerson(null)}
                     onClick={(e) => handlePickedPerson(e)}
+                    className={"clickable"}
                     fill="#1B0D6B"
                     stroke="#1B0D6B"
                     strokeLinejoin="round"
@@ -37,6 +39,7 @@ function JeanMichelSvg({handleHoveredPerson, setHoveredPerson, handlePickedPerso
                     onMouseOver={(e) => handleHoveredPerson(e)}
                     onMouseLeave={() => setHoveredPerson(null)}
                     onClick={(e) => handlePickedPerson(e)}
+                    className={"clickable"}
                     fill="#fff"
                     stroke="#151924"
                     strokeWidth="4.182"
@@ -46,6 +49,7 @@ function JeanMichelSvg({handleHoveredPerson, setHoveredPerson, handlePickedPerso
                     onMouseOver={(e) => handleHoveredPerson(e)}
                     onMouseLeave={() => setHoveredPerson(null)}
                     onClick={(e) => handlePickedPerson(e)}
+                    className={"clickable"}
                     fill="#fff"
                     stroke="#151924"
                     strokeLinejoin="round"
@@ -56,6 +60,7 @@ function JeanMichelSvg({handleHoveredPerson, setHoveredPerson, handlePickedPerso
                     onMouseOver={(e) => handleHoveredPerson(e)}
                     onMouseLeave={() => setHoveredPerson(null)}
                     onClick={(e) => handlePickedPerson(e)}
+                    className={"clickable"}
                     fill="#fff"
                     stroke="#151924"
                     strokeWidth="4.182"
@@ -65,6 +70,7 @@ function JeanMichelSvg({handleHoveredPerson, setHoveredPerson, handlePickedPerso
                     onMouseOver={(e) => handleHoveredPerson(e)}
                     onMouseLeave={() => setHoveredPerson(null)}
                     onClick={(e) => handlePickedPerson(e)}
+                    className={"clickable"}
                     fill="#fff"
                     stroke="#151924"
                     strokeLinejoin="round"
@@ -75,6 +81,7 @@ function JeanMichelSvg({handleHoveredPerson, setHoveredPerson, handlePickedPerso
                     onMouseOver={(e) => handleHoveredPerson(e)}
                     onMouseLeave={() => setHoveredPerson(null)}
                     onClick={(e) => handlePickedPerson(e)}
+                    className={"clickable"}
                     fill="#fff"
                     stroke="#151924"
                     strokeWidth="4.182"
@@ -84,6 +91,7 @@ function JeanMichelSvg({handleHoveredPerson, setHoveredPerson, handlePickedPerso
                     onMouseOver={(e) => handleHoveredPerson(e)}
                     onMouseLeave={() => setHoveredPerson(null)}
                     onClick={(e) => handlePickedPerson(e)}
+                    className={"clickable"}
                     stroke="#151924"
                     strokeMiterlimit="10"
                     strokeWidth="2.469"
@@ -93,6 +101,7 @@ function JeanMichelSvg({handleHoveredPerson, setHoveredPerson, handlePickedPerso
                     onMouseOver={(e) => handleHoveredPerson(e)}
                     onMouseLeave={() => setHoveredPerson(null)}
                     onClick={(e) => handlePickedPerson(e)}
+                    className={"clickable"}
                     fill="#151924"
                     d="M555.838 111.811c0 7.724-2.31 13.935-5.18 13.935-2.86 0-5.17-6.211-5.17-13.935 0-7.725 2.31-13.936 5.17-13.936 2.87 0 5.18 6.211 5.18 13.936z"
                 ></path>
@@ -100,6 +109,7 @@ function JeanMichelSvg({handleHoveredPerson, setHoveredPerson, handlePickedPerso
                     onMouseOver={(e) => handleHoveredPerson(e)}
                     onMouseLeave={() => setHoveredPerson(null)}
                     onClick={(e) => handlePickedPerson(e)}
+                    className={"clickable"}
                     stroke="#151924"
                     strokeLinecap="round"
                     strokeLinejoin="round"
@@ -110,6 +120,7 @@ function JeanMichelSvg({handleHoveredPerson, setHoveredPerson, handlePickedPerso
                     onMouseOver={(e) => handleHoveredPerson(e)}
                     onMouseLeave={() => setHoveredPerson(null)}
                     onClick={(e) => handlePickedPerson(e)}
+                    className={"clickable"}
                     stroke="#151924"
                     strokeMiterlimit="10"
                     strokeWidth="2.469"
@@ -119,6 +130,7 @@ function JeanMichelSvg({handleHoveredPerson, setHoveredPerson, handlePickedPerso
                     onMouseOver={(e) => handleHoveredPerson(e)}
                     onMouseLeave={() => setHoveredPerson(null)}
                     onClick={(e) => handlePickedPerson(e)}
+                    className={"clickable"}
                     fill="#151924"
                     d="M606.969 56.943c23.65 8.282 33.05 22.457 32.41 38.064-.64 15.608-9.951 33.048-3.101 41.17 6.84 8.123 14.331 9.954 14.331 9.954s.639-15.608 9.949-24.288c9.32-8.759 17.44-9.317 19.99-1.831 2.47 7.485 10.35 35.755-11.23 46.744 17.44 14.971 33.051 15.608 49.291 14.333-17.43-31.136-2.46-69.2 0-79.154 2.47-9.954 7.489-55.503-23.091-54.866 7.49-28.03-31.13-44.275-61.71-44.275-30.58 0-86.009 5.574-94.129 0-8.12-5.575-33.681 1.831-28.671 19.987 5.02 18.077 23.101 33.685 23.101 33.685s37.419-11.866 72.939.637l-.079-.16z"
                 ></path>
@@ -126,8 +138,8 @@ function JeanMichelSvg({handleHoveredPerson, setHoveredPerson, handlePickedPerso
                     onMouseOver={(e) => handleHoveredPerson(e)}
                     onMouseLeave={() => setHoveredPerson(null)}
                     onClick={(e) => handlePickedPerson(e)}
+                    className={"clickable colorable"}
                     fill={computePersonColor(JeanMichel, hoveredPerson, pickedPerson)}
-                    className={"colorable"}
                     stroke="#151924"
                     strokeWidth="4"
                     d="M676.309 223.639c-57.98 17.318-58.53 51.224-51.55 66.012-20.67 11.144-63.58 35.715-69.89 44.847-7.88 11.415-103.55 84.524-105.18 103.277-1.63 18.753 76.71 104.602 82.05 105.725 5.33 1.122 65.15-34.36 72.43-37.9 5.82-2.832 7.67-.8 7.86.568 31.02 70.557 46.11 307.687 45.58 324.655-.42 13.574 4.51 15.981 7.03 15.488 287.18-1.508 211.04 12.06 272.09 22.613 61.06 10.552 72.361 34.673 91.211-17.337 18.84-52.009-55.781-279.644-91.211-431.15-35.42-151.505-112.03-171.386-134.93-174.837-22.9-3.451-34.2-21.961-44.24-29.177-10.04-7.216-8.78-14.431-81.25 7.216z"
@@ -136,6 +148,7 @@ function JeanMichelSvg({handleHoveredPerson, setHoveredPerson, handlePickedPerso
                     onMouseOver={(e) => handleHoveredPerson(e)}
                     onMouseLeave={() => setHoveredPerson(null)}
                     onClick={(e) => handlePickedPerson(e)}
+                    className={"clickable"}
                     stroke="#151924"
                     strokeWidth="4"
                     d="M774.788 285.256c-15.32 6.478-37.64 44.348-4.42 144 1.14 14.18 5.92 45.982 15.93 59.745 10.01 13.762 7.04 38.056 4.3 48.483 25.02-13.424 89.14-37.067 145.44-24.242-3.25-22.286-11.72-71.785-19.54-91.491-7.82-19.705-6.39-31.669-4.7-35.188M659.199 231.877c-5.2 34.07-10.4 107.407 10.39 128.195 20.79 20.789 60.63 185.364 77.96 265.053M665.048 428.5l-37.2 16.483c8.95 18.68 30.8 55.664 46.62 54.157 15.83-1.507.32-47.721-9.42-70.64z"
@@ -144,6 +157,7 @@ function JeanMichelSvg({handleHoveredPerson, setHoveredPerson, handlePickedPerso
                     onMouseOver={(e) => handleHoveredPerson(e)}
                     onMouseLeave={() => setHoveredPerson(null)}
                     onClick={(e) => handlePickedPerson(e)}
+                    className={"clickable"}
                     fill="#fff"
                     stroke="#151924"
                     strokeWidth="4.182"
@@ -153,6 +167,7 @@ function JeanMichelSvg({handleHoveredPerson, setHoveredPerson, handlePickedPerso
                     onMouseOver={(e) => handleHoveredPerson(e)}
                     onMouseLeave={() => setHoveredPerson(null)}
                     onClick={(e) => handlePickedPerson(e)}
+                    className={"clickable"}
                     fill="#fff"
                     stroke="#151924"
                     strokeWidth="4.182"
@@ -162,6 +177,7 @@ function JeanMichelSvg({handleHoveredPerson, setHoveredPerson, handlePickedPerso
                     onMouseOver={(e) => handleHoveredPerson(e)}
                     onMouseLeave={() => setHoveredPerson(null)}
                     onClick={(e) => handlePickedPerson(e)}
+                    className={"clickable"}
                     fill="#fff"
                     stroke="#151924"
                     strokeWidth="4.182"
@@ -171,6 +187,7 @@ function JeanMichelSvg({handleHoveredPerson, setHoveredPerson, handlePickedPerso
                     onMouseOver={(e) => handleHoveredPerson(e)}
                     onMouseLeave={() => setHoveredPerson(null)}
                     onClick={(e) => handlePickedPerson(e)}
+                    className={"clickable"}
                     fill="#fff"
                     stroke="#151924"
                     strokeWidth="4.182"
@@ -180,6 +197,7 @@ function JeanMichelSvg({handleHoveredPerson, setHoveredPerson, handlePickedPerso
                     onMouseOver={(e) => handleHoveredPerson(e)}
                     onMouseLeave={() => setHoveredPerson(null)}
                     onClick={(e) => handlePickedPerson(e)}
+                    className={"clickable"}
                     fill="#fff"
                     stroke="#151924"
                     strokeWidth="4.182"

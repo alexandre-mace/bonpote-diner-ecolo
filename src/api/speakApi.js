@@ -17,6 +17,7 @@ const sayArgument = async (pickedArgument, pickedPerson, width) => {
             backgroundColor: 'rgba(21, 25, 36, 1)',
             color: 'white',
             marginRight: (width > 800 ? '-30%' : '0'),
+            marginTop: (width > 800 ? '-30px' : '0'),
             borderRadius: '20px',
             borderBottomLeftRadius: '5px'
         }), position: (width > 800 ? 'top-right' : 'top-center'),
@@ -42,7 +43,7 @@ const answerArgument = async (pickedArgument, width) => {
             color: 'white',
             borderRadius: '20px',
             borderBottomRightRadius: '5px',
-            marginLeft: (width > 800 ? '-40%' : '0')
+            marginLeft: (width > 800 ? '-40%' : '0'),
         }), position: (width > 800 ? 'top-left' : 'top-center'),
     })
     await delay(2000)

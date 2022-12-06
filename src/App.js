@@ -15,9 +15,9 @@ import useWindowDimensions from "./utils/useWindowDimensions";
 
 function App() {
     const [started, setStarted] = useState(false)
-    const [pickedPerson, setPickedPerson] = useState(false)
-    const [hoveredPerson, setHoveredPerson] = useState(false)
-    const [pickedArgument, setPickedArgument] = useState(false)
+    const [pickedPerson, setPickedPerson] = useState(null)
+    const [hoveredPerson, setHoveredPerson] = useState(null)
+    const [pickedArgument, setPickedArgument] = useState(null)
     const [speaking, setSpeaking] = useState(false)
     const [spoken, setSpoken] = useState(false)
     const { width } = useWindowDimensions();
@@ -138,14 +138,16 @@ function App() {
                 <Credit/>
             </div>
             {hoveredPerson &&
-                <PersonInfo
-                    name={hoveredPerson.name}
-                    icon={hoveredPerson.icon}
-                    position={'absolute'}
-                    left={hoveredPerson.left + hoveredPerson.width / 2}
-                    top={hoveredPerson.top - 100}
-                    description={hoveredPerson.description}
-                />
+
+                    <PersonInfo
+                        name={hoveredPerson.name}
+                        icon={hoveredPerson.icon}
+                        position={'absolute'}
+                        left={hoveredPerson.left + hoveredPerson.width / 2}
+                        top={hoveredPerson.top - 100}
+                        description={hoveredPerson.description}
+                    />
+                    }
             }
         </div>
     );

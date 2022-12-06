@@ -53,7 +53,7 @@ const getPersonColor = (personName) => {
 
 
 const peopleData = argumentsData.reduce((accumulator, argumentData) => {
-    if (!argumentData.Nom || !argumentData.Arguments) {
+    if (!argumentData.Nom) {
         return accumulator
     }
 

@@ -15,6 +15,7 @@ const CatherineSvg = ({handleHoveredPerson, setHoveredPerson, handlePickedPerson
                 onMouseOver={(e) => handleHoveredPerson(e)}
                 onMouseLeave={() => setHoveredPerson(null)}
                 onClick={(e) => handlePickedPerson(e)}
+                className={"clickable"}
                 fill="#1B0D6B"
                 d="M24.246 321.463h-7.46l5.784-76.162h11.585l-9.909 76.162z"
             ></path>
@@ -22,6 +23,7 @@ const CatherineSvg = ({handleHoveredPerson, setHoveredPerson, handlePickedPerson
                 onMouseOver={(e) => handleHoveredPerson(e)}
                 onMouseLeave={() => setHoveredPerson(null)}
                 onClick={(e) => handlePickedPerson(e)}
+                className={"clickable"}
                 fill="#1B0D6B"
                 stroke="#1B0D6B"
                 strokeWidth="0.863"
@@ -31,6 +33,7 @@ const CatherineSvg = ({handleHoveredPerson, setHoveredPerson, handlePickedPerson
                 onMouseOver={(e) => handleHoveredPerson(e)}
                 onMouseLeave={() => setHoveredPerson(null)}
                 onClick={(e) => handlePickedPerson(e)}
+                className={"clickable"}
                 fill="#151924"
                 d="M57.306.994c8.232 0 18.354 9.514 18.781 18.19.428 8.66 3.599 12.981 2.482 16.268-1.118 3.286-2.449 7.164.23 9.99 2.678 2.826 2.678 8.397 2.678 8.397s-14.97 2.136-21.937 1.117c-6.967-1.035-12.11 1.25-18.075.28s-9.399-2.334-12.998-2.17c-3.598.165-5.57-1.281-5.57-1.281s2.235-4.798 3.352-8.578c1.118-3.779-.082-6.244.082-9.136.165-2.875 6.869-10.516 7.641-16.596.773-6.096 3.434-16.465 23.334-16.465V.994z"
             ></path>
@@ -38,8 +41,8 @@ const CatherineSvg = ({handleHoveredPerson, setHoveredPerson, handlePickedPerson
                 onMouseOver={(e) => handleHoveredPerson(e)}
                 onMouseLeave={() => setHoveredPerson(null)}
                 onClick={(e) => handlePickedPerson(e)}
+                className={"clickable colorable"}
                 fill={computePersonColor(Catherine, hoveredPerson, pickedPerson)}
-                className={"colorable"}
                 stroke="#151924"
                 strokeWidth="0.863"
                 d="M62.034 52.043l.004-.007.252-.357c.419.204.995.503 1.684.86 2.845 1.476 7.598 3.941 10.963 4.75l-.102.42s0 0 0 0c.988.24 2.537 1.005 4.408 2.183 1.859 1.172 3.998 2.728 6.157 4.52 4.326 3.589 8.687 8.084 11.032 12.264 1.16 2.067 2.25 5.584 3.3 9.843 1.047 4.246 2.042 9.177 3.023 14.045l.009.045c.977 4.846 1.941 9.628 2.926 13.577.495 1.981.996 3.761 1.51 5.239.511 1.47 1.045 2.672 1.612 3.479 2.157 3.064 3.708 4.296 4.836 5.021.215.139.415.259.593.366l.145.087c.217.131.392.242.543.357.284.218.489.459.652.892.365.972 1.064 4.201 1.048 7.18-.008 1.492-.196 2.866-.657 3.852-.228.488-.514.863-.862 1.116-.344.25-.769.397-1.311.397H7.139c-1.731 0-3.119-.685-4.182-2.032-1.078-1.365-1.837-3.431-2.226-6.198-.778-5.534-.052-13.706 2.326-24.172.796-3.5 1.537-6.819 2.235-9.944 1.393-6.242 2.614-11.709 3.749-16.292.851-3.437 1.652-6.368 2.44-8.748.789-2.386 1.556-4.194 2.33-5.4 1.553-2.415 4.403-4.591 7.79-6.46 3.376-1.865 7.239-3.4 10.764-4.553 3.57-1.168 6.549-2.563 8.967-3.758.452-.223.882-.438 1.29-.642 1.806-.902 3.205-1.602 4.27-1.905h0a34.85 34.85 0 016.753-1.174c2.867-.201 5.966-.003 8.389 1.149z"
@@ -48,6 +51,7 @@ const CatherineSvg = ({handleHoveredPerson, setHoveredPerson, handlePickedPerson
                 onMouseOver={(e) => handleHoveredPerson(e)}
                 onMouseLeave={() => setHoveredPerson(null)}
                 onClick={(e) => handlePickedPerson(e)}
+                className={"clickable"}
                 fill="#fff"
                 stroke="#151924"
                 strokeWidth="0.863"
@@ -57,6 +61,7 @@ const CatherineSvg = ({handleHoveredPerson, setHoveredPerson, handlePickedPerson
                 onMouseOver={(e) => handleHoveredPerson(e)}
                 onMouseLeave={() => setHoveredPerson(null)}
                 onClick={(e) => handlePickedPerson(e)}
+                className={"clickable"}
                 stroke="#151924"
                 strokeMiterlimit="10"
                 strokeWidth="0.509"
@@ -66,6 +71,7 @@ const CatherineSvg = ({handleHoveredPerson, setHoveredPerson, handlePickedPerson
                 onMouseOver={(e) => handleHoveredPerson(e)}
                 onMouseLeave={() => setHoveredPerson(null)}
                 onClick={(e) => handlePickedPerson(e)}
+                className={"clickable"}
                 stroke="#151924"
                 strokeMiterlimit="10"
                 strokeWidth="0.509"
@@ -75,6 +81,7 @@ const CatherineSvg = ({handleHoveredPerson, setHoveredPerson, handlePickedPerson
                 onMouseOver={(e) => handleHoveredPerson(e)}
                 onMouseLeave={() => setHoveredPerson(null)}
                 onClick={(e) => handlePickedPerson(e)}
+                className={"clickable"}
                 fill="#fff"
                 stroke="#151924"
                 strokeWidth="0.863"
@@ -84,6 +91,7 @@ const CatherineSvg = ({handleHoveredPerson, setHoveredPerson, handlePickedPerson
                 onMouseOver={(e) => handleHoveredPerson(e)}
                 onMouseLeave={() => setHoveredPerson(null)}
                 onClick={(e) => handlePickedPerson(e)}
+                className={"clickable"}
                 stroke="#151924"
                 strokeMiterlimit="10"
                 strokeWidth="0.509"
@@ -93,6 +101,7 @@ const CatherineSvg = ({handleHoveredPerson, setHoveredPerson, handlePickedPerson
                 onMouseOver={(e) => handleHoveredPerson(e)}
                 onMouseLeave={() => setHoveredPerson(null)}
                 onClick={(e) => handlePickedPerson(e)}
+                className={"clickable"}
                 fill="#fff"
                 d="M69.826 30.817s.806-3.631 2.465-3.5c1.66.131 2.251 3.023 1.216 4.765-1.035 1.742-4.568 3.369-4.568 3.352l.871-4.617h.016zM42.172 30.817s-.805-3.631-2.464-3.5c-1.676.131-2.252 3.023-1.216 4.765 1.035 1.742 4.568 3.369 4.568 3.352l-.871-4.617h-.017z"
             ></path>
@@ -100,6 +109,7 @@ const CatherineSvg = ({handleHoveredPerson, setHoveredPerson, handlePickedPerson
                 onMouseOver={(e) => handleHoveredPerson(e)}
                 onMouseLeave={() => setHoveredPerson(null)}
                 onClick={(e) => handlePickedPerson(e)}
+                className={"clickable"}
                 stroke="#151924"
                 strokeWidth="0.596"
                 d="M52.745 35.666s.678 3.052 4.626 3.052c3.948 0 4.79-3.052 4.79-3.052"
@@ -108,6 +118,7 @@ const CatherineSvg = ({handleHoveredPerson, setHoveredPerson, handlePickedPerson
                 onMouseOver={(e) => handleHoveredPerson(e)}
                 onMouseLeave={() => setHoveredPerson(null)}
                 onClick={(e) => handlePickedPerson(e)}
+                className={"clickable"}
                 stroke="#151924"
                 strokeMiterlimit="10"
                 strokeWidth="0.509"
@@ -117,6 +128,7 @@ const CatherineSvg = ({handleHoveredPerson, setHoveredPerson, handlePickedPerson
                 onMouseOver={(e) => handleHoveredPerson(e)}
                 onMouseLeave={() => setHoveredPerson(null)}
                 onClick={(e) => handlePickedPerson(e)}
+                className={"clickable"}
                 fill="#151924"
                 d="M51.9 24.771c0 1.232-.33 2.218-.756 2.218-.428 0-.756-.986-.756-2.218s.328-2.218.756-2.218c.427 0 .755.986.755 2.218zM62.285 24.771c0 1.232-.328 2.218-.756 2.218-.427 0-.755-.986-.755-2.218s.328-2.218.755-2.218c.428 0 .756.986.756 2.218z"
             ></path>
@@ -124,6 +136,7 @@ const CatherineSvg = ({handleHoveredPerson, setHoveredPerson, handlePickedPerson
                 onMouseOver={(e) => handleHoveredPerson(e)}
                 onMouseLeave={() => setHoveredPerson(null)}
                 onClick={(e) => handlePickedPerson(e)}
+                className={"clickable"}
                 stroke="#151924"
                 strokeMiterlimit="10"
                 strokeWidth="1.232"
@@ -133,6 +146,7 @@ const CatherineSvg = ({handleHoveredPerson, setHoveredPerson, handlePickedPerson
                 onMouseOver={(e) => handleHoveredPerson(e)}
                 onMouseLeave={() => setHoveredPerson(null)}
                 onClick={(e) => handlePickedPerson(e)}
+                className={"clickable"}
                 fill="#fff"
                 stroke="#151924"
                 strokeWidth="0.863"
@@ -142,6 +156,7 @@ const CatherineSvg = ({handleHoveredPerson, setHoveredPerson, handlePickedPerson
                 onMouseOver={(e) => handleHoveredPerson(e)}
                 onMouseLeave={() => setHoveredPerson(null)}
                 onClick={(e) => handlePickedPerson(e)}
+                className={"clickable"}
                 fill="#fff"
                 stroke="#000"
                 d="M43.36 129.827c-.003-.416-.01-.769-.015-1.043l1.133.246a1725.52 1725.52 0 0019.047 4.025c5.317 1.09 10.752 2.169 15.09 2.952 2.169.391 4.068.709 5.543.918.737.104 1.373.182 1.886.227.503.045.92.062 1.203.033.84-.086 2.174.076 3.773.43 1.585.351 3.38.879 5.115 1.492 1.736.613 3.402 1.307 4.732 1.987.666.34 1.239.673 1.693.986l.034.023H42.531c.53-2.194.732-5.476.803-8.268.039-1.553.038-2.975.027-4.008z"
@@ -150,6 +165,7 @@ const CatherineSvg = ({handleHoveredPerson, setHoveredPerson, handlePickedPerson
                 onMouseOver={(e) => handleHoveredPerson(e)}
                 onMouseLeave={() => setHoveredPerson(null)}
                 onClick={(e) => handlePickedPerson(e)}
+                className={"clickable"}
                 stroke="#151924"
                 strokeMiterlimit="10"
                 strokeWidth="0.509"

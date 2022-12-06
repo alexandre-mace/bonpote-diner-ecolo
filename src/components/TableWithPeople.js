@@ -40,9 +40,7 @@ const TableWithPeople = ({
         <JeanMarcSvg
             setHoveredPerson={setHoveredPerson}
             handleHoveredPerson={handleHoveredPerson}
-            handlePickedPerson={handlePickedPerson}
             zoom={zoom}
-            pickedPerson={pickedPerson}
             hoveredPerson={hoveredPerson}
         />
         <DavidSvg

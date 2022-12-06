@@ -9,6 +9,7 @@ function RoxanneSvg({handleHoveredPerson, setHoveredPerson, handlePickedPerson, 
             onMouseOver={(e) => handleHoveredPerson(e)}
             onMouseLeave={() => setHoveredPerson(null)}
             onClick={(e) => handlePickedPerson(e)}
+            className={"clickable"}
             xmlns="http://www.w3.org/2000/svg"
             width={106 * zoom}
             height={160 * zoom}
@@ -20,6 +21,7 @@ function RoxanneSvg({handleHoveredPerson, setHoveredPerson, handlePickedPerson, 
                     onMouseOver={(e) => handleHoveredPerson(e)}
                     onMouseLeave={() => setHoveredPerson(null)}
                     onClick={(e) => handlePickedPerson(e)}
+                    className={"clickable"}
                     fill="#1B0D6B"
                     stroke="#1B0D6B"
                     strokeWidth="4.182"
@@ -29,6 +31,7 @@ function RoxanneSvg({handleHoveredPerson, setHoveredPerson, handlePickedPerson, 
                     onMouseOver={(e) => handleHoveredPerson(e)}
                     onMouseLeave={() => setHoveredPerson(null)}
                     onClick={(e) => handlePickedPerson(e)}
+                    className={"clickable"}
                     fill="#fff"
                     d="M202.675 579.029v-.004c-.28-.231-.57-.604-.56-1.685l1.33 1.131c23.54 20.037 67.31 37.435 111.32 47.663 22.03 5.12 44.17 8.455 63.93 9.421 19.75.966 37.22-.427 49.87-4.833 11.23-3.92 18.21-10.003 20.3-18.258l.49.098.44-2.155-.48-.098c1.91-10.617 2.73-28.172 2.44-49.187-.3-21.765-1.8-47.319-4.56-72.878-2.76-25.556-6.78-51.139-12.14-72.955-5.34-21.772-12.05-39.943-20.26-50.55-4.9-6.352-10.29-9.922-16.01-10.262-4.7-.276-8.78 1.757-12.43 5.937v.001c-3.56 4.089-6.51 10.043-8.96 17.253-2.45 7.224-4.43 15.787-6.02 25.157-3.18 18.74-4.83 40.803-5.59 62.039-.75 21.241-.61 41.684-.21 57.193.2 7.756.47 14.281.72 19.059.13 2.388.25 4.344.37 5.8.11 1.425.21 2.44.3 2.895v.004l.19.931-.82-.338c-18.4-8.063-46.39-12.021-73.52-13.876-27.17-1.857-53.62-1.613-69.04-1.204l-.34.009-.27.196c-.71.509-1.53 1.528-2.38 2.75-.88 1.267-1.87 2.89-2.94 4.743-2.12 3.71-4.53 8.395-6.77 13.107-2.25 4.712-4.33 9.47-5.81 13.325-.74 1.925-1.33 3.645-1.71 5.029-.19.692-.34 1.319-.42 1.859-.01.062-.02.125-.02.187h-.94c.15-1.307.64-3.214 1.64-6.043 1.5-4.226 5.54-13.355 9.76-21.449 2.1-4.046 4.24-7.798 6.11-10.534.93-1.372 1.78-2.453 2.5-3.182.36-.365.66-.616.91-.771.25-.162.37-.17.36-.17 15.09-.408 40.93-.666 67.71 1.083 26.82 1.751 54.45 5.509 73.2 13.076l1.61.653-.11-1.741c-.65-10.633-2.41-49.189-.74-89.197.84-20.005 2.54-40.345 5.65-57.726 3.12-17.436 7.64-31.698 14-39.716v-.001c4.14-5.232 8.85-7.604 14.03-7.285 5.8.351 11.41 3.805 16.71 10.639 8.2 10.597 15.03 28.63 20.5 50.545 5.46 21.875 9.54 47.476 12.31 73.095 5.55 51.282 5.85 102.42 1.68 123.746-1.75 8.904-8.7 15.715-21.16 20.043-10.43 3.62-24.08 5.313-39.64 5.314-30.16-.002-67.29-6.327-101.66-16.745-34.4-10.425-65.9-24.908-84.87-41.138z"
                 ></path>
@@ -36,6 +39,7 @@ function RoxanneSvg({handleHoveredPerson, setHoveredPerson, handlePickedPerson, 
                     onMouseOver={(e) => handleHoveredPerson(e)}
                     onMouseLeave={() => setHoveredPerson(null)}
                     onClick={(e) => handlePickedPerson(e)}
+                    className={"clickable"}
                     fill={"#fff"}
                     stroke="#151924"
                     strokeWidth="2.2"
@@ -45,6 +49,7 @@ function RoxanneSvg({handleHoveredPerson, setHoveredPerson, handlePickedPerson, 
                     onMouseOver={(e) => handleHoveredPerson(e)}
                     onMouseLeave={() => setHoveredPerson(null)}
                     onClick={(e) => handlePickedPerson(e)}
+                    className={"clickable"}
                     fill="#fff"
                     stroke="#151924"
                     strokeWidth="3.392"
@@ -54,14 +59,15 @@ function RoxanneSvg({handleHoveredPerson, setHoveredPerson, handlePickedPerson, 
                     onMouseOver={(e) => handleHoveredPerson(e)}
                     onMouseLeave={() => setHoveredPerson(null)}
                     onClick={(e) => handlePickedPerson(e)}
+                    className={"clickable colorable"}
                     fill={computePersonColor(Roxanne, hoveredPerson, pickedPerson)}
-                    className={"colorable"}
                     d="M386.554 724.924c-21.36-.891-50.97 2.174-82.95 5.484l-.09.009c-32.05 3.318-66.54 6.886-97.74 7.031-31.24.146-58.99-3.148-77.69-13.406-9.31-5.112-16.34-11.933-20.46-20.898-4.12-8.971-5.39-20.197-2.97-34.201 8.28-47.984 5.56-111.397 3.04-170.351-.28-6.506-.55-12.959-.81-19.33-1.3-32.087-2.17-62.122-.7-86.776.74-12.326 2.05-23.274 4.18-32.442 2.13-9.18 5.05-16.496 8.95-21.62.87-1.144 2.81-2.509 5.77-4.018 2.91-1.485 6.66-3.035 10.95-4.603 8.58-3.134 19.27-6.305 29.73-9.142 10.45-2.837 20.65-5.334 28.24-7.123 3.79-.894 6.93-1.611 9.12-2.105 1.07-.241 1.91-.429 2.5-.558 8.02 20.795 30.14 29.592 52.92 29.079 22.81-.513 46.8-10.343 58.96-27.41 13.84 4.874 30.72 12.866 45.76 20.915 15.15 8.112 28.34 16.232 34.65 21.227 2.57 6.542 4.83 17.147 6.73 30.792 1.92 13.807 3.47 30.643 4.64 49.365 2.32 37.441 3.09 82.376 2.21 125.611-.89 43.242-3.44 84.748-7.74 115.342-2.15 15.307-4.74 27.824-7.75 36.45-1.51 4.32-3.11 7.589-4.76 9.737-1.65 2.157-3.22 3.004-4.69 2.941z"
                 ></path>
                 <path
                     onMouseOver={(e) => handleHoveredPerson(e)}
                     onMouseLeave={() => setHoveredPerson(null)}
                     onClick={(e) => handlePickedPerson(e)}
+                    className={"clickable"}
                     stroke="#151924"
                     strokeWidth="2.2"
                     d="M104.654 668.943l-1.08-.187m1.08.187c-2.42 14.004-1.15 25.23 2.97 34.201 4.12 8.965 11.15 15.786 20.46 20.898 18.7 10.258 46.45 13.552 77.69 13.406 31.2-.145 65.69-3.713 97.74-7.031l.09-.009c31.98-3.31 61.59-6.375 82.95-5.484 1.47.063 3.04-.784 4.69-2.941 1.65-2.148 3.25-5.417 4.76-9.737 3.01-8.626 5.6-21.143 7.75-36.45 4.3-30.594 6.85-72.1 7.74-115.342.88-43.235.11-88.17-2.21-125.611-1.17-18.722-2.72-35.558-4.64-49.365-1.9-13.645-4.16-24.25-6.73-30.792-6.31-4.995-19.5-13.115-34.65-21.227-15.04-8.049-31.92-16.041-45.76-20.915-12.16 17.067-36.15 26.897-58.96 27.41-22.78.513-44.9-8.284-52.92-29.079-.59.129-1.43.317-2.5.558-2.19.494-5.33 1.211-9.12 2.105-7.59 1.789-17.79 4.286-28.24 7.123-10.46 2.837-21.15 6.008-29.73 9.142-4.29 1.568-8.04 3.118-10.95 4.603-2.96 1.509-4.9 2.874-5.77 4.018-3.9 5.124-6.82 12.44-8.95 21.62-2.13 9.168-3.44 20.116-4.18 32.442-1.47 24.654-.6 54.689.7 86.776.26 6.371.53 12.824.81 19.33 2.52 58.954 5.24 122.367-3.04 170.351z"
@@ -70,6 +76,7 @@ function RoxanneSvg({handleHoveredPerson, setHoveredPerson, handlePickedPerson, 
                     onMouseOver={(e) => handleHoveredPerson(e)}
                     onMouseLeave={() => setHoveredPerson(null)}
                     onClick={(e) => handlePickedPerson(e)}
+                    className={"clickable"}
                     fill="#151924"
                     d="M203.495 740.165c-39.32 0-73.04-5.626-90.45-24.264-10.75-11.504-14.46-27.471-11.04-47.429 8.24-47.681 5.57-109.725 2.99-169.758-3.17-74.146-5.91-138.17 12.16-161.932 8.4-11.001 80.59-26.968 88.8-28.759l1.35-.283.47 1.289c5.5 15.275 19.42 25.081 39.16 27.627 27 3.458 55.95-7.606 68.8-26.339l.7-.974 1.13.377c28.6 9.901 69.58 32.94 82.19 43.029l.31.251.16.377c20.02 49.913 19.96 332.256-6.47 369.596-2.24 3.143-4.72 4.746-7.36 4.589-21.18-.88-51.04 2.2-82.66 5.468-33.32 3.458-68.62 7.104-100.27 7.104l.03.031zm1.83-428.748c-22.92 5.029-79.27 18.922-85.65 27.282-17.38 22.85-14.55 89.421-11.54 159.889 2.58 60.19 5.22 122.423-3.05 170.418-3.3 19.204.04 33.851 10.22 44.726 30.39 32.499 114.19 23.825 188.11 16.187 31.75-3.269 61.7-6.381 83.14-5.501 1.51.063 3.08-1.037 4.65-3.268 26.09-36.9 25.99-315.629 6.29-366.232-12.64-9.964-51.83-31.934-79.84-41.866-13.8 19.047-43.47 30.236-71.1 26.716-20.11-2.577-35.07-12.918-41.23-28.382v.031z"
                 ></path>
@@ -77,6 +84,7 @@ function RoxanneSvg({handleHoveredPerson, setHoveredPerson, handlePickedPerson, 
                     onMouseOver={(e) => handleHoveredPerson(e)}
                     onMouseLeave={() => setHoveredPerson(null)}
                     onClick={(e) => handlePickedPerson(e)}
+                    className={"clickable"}
                     stroke="#151924"
                     strokeLinecap="round"
                     strokeWidth="3.392"
@@ -86,14 +94,15 @@ function RoxanneSvg({handleHoveredPerson, setHoveredPerson, handlePickedPerson, 
                     onMouseOver={(e) => handleHoveredPerson(e)}
                     onMouseLeave={() => setHoveredPerson(null)}
                     onClick={(e) => handlePickedPerson(e)}
+                    className={"clickable colorable"}
                     fill={computePersonColor(Roxanne, hoveredPerson, pickedPerson)}
-                    className={"colorable"}
                     d="M75.065 608.371c73.07 14.962 182.55 7.292 222.06-29.67 5.5-5.155-6.86-35.076-7.89-38.219-56.26-.597-124.22-13.327-180.16-13.987l27.15-26.213c29.11-141.786-18.64-161.179-18.64-161.179.82-1.351-143.73 248.524-42.55 269.268h.03z"
                 ></path>
                 <path
                     onMouseOver={(e) => handleHoveredPerson(e)}
                     onMouseLeave={() => setHoveredPerson(null)}
                     onClick={(e) => handlePickedPerson(e)}
+                    className={"clickable"}
                     fill="#fff"
                     stroke="#151924"
                     strokeWidth="2.2"
@@ -103,6 +112,7 @@ function RoxanneSvg({handleHoveredPerson, setHoveredPerson, handlePickedPerson, 
                     onMouseOver={(e) => handleHoveredPerson(e)}
                     onMouseLeave={() => setHoveredPerson(null)}
                     onClick={(e) => handlePickedPerson(e)}
+                    className={"clickable"}
                     fill="#fff"
                     stroke="#151924"
                     strokeWidth="3.392"
@@ -112,6 +122,7 @@ function RoxanneSvg({handleHoveredPerson, setHoveredPerson, handlePickedPerson, 
                     onMouseOver={(e) => handleHoveredPerson(e)}
                     onMouseLeave={() => setHoveredPerson(null)}
                     onClick={(e) => handlePickedPerson(e)}
+                    className={"clickable"}
                     stroke="#151924"
                     strokeLinejoin="round"
                     strokeMiterlimit="10"
@@ -122,6 +133,7 @@ function RoxanneSvg({handleHoveredPerson, setHoveredPerson, handlePickedPerson, 
                     onMouseOver={(e) => handleHoveredPerson(e)}
                     onMouseLeave={() => setHoveredPerson(null)}
                     onClick={(e) => handlePickedPerson(e)}
+                    className={"clickable"}
                     fill="#fff"
                     stroke="#151924"
                     strokeWidth="2.43"
@@ -131,6 +143,7 @@ function RoxanneSvg({handleHoveredPerson, setHoveredPerson, handlePickedPerson, 
                     onMouseOver={(e) => handleHoveredPerson(e)}
                     onMouseLeave={() => setHoveredPerson(null)}
                     onClick={(e) => handlePickedPerson(e)}
+                    className={"clickable"}
                     fill="#151924"
                     d="M179.295 172.528c.42-1.353 2.47-.729 2.05.625-2.5 8.192 0 13.017 3.37 14.857.52.277.7.937.42 1.458-1.87 3.436-9.41-5.207-5.84-16.94z"
                 ></path>
@@ -138,6 +151,7 @@ function RoxanneSvg({handleHoveredPerson, setHoveredPerson, handlePickedPerson, 
                     onMouseOver={(e) => handleHoveredPerson(e)}
                     onMouseLeave={() => setHoveredPerson(null)}
                     onClick={(e) => handlePickedPerson(e)}
+                    className={"clickable"}
                     fill="#fff"
                     stroke="#151924"
                     strokeWidth="2.43"
@@ -147,6 +161,7 @@ function RoxanneSvg({handleHoveredPerson, setHoveredPerson, handlePickedPerson, 
                     onMouseOver={(e) => handleHoveredPerson(e)}
                     onMouseLeave={() => setHoveredPerson(null)}
                     onClick={(e) => handlePickedPerson(e)}
+                    className={"clickable"}
                     fill="#151924"
                     d="M332.165 172.15c-.41-1.354-2.461-.729-2.051.625 2.5 8.191 0 13.016-3.36 14.856-.52.278-.699.937-.419 1.458 1.87 3.436 9.41-5.207 5.83-16.939zM228.114 176.765c-4.65 0-8.3-17.738 2.98-17.738 6.04 0 4.62 17.738-2.98 17.738zM290.125 176.765c4.65 0 8.3-17.738-2.98-17.738-6.04 0-4.62 17.738 2.98 17.738z"
                 ></path>
@@ -154,6 +169,7 @@ function RoxanneSvg({handleHoveredPerson, setHoveredPerson, handlePickedPerson, 
                     onMouseOver={(e) => handleHoveredPerson(e)}
                     onMouseLeave={() => setHoveredPerson(null)}
                     onClick={(e) => handlePickedPerson(e)}
+                    className={"clickable"}
                     stroke="#151924"
                     strokeLinecap="round"
                     strokeWidth="4.846"
@@ -163,6 +179,7 @@ function RoxanneSvg({handleHoveredPerson, setHoveredPerson, handlePickedPerson, 
                     onMouseOver={(e) => handleHoveredPerson(e)}
                     onMouseLeave={() => setHoveredPerson(null)}
                     onClick={(e) => handlePickedPerson(e)}
+                    className={"clickable"}
                     fill="#151924"
                     d="M182.285 101.769c0-18.416 20.25-32.228 30.38-36.83 6.51-2.814 15.7-5.578 26.46-7.128-12.97-18.777-18.98-54.567 26.23-54.81 45.21-.243 31.72 37.873 19.32 56.962 19.11 3.237 30.56 10.002 47.95 27.802 51.28 52.509 6.49 114.421 8.19 128.817 1.35 11.516 10.72 19.758 15.24 22.44-8.18-.423-28.93-5.504-30.96-22.44-2.54-21.17 6.74-33.494-9.27-56.368-16.01-22.874-48.04-16.012-65.88-65.42-.62 6.252-8.45 22.417-34.77 37.056-32.89 18.299-19.5 99.785-11.96 105.135l-5.19-2.47c-38.78-23.663-27.8-68.603-19.95-87.669-7.29 7.52-19.75 8.814-26.18 8.329 10.13-10.129 30.39-34.991 30.39-53.406z"
                 ></path>
@@ -170,6 +187,7 @@ function RoxanneSvg({handleHoveredPerson, setHoveredPerson, handlePickedPerson, 
                     onMouseOver={(e) => handleHoveredPerson(e)}
                     onMouseLeave={() => setHoveredPerson(null)}
                     onClick={(e) => handlePickedPerson(e)}
+                    className={"clickable"}
                     stroke="#151924"
                     strokeWidth="4.846"
                     d="M239.125 57.811c-10.76 1.55-19.95 4.314-26.46 7.127-10.13 4.603-30.38 18.415-30.38 36.831 0 18.415-20.26 43.277-30.39 53.406 7.98.602 25.23-1.535 30.39-14.901 6.44-16.707-39.64 60.454 15.74 94.241l5.19 2.47c-7.54-5.35-20.93-86.836 11.96-105.135 26.32-14.639 34.15-30.804 34.77-37.056 17.84 49.408 49.87 42.546 65.88 65.42 16.01 22.874 6.73 35.198 9.27 56.368 2.03 16.936 22.78 22.017 30.96 22.44-4.52-2.682-13.89-10.924-15.24-22.44-1.7-14.396 43.09-76.308-8.19-128.817-17.39-17.8-28.84-24.565-47.95-27.802m-45.55-2.152c-12.97-18.777-18.98-54.567 26.23-54.81 45.21-.243 31.72 37.873 19.32 56.962m-45.55-2.152c11.05-1.59 32.39-.078 45.55 2.152"
@@ -178,14 +196,15 @@ function RoxanneSvg({handleHoveredPerson, setHoveredPerson, handlePickedPerson, 
                     onMouseOver={(e) => handleHoveredPerson(e)}
                     onMouseLeave={() => setHoveredPerson(null)}
                     onClick={(e) => handlePickedPerson(e)}
+                    className={"clickable colorable"}
                     fill={computePersonColor(Roxanne, hoveredPerson, pickedPerson)}
-                    className={"colorable"}
                     d="M449.575 611.453c-9.84 50.321-188.68 16.753-246.58-32.782-3.46-2.954 17.23-43.72 20.49-43.815 22.04-.597 104.26-1.917 143.05 15.119-.98-3.238-11.41-198.612 32.31-195.972 46.8 2.829 59.75 211.404 50.76 257.45h-.03z"
                 ></path>
                 <path
                     onMouseOver={(e) => handleHoveredPerson(e)}
                     onMouseLeave={() => setHoveredPerson(null)}
                     onClick={(e) => handlePickedPerson(e)}
+                    className={"clickable"}
                     stroke="#151924"
                     strokeWidth="2.2"
                     d="M202.675 579.029v-.004c-.28-.231-.57-.604-.56-1.685l1.33 1.131c23.54 20.037 67.31 37.435 111.32 47.663 22.03 5.12 44.17 8.455 63.93 9.421 19.75.966 37.22-.427 49.87-4.833 11.23-3.92 18.21-10.003 20.3-18.258l.49.098.44-2.155-.48-.098c1.91-10.617 2.73-28.172 2.44-49.187-.3-21.765-1.8-47.319-4.56-72.878-2.76-25.556-6.78-51.139-12.14-72.955-5.34-21.772-12.05-39.943-20.26-50.55-4.9-6.352-10.29-9.922-16.01-10.262-4.7-.276-8.78 1.757-12.43 5.937v.001c-3.56 4.089-6.51 10.043-8.96 17.253-2.45 7.224-4.43 15.787-6.02 25.157-3.18 18.74-4.83 40.803-5.59 62.039-.75 21.241-.61 41.684-.21 57.193.2 7.756.47 14.281.72 19.059.13 2.388.25 4.344.37 5.8.11 1.425.21 2.44.3 2.895v.004l.19.931-.82-.338c-18.4-8.063-46.39-12.021-73.52-13.876-27.17-1.857-53.62-1.613-69.04-1.204l-.34.009-.27.196c-.71.509-1.53 1.528-2.38 2.75-.88 1.267-1.87 2.89-2.94 4.743-2.12 3.71-4.53 8.395-6.77 13.107-2.25 4.712-4.33 9.47-5.81 13.325-.74 1.925-1.33 3.645-1.71 5.029-.19.692-.34 1.319-.42 1.859-.01.062-.02.125-.02.187h-.94c.15-1.307.64-3.214 1.64-6.043 1.5-4.226 5.54-13.355 9.76-21.449 2.1-4.046 4.24-7.798 6.11-10.534.93-1.372 1.78-2.453 2.5-3.182.36-.365.66-.616.91-.771.25-.162.37-.17.36-.17 15.09-.408 40.93-.666 67.71 1.083 26.82 1.751 54.45 5.509 73.2 13.076l1.61.653-.11-1.741c-.65-10.633-2.41-49.189-.74-89.197.84-20.005 2.54-40.345 5.65-57.726 3.12-17.436 7.64-31.698 14-39.716v-.001c4.14-5.232 8.85-7.604 14.03-7.285 5.8.351 11.41 3.805 16.71 10.639 8.2 10.597 15.03 28.63 20.5 50.545 5.46 21.875 9.54 47.476 12.31 73.095 5.55 51.282 5.85 102.42 1.68 123.746-1.75 8.904-8.7 15.715-21.16 20.043-10.43 3.62-24.08 5.313-39.64 5.314-30.16-.002-67.29-6.327-101.66-16.745-34.4-10.425-65.9-24.908-84.87-41.138z"
@@ -194,6 +213,7 @@ function RoxanneSvg({handleHoveredPerson, setHoveredPerson, handlePickedPerson, 
                     onMouseOver={(e) => handleHoveredPerson(e)}
                     onMouseLeave={() => setHoveredPerson(null)}
                     onClick={(e) => handlePickedPerson(e)}
+                    className={"clickable"}
                     fill="#fff"
                     stroke="#151924"
                     strokeWidth="3"
@@ -202,10 +222,7 @@ function RoxanneSvg({handleHoveredPerson, setHoveredPerson, handlePickedPerson, 
             </g>
             <defs>
                 <clipPath id="clip0_277_2492">
-                    <path
-                        onMouseOver={(e) => handleHoveredPerson(e)}
-                        onMouseLeave={() => setHoveredPerson(null)}
-                        onClick={(e) => handlePickedPerson(e)} fill="#fff" d="M0 0H510V741H0z"></path>
+                    <path fill="#fff" d="M0 0H510V741H0z"></path>
                 </clipPath>
             </defs>
         </svg>

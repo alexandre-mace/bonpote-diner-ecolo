@@ -72,3 +72,11 @@ svg {
 svg path {
   pointer-events:all;
 }
+
+path.clickable {
+  cursor: pointer;
+}
+
+path.colorable {
+  transition: all ease-in 80ms;
+}
