@@ -2,7 +2,7 @@ import jmarcSvg from "../assets/icons/JeanMarc.png";
 import jmichelSvg from "../assets/icons/JeanMich.png";
 import catherineSvg from "../assets/icons/Catherine.png";
 import davidSvg from "../assets/icons/David.png";
-import claireSvg from "../assets/icons/Catherine.png";
+import claireSvg from "../assets/icons/Claire.png";
 import roxanneSvg from "../assets/icons/Roxanne.png";
 import argumentsData from "./arguments.json";
 
@@ -39,11 +39,11 @@ const getPersonColor = (personName) => {
         case JeanMichel:
             return '#6B25FF'
         case Catherine:
-            return '#03FFFF'
+            return '#FA0EAA'
         case David:
             return '#FF900E'
         case Claire:
-            return '#FA0EAA'
+            return '#03FFFF'
         case Roxanne:
             return '#FFF500'
         default:

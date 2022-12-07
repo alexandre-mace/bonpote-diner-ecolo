@@ -9,7 +9,7 @@ const Phrase = ({content, name, icon, link = null}) => (
         {link &&
             <a
                 href={link}
-                className={"underline block mt-2"}
+                className={"underline inline-block mt-2 text-vert-1 hover:brightness-75 transition-all"}
                 target={"_blank"}
                 rel={"noreferrer"}
             >

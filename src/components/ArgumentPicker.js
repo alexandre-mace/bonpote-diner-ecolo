@@ -41,7 +41,7 @@ const ArgumentPicker = ({setSpeaking, setPickedArgument, pickedPerson, setPicked
                             leaveTo="transform opacity-0 scale-95"
                         >
                             <Menu.Items
-                                className="absolute right-0 mt-2 w-full origin-top rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 divide-y divide-gray-2 focus:outline-none"
+                                className="absolute right-0 mt-2 max-h-[16rem] md:max-h-[26rem] overflow-scroll w-full origin-top rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 divide-y divide-gray-2 focus:outline-none"
                                 data-headlessui-state="open"
                             >
                                 {pickedPerson.arguments.map((argument, index) => (
