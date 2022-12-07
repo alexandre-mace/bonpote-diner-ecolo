@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/bonpote-diner-ecolo/static/css/main.e586e97b.css",
-    "main.js": "/bonpote-diner-ecolo/static/js/main.a07d6043.js",
+    "main.css": "/bonpote-diner-ecolo/static/css/main.f4419af5.css",
+    "main.js": "/bonpote-diner-ecolo/static/js/main.36b0d092.js",
     "static/js/787.044e6553.chunk.js": "/bonpote-diner-ecolo/static/js/787.044e6553.chunk.js",
     "static/media/crunold-oblique-webfont.woff": "/bonpote-diner-ecolo/static/media/crunold-oblique-webfont.890bee004409e9bb124f.woff",
     "static/media/crunold-regular-webfont.woff": "/bonpote-diner-ecolo/static/media/crunold-regular-webfont.8e7b54b74a99f01525d0.woff",
@@ -11,20 +11,15 @@
     "static/media/ApfelGrotezk-Fett.woff": "/bonpote-diner-ecolo/static/media/ApfelGrotezk-Fett.9d12ec37b1a4c8a44369.woff",
     "static/media/ApfelGrotezk-Regular.woff2": "/bonpote-diner-ecolo/static/media/ApfelGrotezk-Regular.0f390dd4da172465f1f1.woff2",
     "static/media/ApfelGrotezk-Fett.woff2": "/bonpote-diner-ecolo/static/media/ApfelGrotezk-Fett.6739c46c0311db9b5190.woff2",
-    "static/media/David.svg": "/bonpote-diner-ecolo/static/media/David.1bf61fc10728e5f4e291bc42c8239e42.svg",
-    "static/media/Roxanne.svg": "/bonpote-diner-ecolo/static/media/Roxanne.fcb45144a6d85abaac4b193e7269dd73.svg",
-    "static/media/JMichel.svg": "/bonpote-diner-ecolo/static/media/JMichel.f0817a58776d4cdb837b4eb4e5297aac.svg",
-    "static/media/JMarc.svg": "/bonpote-diner-ecolo/static/media/JMarc.1af2b7ac259038609616a20859374205.svg",
-    "static/media/Catherine.svg": "/bonpote-diner-ecolo/static/media/Catherine.ac4eecd5b1630595002d5cd157167663.svg",
     "static/media/play-circle.svg": "/bonpote-diner-ecolo/static/media/play-circle.3a18b27f2b521b02c957c145bdb21c6e.svg",
     "index.html": "/bonpote-diner-ecolo/index.html",
     "static/media/chevron-down.svg": "/bonpote-diner-ecolo/static/media/chevron-down.650ddc751452fde3c0717bf6c11c44f2.svg",
-    "main.e586e97b.css.map": "/bonpote-diner-ecolo/static/css/main.e586e97b.css.map",
-    "main.a07d6043.js.map": "/bonpote-diner-ecolo/static/js/main.a07d6043.js.map",
+    "main.f4419af5.css.map": "/bonpote-diner-ecolo/static/css/main.f4419af5.css.map",
+    "main.36b0d092.js.map": "/bonpote-diner-ecolo/static/js/main.36b0d092.js.map",
     "787.044e6553.chunk.js.map": "/bonpote-diner-ecolo/static/js/787.044e6553.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e586e97b.css",
-    "static/js/main.a07d6043.js"
+    "static/css/main.f4419af5.css",
+    "static/js/main.36b0d092.js"
   ]
 }
