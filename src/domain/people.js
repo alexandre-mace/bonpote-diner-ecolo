@@ -1,9 +1,9 @@
-import jmarcSvg from "../assets/icons/JMarc.svg";
-import jmichelSvg from "../assets/icons/JMichel.svg";
-import catherineSvg from "../assets/icons/Catherine.svg";
-import davidSvg from "../assets/icons/David.svg";
-import claireSvg from "../assets/icons/Catherine.svg";
-import roxanneSvg from "../assets/icons/Roxanne.svg";
+import jmarcSvg from "../assets/icons/JeanMarc.png";
+import jmichelSvg from "../assets/icons/JeanMich.png";
+import catherineSvg from "../assets/icons/Catherine.png";
+import davidSvg from "../assets/icons/David.png";
+import claireSvg from "../assets/icons/Catherine.png";
+import roxanneSvg from "../assets/icons/Roxanne.png";
 import argumentsData from "./arguments.json";
 
 const JeanMarc = 'Jean-Marc Ecolo';
@@ -39,13 +39,13 @@ const getPersonColor = (personName) => {
         case JeanMichel:
             return '#6B25FF'
         case Catherine:
-            return '#FA0EAA'
+            return '#03FFFF'
         case David:
             return '#FF900E'
         case Claire:
-            return '#FFF500'
+            return '#FA0EAA'
         case Roxanne:
-            return '#03FFFF'
+            return '#FFF500'
         default:
             return null
     }

@@ -20,7 +20,7 @@ function App() {
     const [pickedArgument, setPickedArgument] = useState(null)
     const [speaking, setSpeaking] = useState(false)
     const [spoken, setSpoken] = useState(false)
-    const { width } = useWindowDimensions();
+    const {width} = useWindowDimensions();
 
     const speak = async (pickedArgument, width) => {
         await sayArgument(pickedArgument, pickedPerson, width)
@@ -53,7 +53,9 @@ function App() {
         const svgNode = (e.target.parentElement.dataset.name !== undefined)
             ? e.target.parentElement
             : e.target.parentElement.parentElement
+
         const person = peopleData.get(svgNode.dataset.name)
+
         if (!person) {
             return;
         }
@@ -100,7 +102,8 @@ function App() {
                     }
                     {(started && !pickedPerson) &&
                         <div className="w-[100%] absolute -top-4 left-1/2 -translate-x-1/2 text-center">
-                            <div className="text-vert-1 text-lg">Sélectionnez un personnage pour commencer un dialogue</div>
+                            <div className="text-vert-1 text-lg">Cliquez un personnage pour commencer un dialogue
+                            </div>
                         </div>
                     }
                     {(started && !pickedPerson) &&
@@ -121,12 +124,16 @@ function App() {
                         <Restart reset={reset}/>
                     }
                     <div
-                        className={`mt-[22rem] md:mt-56 w-full inline-block relative ${((!started || (pickedPerson && !pickedArgument)) ? ' opacity-30' : '')}`}>
+                        className={`mt-[22rem] md:mt-56 w-full inline-block relative ${((!started || (pickedPerson && !pickedArgument)) ? ' opacity-30 pointer-events-none' : '')}`}>
                         <div>
-                            <Toaster containerStyle={width > 800 ? {position: "absolute", top: -200} : {position: "absolute", top: -500}}/>
+                            <div className={"absolute -top-28 w-full"}>
+                                <div className={"relative toaster-container"}>
+                                    <Toaster containerStyle={{position: "absolute"}}/>
+                                </div>
+                            </div>
                             <TableWithPeople
                                 zoom={zoom}
-                                handleHoveredPerson={handleHoveredPerson}
+                                handleHoveredPerson={(!pickedPerson && started) ? handleHoveredPerson : () => {}}
                                 handlePickedPerson={handlePickedPerson}
                                 setHoveredPerson={setHoveredPerson}
                                 hoveredPerson={hoveredPerson}
@@ -138,16 +145,14 @@ function App() {
                 <Credit/>
             </div>
             {hoveredPerson &&
-
-                    <PersonInfo
-                        name={hoveredPerson.name}
-                        icon={hoveredPerson.icon}
-                        position={'absolute'}
-                        left={hoveredPerson.left + hoveredPerson.width / 2}
-                        top={hoveredPerson.top - 100}
-                        description={hoveredPerson.description}
-                    />
-                    }
+                <PersonInfo
+                    name={hoveredPerson.name}
+                    icon={hoveredPerson.icon}
+                    position={'absolute'}
+                    left={hoveredPerson.left + hoveredPerson.width / 2}
+                    top={hoveredPerson.top - 100}
+                    description={hoveredPerson.description}
+                />
             }
         </div>
     );

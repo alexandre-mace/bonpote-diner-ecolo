@@ -1,5 +1,6 @@
 import PersonLightInfo from "./PersonLightInfo";
 import {Transition} from "@headlessui/react";
+import {JeanMarc} from "../domain/people";
 
 const PersonInfo = ({
                         name, icon,
@@ -13,7 +14,7 @@ const PersonInfo = ({
             position: "absolute",
             left: left,
             top: top
-        } : {}} className={`w-60 text-left ${position === 'absolute' ? '-translate-x-1/2' : ''}`}>
+        } : {}} className={`w-60 text-${name === JeanMarc ? 'center' : 'left'} ${position === 'absolute' ? '-translate-x-1/2' : ''}`}>
             <Transition
                 appear={true}
                 show={true}
@@ -28,9 +29,13 @@ const PersonInfo = ({
                     <PersonLightInfo
                         name={name}
                         icon={icon}
+                        align={name === JeanMarc ? 'center' : 'start'}
                     />
                     {description &&
-                        <p className={"text-white opacity-70 text-xs"}>{description}</p>
+                        <p className={"text-white opacity-70 text-sm"}>{description}</p>
+                    }
+                    {(description && name === JeanMarc) &&
+                        <div className={"text-white text-sm px-2 py-1 mt-2 bg-[#393C2E] text-[#CAF750] inline-block rounded-full"}>Personnage non jouable</div>
                     }
                 </div>
             </Transition>

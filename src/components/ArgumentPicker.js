@@ -1,12 +1,12 @@
 import {Menu, Transition} from "@headlessui/react";
 import chevronDown from "../assets/chevron-down.svg";
 import {Fragment} from "react";
-import PersonInfo from "./PersonInfo";
+import PersonLightInfo from "./PersonLightInfo";
 
 const ArgumentPicker = ({setSpeaking, setPickedArgument, pickedPerson, setPickedPerson}) => (
     <div className="absolute -top-6 left-1/2 z-20 -translate-x-1/2 w-full flex justify-center">
-        <div className={"absolute -top-8 md:top-2 -left-40 md:-left-0 underline text-vert-1 cursor-pointer"} onClick={() => setPickedPerson(null)}>
-            <span className={"-rotate-90 inline-block text-xs"}>⌃</span> Retour
+        <div className={"absolute -top-8 md:top-2 -left-40 md:-left-0 text-vert-1 cursor-pointer"} onClick={() => setPickedPerson(null)}>
+            <span className={"-rotate-90 inline-block text-xs"}>⌃</span> <span className={"underline font-bold"}>Retour</span>
         </div>
         <div className="text-right">
             <Menu as="div"
@@ -16,9 +16,10 @@ const ArgumentPicker = ({setSpeaking, setPickedArgument, pickedPerson, setPicked
                 {({open, close}) => (
                     <>
                         <div>
-                            <PersonInfo
+                            <PersonLightInfo
                                 name={pickedPerson.name}
                                 icon={pickedPerson.icon}
+                                align={'center'}
                             />
                             <Menu.Button
                                 onClick={() => close()}
@@ -54,7 +55,7 @@ const ArgumentPicker = ({setSpeaking, setPickedArgument, pickedPerson, setPicked
                                                     }}
                                                     className={`${
                                                         active ? 'text-blue-1' : 'text-black'
-                                                    } group flex w-full rounded-md px-2 py-2 text-xs text-left`}
+                                                    } group flex w-full rounded-md px-2 py-2 text-sm text-left`}
                                                 >
                                                     {argument.content}
                                                 </button>

@@ -41,6 +41,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: linear-gradient(0deg, #525CE1 1.85%, #0D0B45 114.28%);
   height: 100vh;
+  max-width: 100vw;
+  overflow-x: hidden;
 }
 
 code {
@@ -61,6 +63,15 @@ code {
 @keyframes dash {
   to {
     stroke-dashoffset: 0;
+  }
+}
+
+@keyframes phraseSaid {
+  from {
+    opacity: 100;
+  }
+  to {
+    opacity: 80;
   }
 }
 

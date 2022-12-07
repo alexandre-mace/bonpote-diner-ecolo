@@ -1,6 +1,7 @@
-const PersonLightInfo = ({icon, name}) => (
-    <div className="flex items-center max-w-xs mb-1 justify-items-start">
+const PersonLightInfo = ({icon, name, align = 'start'}) => (
+    <div className={`flex items-center max-w-xs mb-1 justify-${align}`}>
         <img
+            className={"w-8 h-8"}
             src={icon}
             alt={`Icone de ${name}`}
         />
