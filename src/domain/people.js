@@ -53,7 +53,7 @@ const getPersonColor = (personName) => {
 
 
 const peopleData = argumentsData.reduce((accumulator, argumentData) => {
-    if (!argumentData.Nom) {
+    if (!argumentData.Nom || (!argumentData.Arguments && argumentData.Nom !== JeanMarc)) {
         return accumulator
     }
 

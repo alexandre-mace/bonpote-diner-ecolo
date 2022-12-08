@@ -124,7 +124,7 @@ function App() {
                         <Restart reset={reset}/>
                     }
                     <div
-                        className={`mt-[22rem] md:mt-56 w-full inline-block relative ${((!started || (pickedPerson && !pickedArgument)) ? ' opacity-30 pointer-events-none' : '')}`}>
+                        className={`mt-[20rem] md:mt-56 w-full inline-block relative ${((!started || (pickedPerson && !pickedArgument)) ? ' opacity-30 pointer-events-none' : '')}`}>
                         <div>
                             <div className={"absolute -top-28 w-full"}>
                                 <div className={"relative toaster-container"}>
