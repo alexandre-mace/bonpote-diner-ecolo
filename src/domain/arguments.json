@@ -17,14 +17,14 @@
     "Nom": "Jean-Michel Cyclesolaire",
     "Description": "Tonton climatosceptique",
     "Arguments": "Les scientifiques sont pas sûrs entre eux pour le réchauffement",
-    "Réponse": "C’est FAUX. Le consensus sur le réchauffement climatique est bien établi et sans équivoque.",
+    "Réponse": "C’est FAUX. Le consensus sur le réchauffement climatique est bien établi et sans équivoque. Depuis 2007, aucun corps scientifique de calibre national ou international n’a contesté la responsabilité humaine d’un réchauffement climatique.",
     "En savoir plus": "https://bonpote.com/le-consensus-scientifique-sur-le-rechauffement-climatique-est-il-de-100/"
   },
   {
     "Nom": "Jean-Michel Cyclesolaire",
     "Description": "Tonton climatosceptique",
     "Arguments": "Oui mais dans le passé on a déjà eu ça, ce sont des cycles !",
-    "Réponse": "Tout dépend de quoi on parle, mais surtout, le sujet, c’est la vitesse du changement actuel.",
+    "Réponse": "Tout dépend de quoi on parle, mais surtout, le sujet, c’est la vitesse du changement actuel. L’ampleur des changements récents dans l’ensemble du système climatique et l’état actuel de nombreux aspects du système climatique sont sans précédent, de plusieurs siècles à plusieurs milliers d’années.",
     "En savoir plus": "https://bonpote.com/le-climat-a-t-il-vraiment-toujours-change/"
   },
   {
@@ -38,7 +38,7 @@
     "Nom": "Jean-Michel Cyclesolaire",
     "Description": "Tonton climatosceptique",
     "Arguments": "Et le GIEC là, c’est pire qu’une secte, un lobby financé par les réchauffistes !",
-    "Réponse": "La transparence du GIEC est totale, et les auteurs sont bénévoles...",
+    "Réponse": "La transparence du GIEC est totale, et les auteurs sont bénévoles... le budget annuel du GIEC oscille entre 5 et 8 millions d'euros. Sais-tu combien l'industrie fossile dépense chaque année pour semer le doute ?",
     "En savoir plus": "https://bonpote.com/climat-peut-on-vraiment-faire-confiance-au-giec/"
   },
   {
@@ -59,7 +59,7 @@
     "Nom": "Jean-Michel Cyclesolaire",
     "Description": "Tonton climatosceptique",
     "Arguments": "Oui mais les modèles climatiques sont pas fiables",
-    "Réponse": "C'est faux ! Les modèles ont été très bons jusqu'à aujourd'hui !",
+    "Réponse": "C'est faux ! Les modèles ont été très bons jusqu'à aujourd'hui ! Et dire que les modèles ne sont pas testés et validés est faux : leur robustesse repose notamment sur le fait qu’ils sont testés et évalués pendant plusieurs années et par plusieurs équipes internationales.",
     "En savoir plus": "https://bonpote.com/les-modeles-climatiques-sont-ils-fiables/"
   },
   {
@@ -94,28 +94,28 @@
     "Nom": "Catherine de France",
     "Description": "Tante conservatrice",
     "Arguments": "C'est pas de ma faute, c'est mon striatum, t'as pas lu le bug humain de Sébastien Bohler ?",
-    "Réponse": "Je l'ai lu, et sa thèse ne vaut rien. C'est pas ton cerveau qui te pousse à détruire la planète, ce sont des constructions sociales.. le capitalisme ?",
+    "Réponse": "Je l'ai lu, et sa thèse ne vaut rien. C'est pas ton cerveau qui te pousse à détruire la planète, ce sont des constructions sociales.. Tu peux aussi appeler cela le capitalisme si tu préfères ;)",
     "En savoir plus": "https://bonpote.com/la-faute-a-notre-cerveau-vraiment-les-erreurs-du-bug-humain-de-s-bohler/"
   },
   {
     "Nom": "Catherine de France",
     "Description": "Tante conservatrice",
     "Arguments": "Arrêtez de culpabiliser les Français, merde !",
-    "Réponse": "T'as raison Catherine, Merde !",
+    "Réponse": "T'as raison Catherine, Merde ! La France est parfaite, les Français aussi ! Enfin juste une empreinte carbone 4 à 5x supérieure à ce qu'il faudrait en moyenne, mais oui, ne changeons rien...",
     "En savoir plus": "https://bonpote.com/ecologie-arretons-de-culpabiliser-les-francais/"
   },
   {
     "Nom": "Catherine de France",
     "Description": "Tante conservatrice",
     "Arguments": "La France est le 4e pays le plus vert au monde !",
-    "Réponse": "Quel classement ? ça n'a aucun sens Catherine... as-tu bien regardé les critères ?",
+    "Réponse": "Quel classement ? ça n'a aucun sens Catherine... as-tu bien regardé les critères ? Parce que je l'ai fait et ce classement est principalement basé sur des promesses... donc du vent.",
     "En savoir plus": "https://bonpote.com/la-france-est-elle-vraiment-4e-pays-le-plus-vert-au-monde/"
   },
   {
     "Nom": "Catherine de France",
     "Description": "Tante conservatrice",
     "Arguments": "De toute façon on est trop sur Terre !",
-    "Réponse": "non, nous ne sommes pas trop sur Terre, mais nous serions trop à vouloir vivre avec le mode de vie d’un Américain ‘moyen",
+    "Réponse": "non, nous ne sommes pas trop sur Terre, mais nous serions trop à vouloir vivre avec le mode de vie d’un Américain ‘moyen. Même chose pour un Français d'ailleurs.",
     "En savoir plus": "https://bonpote.com/la-demographie-sujet-tabou-de-lecologie/"
   },
   {
@@ -185,6 +185,20 @@
     "Nom": "Catherine de France",
     "Description": "Tante conservatrice",
     "Arguments": "Demandez d'abord aux Chinois, aux Indiens et aux Africains d'agir !",
+    "Réponse": "Aucun pays au monde ne peut prétendre avoir une économie soutenable. C'est le cas de la Chine, de l'Inde, mais aussi de la France, qui doit aussi atteindre la neutralité carbone ! C'est même dans la loi !",
+    "En savoir plus": "https://bonpote.com/analyse-la-france-ne-represente-que-1-des-emissions-de-co2/"
+  },
+  {
+    "Nom": "Catherine de France",
+    "Description": "Tante conservatrice",
+    "Arguments": "Oui mais tu étais banquier toi avant ! Et ton frère travaille pour Total ! Donc ton changement climatique ça va deux minutes !",
+    "Réponse": "On ne peut pas parler du changement climatique et de ses conséquences parce qu'on a travaillé dans une banque ? Faudrait-il que tout le monde reste à sa place ? Ne change rien ? Que l’exclusivité de la “vraie écologie” soit limitée aux personnes déjà engagées depuis de nombreuses années, et que les autres n’aient pas le droit d’intervenir, parce qu’il faut respecter une certaine pureté militante, passé compris ?",
+    "En savoir plus": "https://bonpote.com/on-se-fout-de-savoir-ce-que-vous-avez-fait-dans-le-passe/"
+  },
+  {
+    "Nom": null,
+    "Description": null,
+    "Arguments": null,
     "Réponse": null,
     "En savoir plus": null
   },
@@ -199,7 +213,7 @@
     "Nom": "David Rassuriste",
     "Description": "C'est pas si grave - La technologie va nous sauver",
     "Arguments": "La croissance verte c'est la seule évidente",
-    "Réponse": "La croissance verte revient à jouer à la roulette russe notre avenir et celui de nos enfants, on prend le risque ?",
+    "Réponse": "La croissance verte revient à jouer à la roulette russe notre avenir et celui de nos enfants, on prend le risque ? Les émissions mondiales sont en hausse en 2022 alors qu'elles devraient déjà être en baisse pour respecter l'Accord de Paris...",
     "En savoir plus": "https://bonpote.com/mort-de-la-croissance-verte-et-du-decouplage/"
   },
   {
@@ -241,14 +255,14 @@
     "Nom": "David Rassuriste",
     "Description": "C'est pas si grave - La technologie va nous sauver",
     "Arguments": "On a le temps, c’est qu’en 2050 que ça sera difficile !",
-    "Réponse": "Pas vraiment, on a surtout 40 ans de retard pour agir. Mais il n'est jamais trop tard",
+    "Réponse": "Pas vraiment, on a surtout 40 ans de retard pour agir. Mais il n'est jamais trop tard pour agir et ralentir le réchauffement climatique et l'effondrement de la biodiversité",
     "En savoir plus": "https://bonpote.com/synthese-et-analyse-du-nouveau-rapport-du-giec/"
   },
   {
     "Nom": "David Rassuriste",
     "Description": "C'est pas si grave - La technologie va nous sauver",
     "Arguments": "je fais ma part, je recycle",
-    "Réponse": "Oui, mais tu prends l'avion 10 fois par an, les comptes sont pas bons David...",
+    "Réponse": "Oui, mais tu prends l'avion 10 fois par an, les comptes sont pas bons David... Il faut revoir les ordres de grandeur. As-tu déjà simulé ton empreinte carbone ? Cela prend 5 minutes, c'est assez pratique !",
     "En savoir plus": "https://bonpote.com/pourquoi-arreter-lavion-ne-devrait-plus-etre-un-debat/"
   },
   {
@@ -262,14 +276,14 @@
     "Nom": "David Rassuriste",
     "Description": "C'est pas si grave - La technologie va nous sauver",
     "Arguments": "Il faut compter sur le volontariat, il ne faut pas interdire",
-    "Réponse": "Tu penses que c'est sur la base du volontariat que Bernard Arnaud va arrêter de prendre son jet privé ?",
+    "Réponse": "Tu penses que c'est sur la base du volontariat que Bernard Arnaud va arrêter de prendre son jet privé ? C'est sur la base du volontariat que Nabilla aura une empreinte carbone inférieure à 2 tonnes CO2eq / an ?",
     "En savoir plus": "https://bonpote.com/doit-on-interdire-les-jets-prives/"
   },
   {
     "Nom": "David Rassuriste",
     "Description": "C'est pas si grave - La technologie va nous sauver",
     "Arguments": "Ca coûte trop cher la transition écologique....",
-    "Réponse": "C'est faux. L'inaction coûtera plus cher que le changement",
+    "Réponse": "C'est faux. L'inaction coûtera plus cher que le coût de la transition écologique. Ce sont les travaux de synthèse du dernier rapport du GIEC qui soulignent cela. Bien sûr, cela coûtera un peu d'argent aux entreprises fossiles...",
     "En savoir plus": "https://bonpote.com/nouveau-rapport-du-giec-agir-coutera-moins-cher-que-le-business-as-usual/"
   },
   {
@@ -304,7 +318,7 @@
     "Nom": "Claire Céfoutu",
     "Description": "C'est eux les méchants - et puis c'est trop tard",
     "Arguments": "Faut plus faire d'enfants avec un monde pareil !",
-    "Réponse": "C'est un peu plus compliqué que ça...",
+    "Réponse": "C'est un peu plus compliqué que ça... C'est une décision individuelle, un levier d'action possible certes, mais il y a d'autres priorités avant. Et ne pas faire d'enfant ne donne pas un passe droit pour vivre sans compter ! Impossible de dire \"je fais pas d'enfant donc je prends l'avion 10x par an !\"",
     "En savoir plus": "https://bonpote.com/faut-il-arreter-de-faire-des-enfants-pour-sauver-la-planete/"
   },
   {
@@ -325,14 +339,14 @@
     "Nom": "Claire Céfoutu",
     "Description": "C'est eux les méchants - et puis c'est trop tard",
     "Arguments": "Avec les bombes de méthane du permafrost, ça va mal finir !",
-    "Réponse": null,
-    "En savoir plus": null
+    "Réponse": "Si les « effondristes » et autres « catastrophistes » aiment bien évoquer ce sujet, les scientifiques n'ont pas exactement le même discours... le dégazage de ces GES dans l’atmosphère devrait être « suffisant pour être important, mais pas assez pour conduire à une situation d'”emballement du réchauffement”",
+    "En savoir plus": "https://bonpote.com/pergelisol-la-planete-a-t-elle-passe-le-point-de-non-retour/"
   },
   {
     "Nom": "Claire Céfoutu",
     "Description": "C'est eux les méchants - et puis c'est trop tard",
     "Arguments": "En calculant mon empreinte carbone, rien qu'avec les services publics j'éclate mon budget carbone !",
-    "Réponse": "Bonne nouvelle : les services publics doivent aussi tendre vers la neutralité carbone, et il va falloir les y aider...",
+    "Réponse": "Bonne nouvelle : les services publics doivent aussi tendre vers la neutralité carbone, et il va falloir les y aider... en discutant démocratiquement et dans la bonne humeur ;)",
     "En savoir plus": "https://bonpote.com/empreinte-carbone-des-services-publics/"
   },
   {
@@ -346,7 +360,7 @@
     "Nom": "Claire Céfoutu",
     "Description": "C'est eux les méchants - et puis c'est trop tard",
     "Arguments": "Les gestes individuels c'est que 25% des émissions alors à quoi bon...",
-    "Réponse": "Non, c'est pas vraiment comme ça que ça marche. Les actions individuelles et collectivent sont combinées, pas additionnées",
+    "Réponse": "Non, c'est pas vraiment comme ça que ça marche. Les actions individuelles et collectivent sont combinées, pas additionnées. Les actions individuelles peuvent également mener à des changements collectifs.. Répétons-le tout le temps : nous aurons besoin des deux !",
     "En savoir plus": "https://bonpote.com/les-actions-individuelles-comptent-elles-vraiment-pour-25-des-emissions/"
   },
   {
@@ -374,21 +388,21 @@
     "Nom": "Roxane Bobo",
     "Description": "aime les retraites yoga et les fraises sur le balcon",
     "Arguments": "100 entreprises sont responsables de 71% des émissions ! Dis-leur d'agir à eux !",
-    "Réponse": "Non, c’est à tout le monde de faire des efforts, selon ses moyens",
+    "Réponse": "Non, c’est à tout le monde de faire des efforts, selon ses moyens. Bien sûr les entreprises fossiles et gouvernements ont plus de pouvoir qu'une personne qui peine financièrement à finir le mois. C'est pour cela qu'on dit que le réchauffement climatique a une responsabilité commune mais différenciée : tout le monde est responsable, mais pas au même niveau",
     "En savoir plus": "https://bonpote.com/100-entreprises-sont-elles-responsables-de-71-des-emissions/"
   },
   {
     "Nom": "Roxane Bobo",
     "Description": "aime les retraites yoga et les fraises sur le balcon",
     "Arguments": "Ah ouais moi aussi je suis écolo, je recycle !",
-    "Réponse": "C'est très bien de recycler, et nécessaire, mais les ordres de grandeur sont importants...",
+    "Réponse": "C'est très bien de recycler, et nécessaire, mais les ordres de grandeur sont importants... Recycler et faire un aller-retour Paris-Bali chaque année reste une horreur pour l'environnement !",
     "En savoir plus": "https://bonpote.com/comment-calculer-son-empreinte-carbone/"
   },
   {
     "Nom": "Roxane Bobo",
     "Description": "aime les retraites yoga et les fraises sur le balcon",
     "Arguments": "C'est génial d'être digital nomad, en plus je peux me reconnecter à la nature à Bali",
-    "Réponse": "Non seulement la nature tu ne vas pas en voir la couleur dans ton hotel 5 étoiles, mais tu vas surtout la brûler avec ton aller-retour en avion...",
+    "Réponse": "Non seulement la nature tu ne vas pas en voir la couleur dans ton hotel 5 étoiles, mais tu vas surtout la brûler avec ton aller-retour en avion... un aller-retour à Bali fait malheureusement exploser le budget carbone cible annuel !",
     "En savoir plus": "https://bonpote.com/le-digital-nomad-un-cauchemar-pour-le-climat/"
   },
   {
@@ -402,7 +416,7 @@
     "Nom": "Roxane Bobo",
     "Description": "aime les retraites yoga et les fraises sur le balcon",
     "Arguments": "Franchement c'est simple l'agriculture, moi mes fraises elles poussent sans problème sur mon balcon !",
-    "Réponse": "Dire \"simple\" et \"agriculture\" dans la même phase, c'est être certain ne rien avoir compris à l'agriculture...",
+    "Réponse": "Dire \"simple\" et \"agriculture\" dans la même phase, c'est être certain ne rien avoir compris à l'agriculture... Ce qui est sûr, c'est que beaucoup de personnes sont déconnectées du sujet et nous devrions tous nous renseigner un peu plus sur le sujet !",
     "En savoir plus": "https://bonpote.com/4-infographies-pour-comprendre-lagriculture/"
   },
   {
