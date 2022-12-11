@@ -91,7 +91,7 @@ const TableWithPeople = ({
         />
         <style>{`
             .table-container {
-                  zoom: ${cssZoom}; /* all browsers */
+                  scale: ${cssZoom}; /* all browsers */
                   -moz-transform: scale(${cssZoom});  /* Firefox */
             }
         
