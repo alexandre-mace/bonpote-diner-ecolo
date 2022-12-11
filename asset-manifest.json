@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/bonpote-diner-ecolo/static/css/main.b81aa0ff.css",
-    "main.js": "/bonpote-diner-ecolo/static/js/main.91456659.js",
+    "main.css": "/bonpote-diner-ecolo/static/css/main.a21f954f.css",
+    "main.js": "/bonpote-diner-ecolo/static/js/main.6744a2d1.js",
     "static/js/787.044e6553.chunk.js": "/bonpote-diner-ecolo/static/js/787.044e6553.chunk.js",
     "static/media/crunold-oblique-webfont.woff": "/bonpote-diner-ecolo/static/media/crunold-oblique-webfont.890bee004409e9bb124f.woff",
     "static/media/crunold-regular-webfont.woff": "/bonpote-diner-ecolo/static/media/crunold-regular-webfont.8e7b54b74a99f01525d0.woff",
@@ -11,15 +11,16 @@
     "static/media/ApfelGrotezk-Fett.woff": "/bonpote-diner-ecolo/static/media/ApfelGrotezk-Fett.9d12ec37b1a4c8a44369.woff",
     "static/media/ApfelGrotezk-Regular.woff2": "/bonpote-diner-ecolo/static/media/ApfelGrotezk-Regular.0f390dd4da172465f1f1.woff2",
     "static/media/ApfelGrotezk-Fett.woff2": "/bonpote-diner-ecolo/static/media/ApfelGrotezk-Fett.6739c46c0311db9b5190.woff2",
-    "static/media/play-circle.svg": "/bonpote-diner-ecolo/static/media/play-circle.3a18b27f2b521b02c957c145bdb21c6e.svg",
+    "static/media/pause_circle.svg": "/bonpote-diner-ecolo/static/media/pause_circle.d98a7b9eb5a826af503eb7a3d5fb9c1a.svg",
+    "static/media/play_circle.svg": "/bonpote-diner-ecolo/static/media/play_circle.ad23b95b774de76a5a6bfcc0e29d7bbc.svg",
     "index.html": "/bonpote-diner-ecolo/index.html",
     "static/media/chevron-down.svg": "/bonpote-diner-ecolo/static/media/chevron-down.650ddc751452fde3c0717bf6c11c44f2.svg",
-    "main.b81aa0ff.css.map": "/bonpote-diner-ecolo/static/css/main.b81aa0ff.css.map",
-    "main.91456659.js.map": "/bonpote-diner-ecolo/static/js/main.91456659.js.map",
+    "main.a21f954f.css.map": "/bonpote-diner-ecolo/static/css/main.a21f954f.css.map",
+    "main.6744a2d1.js.map": "/bonpote-diner-ecolo/static/js/main.6744a2d1.js.map",
     "787.044e6553.chunk.js.map": "/bonpote-diner-ecolo/static/js/787.044e6553.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b81aa0ff.css",
-    "static/js/main.91456659.js"
+    "static/css/main.a21f954f.css",
+    "static/js/main.6744a2d1.js"
   ]
 }
