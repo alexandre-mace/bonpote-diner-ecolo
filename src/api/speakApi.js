@@ -2,6 +2,7 @@ import {delay} from "../utils/delay";
 import toast from "react-hot-toast";
 import Phrase from "../components/Phrase";
 import {ecoloData} from "../domain/people";
+import getWordsInSentence from "../utils/getWordsInSentence";
 
 const speak = async (person, argument, width) => {
     await sayArgument(argument, person, width)
@@ -27,7 +28,7 @@ const sayArgument = async (pickedArgument, pickedPerson, width) => {
         }), position: (width > 800 ? 'bottom-right' : 'bottom-center'),
     })
 
-    await delay(2000)
+    await delay(getWordsInSentence(pickedArgument.content) * 250)
     document.querySelectorAll(`[data-name="${pickedPerson.name}"] path.colorable`)
         .forEach((svgElement) => svgElement.setAttribute('fill', "#fff"))
     document.querySelectorAll(`.toaster-container > div:nth-child(1) > div > div`)
