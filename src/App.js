@@ -63,6 +63,7 @@ function App() {
     }, [infinite, started])
 
     const handleStartInfinite = () => {
+        toast.dismiss()
         setPickedPerson(true)
         setPickedArgument(true)
         setInfinite(true)
