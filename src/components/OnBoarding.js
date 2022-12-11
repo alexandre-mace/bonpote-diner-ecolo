@@ -33,7 +33,7 @@ const OnBoarding = ({setStarted, handleStartInfinite}) => (
                                               src={playcircle}
                                               alt="play"/></div>
                             <div onClick={() => handleStartInfinite()}
-                                 className="inline-flex cursor-pointer w-full justify-center mt-2 md-mt-0 items-center rounded-full px-6 py-3 text-center btn-ternary md:ml-1">Diner infini <img className="ml-1"
+                                 className="inline-flex cursor-pointer w-full justify-center mt-2 md:mt-0 items-center rounded-full px-6 py-3 text-center btn-ternary md:ml-1">Diner infini <img className="ml-1"
                                               src={playcircle}
                                               alt="play"/></div>
                         </div>
