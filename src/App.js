@@ -38,7 +38,7 @@ function App() {
                 if (!randomPerson) handleStopInfinite()
                 let randomArgument = getRandomArgument(randomPerson, saidArguments)
                 await speak(randomPerson, randomArgument, width)
-                await delay(getWordsInSentence(randomArgument.content) * 230)
+                await delay(1000)
                 saidArguments.push(randomArgument)
                 if (window.infinite) {
                     infiniteTimeout.current = setTimeout(() => {
