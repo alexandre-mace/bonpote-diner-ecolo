@@ -3,6 +3,11 @@ import toast from "react-hot-toast";
 import Phrase from "../components/Phrase";
 import {ecoloData} from "../domain/people";
 
+const speak = async (person, argument, width) => {
+    await sayArgument(argument, person, width)
+    await answerArgument(argument, width)
+}
+
 const sayArgument = async (pickedArgument, pickedPerson, width) => {
     await delay(500)
     document.querySelectorAll(`[data-name="${pickedPerson.name}"] path.colorable`)
@@ -45,7 +50,8 @@ const answerArgument = async (pickedArgument, width) => {
             borderRadius: '20px',
             borderBottomRightRadius: '5px',
             marginLeft: (width > 800 ? '-40%' : '0'),
-            marginBottom: (width > 800 ? '-30px' : '0'),
+            transform: `translateY(${width > 800 ? '-100px' : '0'})`,
+            // marginBottom: (width > 800 ? '-30px' : '0'),
         }), position: (width > 800 ? 'bottom-left' : 'bottom-center'),
     })
     await delay(2000)
@@ -56,4 +62,4 @@ const answerArgument = async (pickedArgument, width) => {
 }
 
 
-export {sayArgument, answerArgument}
+export {sayArgument, answerArgument, speak}

@@ -63,6 +63,7 @@ const peopleData = argumentsData.reduce((accumulator, argumentData) => {
         'color': accumulator.get(argumentData.Nom) ? accumulator.get(argumentData.Nom).color : getPersonColor(argumentData.Nom),
         'description': argumentData.Description,
         'arguments': [...(accumulator.get(argumentData.Nom) ? accumulator.get(argumentData.Nom).arguments : []), {
+            'author': argumentData.Nom,
             'content': argumentData.Arguments,
             'answer': argumentData.Réponse,
             'knowMore': argumentData['En savoir plus']
@@ -86,6 +87,22 @@ const computePersonColor = (id, hoveredPerson, pickedPerson) => {
     return shouldPersonBeHighlighted(id, hoveredPerson, pickedPerson) ? (hoveredPerson?.color ?? pickedPerson?.color) : "#fff"
 }
 
+const getRandomPerson = (peopleData, saidArguments = []) => {
+    let randomPickeablePeopleNames =
+        [...peopleData.keys()]
+            .filter(personName => (
+                personName !== JeanMarc &&
+                saidArguments.filter(argument => argument.author === personName).length !== peopleData.get(personName).arguments.length
+            ))
+
+    return peopleData.get(randomPickeablePeopleNames[Math.floor(Math.random() * randomPickeablePeopleNames.length)])
+}
+
+const getRandomArgument = (randomPerson, saidArguments = []) => {
+    let randomPickableArguments = randomPerson.arguments.filter(argument => !saidArguments.includes(argument))
+    return randomPickableArguments[Math.floor(Math.random() * randomPickableArguments.length)]
+}
+
 export {
     JeanMarc,
     JeanMichel,
@@ -95,5 +112,7 @@ export {
     Roxanne,
     peopleData,
     ecoloData,
-    computePersonColor
+    computePersonColor,
+    getRandomPerson,
+    getRandomArgument
 }

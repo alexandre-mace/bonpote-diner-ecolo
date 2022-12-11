@@ -1,6 +1,6 @@
 import playcircle from "../assets/play-circle.svg";
 
-const OnBoarding = ({setStarted}) => (
+const OnBoarding = ({setStarted, handleStartInfinite}) => (
     <>
         {
             [0, 1].map(i => (
@@ -26,11 +26,17 @@ const OnBoarding = ({setStarted}) => (
                             la
                             table afin de débuter une conversation.
                         </div>
-                        <div onClick={() => setStarted(true)}
-                             className="inline-flex cursor-pointer items-center rounded-full px-6 py-3 text-center bg-vert-1">Commencer
-                            le repas <img className="ml-1"
-                                          src={playcircle}
-                                          alt="play"/></div>
+                        <div className={"flex flex-col md:flex-row flex-wrap md:flex-nowrap justify-center"}>
+                            <div onClick={() => setStarted(true)}
+                                 className="inline-flex w-full cursor-pointer justify-center items-center rounded-full px-6 py-3 text-center btn-primary md:mr-1">Commencer
+                                le repas <img className="ml-1"
+                                              src={playcircle}
+                                              alt="play"/></div>
+                            <div onClick={() => handleStartInfinite()}
+                                 className="inline-flex cursor-pointer w-full justify-center mt-2 md-mt-0 items-center rounded-full px-6 py-3 text-center btn-ternary md:ml-1">Diner infini <img className="ml-1"
+                                              src={playcircle}
+                                              alt="play"/></div>
+                        </div>
                     </div>
             ))
         }

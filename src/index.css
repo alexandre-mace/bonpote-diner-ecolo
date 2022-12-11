@@ -90,3 +90,16 @@ path.clickable {
 path.colorable {
   transition: all ease-in 80ms;
 }
+
+.btn-primary {
+  @apply bg-vert-1 text-blue-2 hover:bg-[#A6FCD7] transition-all
+}
+
+.btn-secondary {
+  @apply border border-white text-white transition-all hover:backdrop-brightness-110
+}
+
+.btn-ternary {
+  @apply border border-blue-2 text-blue-2 transition hover:bg-[#525CE1]/10
+}
+

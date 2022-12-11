@@ -1,4 +1,4 @@
-import {useEffect, useState} from "react";
+import {useEffect, useRef, useState} from "react";
 import TableWithPeople from "./components/TableWithPeople";
 import toast, {Toaster} from 'react-hot-toast';
 import OnBoarding from "./components/OnBoarding";
@@ -8,38 +8,74 @@ import Restart from "./components/Restart";
 import Credit from "./components/Credit";
 import Header from "./components/Header";
 import ArgumentPicker from "./components/ArgumentPicker";
-import {peopleData} from "./domain/people";
-import {answerArgument, sayArgument} from "./api/speakApi";
+import {getRandomArgument, getRandomPerson, peopleData} from "./domain/people";
+import {speak} from "./api/speakApi";
 import MobilePersonPicker from "./components/MobilePersonPicker";
 import useWindowDimensions from "./utils/useWindowDimensions";
+import StopInfinite from "./components/StopInfinite";
+import getPersonSvgNodeFromPath from "./utils/getPersonSvgNodeFromPath";
+import {delay} from "./utils/delay";
+import getExtraUiPersonData from "./utils/getExtraUiPersonData";
 
 function App() {
     const [started, setStarted] = useState(false)
     const [pickedPerson, setPickedPerson] = useState(null)
+    const [pickedArgument, setPickedArgument] = useState(false)
     const [hoveredPerson, setHoveredPerson] = useState(null)
-    const [pickedArgument, setPickedArgument] = useState(null)
     const [speaking, setSpeaking] = useState(false)
     const [spoken, setSpoken] = useState(false)
+    const [infinite, setInfinite] = useState(false)
     const {width} = useWindowDimensions();
+    const infiniteTimeout = useRef()
+    let saidArguments = []
 
-    const speak = async (pickedArgument, width) => {
-        await sayArgument(pickedArgument, pickedPerson, width)
-        await answerArgument(pickedArgument, width)
-        setSpeaking(false)
-        setSpoken(true)
+    useEffect(() => {
+        window.infinite = infinite
+        if (infinite) {
+            const speakInfiniteCallback = async () => {
+                let randomPerson = getRandomPerson(peopleData, saidArguments)
+                if (!randomPerson) handleStopInfinite()
+                let randomArgument = getRandomArgument(randomPerson, saidArguments)
+                await speak(randomPerson, randomArgument, width)
+                await delay(1000)
+                saidArguments.push(randomArgument)
+                if (window.infinite) {
+                    infiniteTimeout.current = setTimeout(() => {
+                        speakInfiniteCallback()
+                    }, 0)
+                }
+            }
+            speakInfiniteCallback()
+        }
+        return () => {
+            let infiniteTimeoutId = infiniteTimeout.current
+            while (infiniteTimeoutId--) {
+                window.clearTimeout(infiniteTimeoutId);
+            }
+            clearTimeout(infiniteTimeout.current)
+        }
+    }, [infinite])
+
+    useEffect(() => {
+        if (infinite && !started) {
+            setStarted(true)
+        }
+    }, [infinite, started])
+
+    const handleStartInfinite = () => {
+        setPickedPerson(true)
+        setPickedArgument(true)
+        setInfinite(true)
+        saidArguments = []
     }
 
-    useEffect(() => {
-        if (speaking) {
-            speak(pickedArgument, width).then(r => {
-            })
-        }
-    }, [speaking, pickedArgument])
+    const handleStopInfinite = () => {
+        setInfinite(false)
+        setSpoken(true)
+        saidArguments = []
+    }
 
-    useEffect(() => {
-    }, [hoveredPerson])
-
-    const reset = () => {
+    const handleReset = () => {
         setSpoken(false)
         setPickedPerson(false)
         setPickedArgument(false)
@@ -47,60 +83,40 @@ function App() {
     }
 
     const handleHoveredPerson = (e) => {
-        if (!e || !e.target) {
-            return
-        }
-        const svgNode = (e.target.parentElement.dataset.name !== undefined)
-            ? e.target.parentElement
-            : e.target.parentElement.parentElement
-
+        if (!e || !e.target) return
+        const svgNode = getPersonSvgNodeFromPath(e)
         const person = peopleData.get(svgNode.dataset.name)
-
-        if (!person) {
-            return;
-        }
-        setHoveredPerson({
-            ...person,
-            'id': person.name,
-            'top': svgNode.getBoundingClientRect().top,
-            'left': svgNode.getBoundingClientRect().left,
-            'width': svgNode.getBoundingClientRect().width,
-        })
+        if (!person) return;
+        setHoveredPerson({...person, ...getExtraUiPersonData(person, svgNode)})
     }
 
     const handlePickedPerson = (e) => {
-        if (!e || !e.target) {
-            return
-        }
-        const svgNode = (e.target.parentElement.dataset.name !== undefined)
-            ? e.target.parentElement
-            : e.target.parentElement.parentElement
+        if (!e || !e.target) return
+        const svgNode = getPersonSvgNodeFromPath(e)
         const person = peopleData.get(svgNode.dataset.name)
-        if (!person) {
-            return;
-        }
-        setPickedPerson({
-            ...person,
-            'id': person.name,
-            'top': svgNode.getBoundingClientRect().top,
-            'left': svgNode.getBoundingClientRect().left,
-            'width': svgNode.getBoundingClientRect().width,
-        })
+        if (!person) return;
+        setPickedPerson({...person, ...getExtraUiPersonData(person, svgNode)})
     }
 
+    const handlePickedArgument = async (argument) => {
+        setPickedArgument(true)
+        await speak(pickedPerson, argument, width)
+        setSpeaking(false)
+        setSpoken(true)
+    }
 
     const zoom = width > 1200 ? .7 : (width > 800 ? .5 : .4)
 
     return (
         <div className="flex md:h-screen">
             <div className="m-auto">
-                <Header opacity={(speaking || (started && pickedPerson && !pickedArgument) ? '30' : '100')}/>
+                <Header opacity={(speaking || (started && pickedPerson && !pickedArgument) || (width < 1200 && infinite) ? '30' : '100')}/>
                 <div
                     className="px-0 md:px-10 md:max-w-4xl container md:bg-[url('./assets/room-decoration.png')] bg-contain bg-top bg-no-repeat mx-auto relative">
                     {!started &&
-                        <OnBoarding setStarted={setStarted}/>
+                        <OnBoarding setStarted={setStarted} handleStartInfinite={handleStartInfinite}/>
                     }
-                    {(started && !pickedPerson) &&
+                    {(started && !pickedPerson && !infinite) &&
                         <div className="w-[100%] absolute -top-4 left-1/2 -translate-x-1/2 text-center">
                             <div className="text-vert-1 text-lg">Cliquez un personnage pour commencer un dialogue
                             </div>
@@ -112,16 +128,19 @@ function App() {
                     {(started && pickedPerson && !pickedArgument) &&
                         <ArgumentPicker
                             setPickedPerson={setPickedPerson}
-                            setPickedArgument={setPickedArgument}
+                            handlePickedArgument={handlePickedArgument}
                             setSpeaking={setSpeaking}
                             pickedPerson={pickedPerson}
                         />
                     }
-                    {speaking &&
+                    {(speaking && !infinite) &&
                         <SpeakingIndicator/>
                     }
-                    {spoken &&
-                        <Restart reset={reset}/>
+                    {infinite &&
+                        <StopInfinite handleStopInfinite={handleStopInfinite}/>
+                    }
+                    {(spoken && !infinite) &&
+                        <Restart handleReset={handleReset} handleStartInfinite={handleStartInfinite}/>
                     }
                     <div
                         className={`mt-[20rem] md:mt-56 w-full inline-block relative ${((!started || (pickedPerson && !pickedArgument)) ? ' opacity-30 pointer-events-none' : '')}`}>
@@ -133,8 +152,8 @@ function App() {
                             </div>
                             <TableWithPeople
                                 zoom={zoom}
-                                handleHoveredPerson={(!pickedPerson && started) ? handleHoveredPerson : () => {}}
-                                handlePickedPerson={handlePickedPerson}
+                                handleHoveredPerson={(!pickedPerson && started && !speaking && !infinite && !spoken) ? handleHoveredPerson : () => {}}
+                                handlePickedPerson={(!infinite && !speaking && !spoken) ? handlePickedPerson : () => {}}
                                 setHoveredPerson={setHoveredPerson}
                                 hoveredPerson={hoveredPerson}
                                 pickedPerson={pickedPerson}

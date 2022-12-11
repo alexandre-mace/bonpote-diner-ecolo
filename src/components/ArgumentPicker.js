@@ -3,7 +3,7 @@ import chevronDown from "../assets/chevron-down.svg";
 import {Fragment} from "react";
 import PersonLightInfo from "./PersonLightInfo";
 
-const ArgumentPicker = ({setSpeaking, setPickedArgument, pickedPerson, setPickedPerson}) => (
+const ArgumentPicker = ({setSpeaking, handlePickedArgument, pickedPerson, setPickedPerson}) => (
     <div className="absolute -top-6 left-1/2 z-20 -translate-x-1/2 w-full flex justify-center">
         <div className={"absolute -top-8 md:top-2 -left-40 md:-left-0 text-vert-1 cursor-pointer"} onClick={() => setPickedPerson(null)}>
             <span className={"-rotate-90 inline-block text-xs"}>⌃</span> <span className={"underline font-bold"}>Retour</span>
@@ -51,7 +51,7 @@ const ArgumentPicker = ({setSpeaking, setPickedArgument, pickedPerson, setPicked
                                                 <button
                                                     onClick={() => {
                                                         setSpeaking(true)
-                                                        setPickedArgument(argument)
+                                                        handlePickedArgument(argument)
                                                     }}
                                                     className={`${
                                                         active ? 'text-blue-1' : 'text-black'
