@@ -58,7 +58,7 @@
   {
     "Nom": "Jean-Michel Cyclesolaire",
     "Description": "Tonton climatosceptique",
-    "Arguments": "Oui mais les modèles climatiques sont pas fiables",
+    "Arguments": "Oui mais les modèles climatiques sont pas fiables !!",
     "Réponse": "C'est faux ! Les modèles ont été très bons jusqu'à aujourd'hui ! Et dire que les modèles ne sont pas testés et validés est faux : leur robustesse repose notamment sur le fait qu’ils sont testés et évalués pendant plusieurs années et par plusieurs équipes internationales.",
     "En savoir plus": "https://bonpote.com/les-modeles-climatiques-sont-ils-fiables/"
   },
@@ -70,11 +70,11 @@
     "En savoir plus": "https://bonpote.com/canicules-a-venir-des-etes-a-50-degres-en-france/"
   },
   {
-    "Nom": null,
-    "Description": null,
-    "Arguments": null,
-    "Réponse": null,
-    "En savoir plus": null
+    "Nom": "Jean-Michel Cyclesolaire",
+    "Description": "Tonton climatosceptique",
+    "Arguments": "Le passage à 30km/h en ville augmente la pollution !",
+    "Réponse": "C'est faux. C'est une fake news partagée par des médias conservateurs. La littérature nous dit qu’il n’y a pas de réponse simple sur le sujet du passage de 50 à 30 km/h. Le passage à 30 km/h a un double effet de limitation des vitesses mais aussi d’élimination de phases d’accélération-décélération inutiles qui peuvent permettre de fluidifier le trafic. Ainsi réduire la vitesse maximale autorisée n’entraîne pas nécessairement une diminution de la vitesse moyenne de circulation. Si le thème de la pollution retient l’attention, l ne faut pas oublier que cette mesure est avant tout mise en place pour d’autres raisons, comme le report modal",
+    "En savoir plus": "https://bonpote.com/non-le-passage-a-30-km-h-en-ville-naugmente-pas-la-pollution/"
   },
   {
     "Nom": null,
@@ -196,6 +196,27 @@
     "En savoir plus": "https://bonpote.com/on-se-fout-de-savoir-ce-que-vous-avez-fait-dans-le-passe/"
   },
   {
+    "Nom": "Catherine de France",
+    "Description": "Tante conservatrice",
+    "Arguments": "Je ne vois pas pourquoi on paierait pour le passé. C'est pas de ma faute si la France a émis du CO2 au 20ème siècle !",
+    "Réponse": "Il est impossible de comprendre le changement climatique sans prendre en compte sa dimension historique. Le niveau de vie en France est possible grâce à des décennies d'industrialisation et d'extractivisme. Il est normal que les pays les plus émetteurs dans le passé soutiennent les pays qui en payent le plus les conséquences. C'est d'ailleurs prévu par la Convention Cadre des Nations-Unies sur le Changement Climatique, via notamment les Pertes et Préjudices",
+    "En savoir plus": "https://bonpote.com/pertes-et-prejudices-qui-paiera-les-consequences-du-changement-climatique/"
+  },
+  {
+    "Nom": "Catherine de France",
+    "Description": "Tante conservatrice",
+    "Arguments": "Fallait pas fermer Fessenheim ! Tout est de la faute des écolos ! Voilà je ne peux même plus préchauffer la maison de campagne 24h avant d'arriver maintenant !",
+    "Réponse": "Cest un peu plus compliqué que cela. Dans la mesure où la France réouvre une centrale à Charbon, que nous manquons de moyens de productions décarbonés à court et moyen termes, il est certain que fermer Fessenheim n'aide pas. En revanche, les tensions sur notre système électrique sont multi-factorielles (retard ENR, aucun changement structurel pour favoriser la sobriété, etc.) et il n'y a pas une seule raison ou un seul parti politique qui est responsable de la situation.",
+    "En savoir plus": "https://bonpote.com/fallait-pas-fermer-fessenheim/"
+  },
+  {
+    "Nom": null,
+    "Description": null,
+    "Arguments": null,
+    "Réponse": null,
+    "En savoir plus": null
+  },
+  {
     "Nom": null,
     "Description": null,
     "Arguments": null,
@@ -287,25 +308,67 @@
     "En savoir plus": "https://bonpote.com/nouveau-rapport-du-giec-agir-coutera-moins-cher-que-le-business-as-usual/"
   },
   {
-    "Nom": null,
-    "Description": null,
-    "Arguments": null,
-    "Réponse": null,
-    "En savoir plus": null
+    "Nom": "David Rassuriste",
+    "Description": "C'est pas si grave - La technologie va nous sauver",
+    "Arguments": "Chaque geste compte, dans mon entreprise par exemple on supprime les emails...",
+    "Réponse": "Supprimer ses emails est une bonne idée si cela ne prend pas plus de 2 minutes. Les émissions de CO2 viennent surtout de la construction des terminaux, donc si vous voulez vraiment faire quelque chose d'efficace : gardez votre matériel informatique le plus longtemps possible !",
+    "En savoir plus": "https://bonpote.com/environnement-faut-il-supprimer-ses-emails/"
   },
   {
-    "Nom": null,
-    "Description": null,
-    "Arguments": null,
-    "Réponse": null,
-    "En savoir plus": null
+    "Nom": "David Rassuriste",
+    "Description": "C'est pas si grave - La technologie va nous sauver",
+    "Arguments": "On exagère... la France est prête pour le changement climatique, on est un grand pays !",
+    "Réponse": "Penser que “le changement climatique, c’est pour les autres” est un biais d’optimisme classique, mais malheureusement aussi une erreur grossière. Il est certes probable que la France souffre moins que le Madagascar ou le Cambodge. Mais nous ne serons pas épargnés, et nous n’y sommes pas préparés. Ou en tous cas, très mal. C'est ce que dit le Haut Conseil pour le Climat depuis 2 ans, et tous les spécialistes de l'adaptation sont unanimes sur le sujet.",
+    "En savoir plus": "https://bonpote.com/adaptation-la-france-est-elle-prete-a-faire-face-au-changement-climatique/"
   },
   {
-    "Nom": null,
-    "Description": null,
-    "Arguments": null,
-    "Réponse": null,
-    "En savoir plus": null
+    "Nom": "David Rassuriste",
+    "Description": "C'est pas si grave - La technologie va nous sauver",
+    "Arguments": "Les banques françaises ont fait beaucoup d'efforts pour verdir leurs activités, il faut le souligner !",
+    "Réponse": "les banques françaises ont alloué plus de 350 milliards de dollars aux énergies fossiles entre 2016 et 2021, dont 130 milliards aux 100 entreprises développant le plus de nouveaux projets d’énergies fossiles. Tout cela après l’Accord de Paris. C’est un scandale, et le mot est très certainement un euphémisme.",
+    "En savoir plus": "https://bonpote.com/comment-les-banques-francaises-rechauffent-la-planete/"
+  },
+  {
+    "Nom": "David Rassuriste",
+    "Description": "C'est pas si grave - La technologie va nous sauver",
+    "Arguments": "On a une solution facile pour les sécheresses : les méga-bassines !",
+    "Réponse": "Les méga-bassines, comme beaucoup de solutions techniques lorsqu’elles sont envisagées en dehors de toute approche globale et d’une adaptation réellement transformationnelle, deviennent des réponses purement curatives, qui enferment en particulier l’agriculture dans des pratiques d’irrigation de plus en plus inadaptées au climat qui change. On traite les symptômes (pénurie d’eau) au lieu de s’attaquer à l’origine du problème (déséquilibre entre les besoins et la disponibilité de la ressource) à ses racines (pratiques, usages, partage).",
+    "En savoir plus": "https://bonpote.com/les-mega-bassines-sont-elles-des-solutions-viables-face-aux-secheresses/"
+  },
+  {
+    "Nom": "David Rassuriste",
+    "Description": "C'est pas si grave - La technologie va nous sauver",
+    "Arguments": "On peut décarbonner les voitures facilement : je viens d'acheter un véhicule hybride rechargeable !",
+    "Réponse": "Les voitures hybrides rechargeables sont confrontées, encore plus que le reste du parc automobile, à un double problème de sur-dimensionnement des véhicules et d’usage inefficace, entraînant d’importantes consommations de carburant et émissions de CO2.\nAinsi ces véhicules ne peuvent pas être assimilés à des véhicules vertueux pour la transition énergétique, ce qui justifie leur fin de vente à 2035 pour s’assurer d’atteindre nos objectifs climatiques.",
+    "En savoir plus": "https://bonpote.com/les-voitures-hybrides-rechargeables-fausse-solution-pour-le-climat/"
+  },
+  {
+    "Nom": "David Rassuriste",
+    "Description": "C'est pas si grave - La technologie va nous sauver",
+    "Arguments": "Le GIEC recommande le nucléaire. Suffit de mettre du nucléaire partout et on règle le problème du CO2 !",
+    "Réponse": "Non, le GIEC ne recommande rien. Le GIEC ne fait pas de modèles. Le GIEC n’est ni POUR ni CONTRE le nucléaire. Cela dépend des modèles, des hypothèses de départ. Ce sont aux politiques de dire comment arriver à X ou Y type de société, en recommandant et en prenant des décisions. Pas au GIEC.",
+    "En savoir plus": "https://bonpote.com/analyse-que-dit-vraiment-le-giec-sur-le-nucleaire/"
+  },
+  {
+    "Nom": "David Rassuriste",
+    "Description": "C'est pas si grave - La technologie va nous sauver",
+    "Arguments": "Pour les voitures, c'est simple pour décarboner, on a l'hydrogène !",
+    "Réponse": "L’hydrogène sera nécessaire pour réduire notre consommation de pétrole dans certains secteurs mais les besoins électriques qu’il induit imposent de le réserver aux usages qu’il est le seul à pouvoir décarboner, comme l'industrie et mobilité lourde (c’est-à-dire que les voitures doivent par exemple être exclues de son champ d’application, vu qu’elles peuvent être électrifiées par batteries)",
+    "En savoir plus": "https://bonpote.com/lhydrogene-peut-il-tenir-toutes-ses-promesses/"
+  },
+  {
+    "Nom": "David Rassuriste",
+    "Description": "C'est pas si grave - La technologie va nous sauver",
+    "Arguments": "Il faut croire en l'humain, tu as vu ce qu'Elon Musk est capable de faire ? Il faut lui faire confiance !",
+    "Réponse": "Elon Musk est bien plus un cauchemar qu’une solution pour l’environnement. Tout n’est bien sûr pas à jeter. Il a le mérite d’avoir amené la voiture électrique sur le devant de la scène et de mettre la pression aux constructeurs du 20ème siècle, à l’instar de Ford et General Motors. Cependant, ne soyons pas dupes. L’environnement est à ses yeux avant tout une opportunité de business, tout comme Jeff Bezos et Bill Gates. C’est surtout le business as usual qui perdure : ne changez rien, la technologie va nous sauver, vive la croissance, vive l’absorption de CO2, vive la croissance verte avec le Green New Deal de Biden !",
+    "En savoir plus": "https://bonpote.com/elon-musk-solution-ou-cauchemar-pour-lenvironnement/"
+  },
+  {
+    "Nom": "David Rassuriste",
+    "Description": "C'est pas si grave - La technologie va nous sauver",
+    "Arguments": "J'ai vu une conférence de Jean-Marc Jancovici, j'ai tout compris et je sais ce qu'il faut faire maintenant !",
+    "Réponse": "Ah... Tu tombes en plein dans le JAITOUTCOMPRISME. Le JAITOUTCOMPRISME se définit comme toute personne pensant avoir compris les tenants et aboutissants d’un sujet complexe après s’être documentée seulement à travers un article ou une vidéo. Penser être au bout du chemin alors qu’on n’a même pas encore quitté le parking, c'est dangereux... Le changement climatique est complexe, si c'était si facile de s'en débarasser, cela serait déjà fait !",
+    "En savoir plus": "https://bonpote.com/le-jaitoutcomprisme/"
   },
   {
     "Nom": null,
@@ -316,56 +379,70 @@
   },
   {
     "Nom": "Claire Céfoutu",
-    "Description": "C'est eux les méchants - et puis c'est trop tard",
+    "Description": "A eux de faire des efforts - et puis c'est trop tard",
     "Arguments": "Faut plus faire d'enfants avec un monde pareil !",
     "Réponse": "C'est un peu plus compliqué que ça... C'est une décision individuelle, un levier d'action possible certes, mais il y a d'autres priorités avant. Et ne pas faire d'enfant ne donne pas un passe droit pour vivre sans compter ! Impossible de dire \"je fais pas d'enfant donc je prends l'avion 10x par an !\"",
     "En savoir plus": "https://bonpote.com/faut-il-arreter-de-faire-des-enfants-pour-sauver-la-planete/"
   },
   {
     "Nom": "Claire Céfoutu",
-    "Description": "C'est eux les méchants - et puis c'est trop tard",
+    "Description": "A eux de faire des efforts - et puis c'est trop tard",
     "Arguments": "Les COPs ça sert à rien !",
-    "Réponse": "S’il est au courant de lire que les COP ne servent à rien, ce n’est pas le reflet de la réalité. Il est vrai que les émissions de GES ne sont toujours pas sur une pente descendante et que la concentration atmosphérique de CO2 n’est pas prête d’atteindre un plateau. Mais il est faux de dire qu’elles ne servent à rien. \nous pourriez plutôt vous poser la question “où en serions-nous sans ces COP ?”",
+    "Réponse": "S’il est au courant de lire que les COP ne servent à rien, ce n’est pas le reflet de la réalité. Il est vrai que les émissions de GES ne sont toujours pas sur une pente descendante et que la concentration atmosphérique de CO2 n’est pas prête d’atteindre un plateau. Mais il est faux de dire qu’elles ne servent à rien. \nVous pourriez plutôt vous poser la question “où en serions-nous sans ces COP ?”",
     "En savoir plus": "https://bonpote.com/5-ans-apres-peut-on-dire-que-laccord-de-paris-na-servi-a-rien/"
   },
   {
     "Nom": "Claire Céfoutu",
-    "Description": "C'est eux les méchants - et puis c'est trop tard",
+    "Description": "A eux de faire des efforts - et puis c'est trop tard",
     "Arguments": "C'est trop tard, on est foutus !",
     "Réponse": "La littérature scientifique est très claire : nous avons notre avenir climatique entre nos mains. Nos actions individuelles et collectives peuvent opérer des changements dont nous tirerons les bénéfices rapidement.",
     "En savoir plus": "https://bonpote.com/cest-trop-tard-on-est-foutus-pourquoi-cest-faux-et-comment-y-repondre/"
   },
   {
     "Nom": "Claire Céfoutu",
-    "Description": "C'est eux les méchants - et puis c'est trop tard",
+    "Description": "A eux de faire des efforts - et puis c'est trop tard",
     "Arguments": "Avec les bombes de méthane du permafrost, ça va mal finir !",
     "Réponse": "Si les « effondristes » et autres « catastrophistes » aiment bien évoquer ce sujet, les scientifiques n'ont pas exactement le même discours... le dégazage de ces GES dans l’atmosphère devrait être « suffisant pour être important, mais pas assez pour conduire à une situation d'”emballement du réchauffement”",
     "En savoir plus": "https://bonpote.com/pergelisol-la-planete-a-t-elle-passe-le-point-de-non-retour/"
   },
   {
     "Nom": "Claire Céfoutu",
-    "Description": "C'est eux les méchants - et puis c'est trop tard",
+    "Description": "A eux de faire des efforts - et puis c'est trop tard",
     "Arguments": "En calculant mon empreinte carbone, rien qu'avec les services publics j'éclate mon budget carbone !",
     "Réponse": "Bonne nouvelle : les services publics doivent aussi tendre vers la neutralité carbone, et il va falloir les y aider... en discutant démocratiquement et dans la bonne humeur ;)",
     "En savoir plus": "https://bonpote.com/empreinte-carbone-des-services-publics/"
   },
   {
     "Nom": "Claire Céfoutu",
-    "Description": "C'est eux les méchants - et puis c'est trop tard",
+    "Description": "A eux de faire des efforts - et puis c'est trop tard",
     "Arguments": "Il nous reste 3 ans pour agir !",
     "Réponse": "nous n’avons pas 3 ans pour réduire nos émissions ou infléchir la courbe, mais 30 ans de retard. La logique est toujours la même : plus nous agissons tard, plus nous réduisons les marges de manœuvre et serons susceptibles de ne pas respecter l’Accord de Paris.",
     "En savoir plus": "https://bonpote.com/we-have-1028-days-left-une-militante-climat-interrompt-roland-garros/"
   },
   {
     "Nom": "Claire Céfoutu",
-    "Description": "C'est eux les méchants - et puis c'est trop tard",
+    "Description": "A eux de faire des efforts - et puis c'est trop tard",
+    "Arguments": "Les centrales nucléaires ne vont pas résister au changement climatique !",
+    "Réponse": "Les pertes de production d’électricité à cause du changement climatique sont actuellement faibles et devraient rester limitées au cours du siècle, que ce soit en France ou dans le Monde. En France, elles ne touchent principalement qu’un nombre limité de centrales, en particulier celles se refroidissant via l’eau d’une rivière de taille modeste et/ou sans aéroréfrigérant.",
+    "En savoir plus": "https://bonpote.com/les-centrales-nucleaires-vont-elles-resister-au-changement-climatique-1-2/"
+  },
+  {
+    "Nom": "Claire Céfoutu",
+    "Description": "A eux de faire des efforts - et puis c'est trop tard",
+    "Arguments": "Les centrales nucléaires vont nous péter à la gueule c'est tout ce qu'il va arriver !",
+    "Réponse": "Les spécialistes du nucléaire travaillent au quotidien pour faire face aux agressions naturelles extrêmes en intégrant petit à petit les nouvelles connaissances liées au changement climatique. Néanmoins, certaines crises à venir, aux contours incertains, semblent difficilement appréhendables par les méthodes de calcul traditionnellement utilisées par les spécialistes de la sûreté. Et en ce sens, il ne s’agit pas de remettre en cause le travail déjà réalisé depuis de nombreuses années mais de pousser à un élargissement du cadre de la réflexion, et  ainsi de se doter pour l’avenir de capacités de projection, de créativité et même d’invention qui seront sans doute nécessaires à la préparation des crises futures.",
+    "En savoir plus": "https://bonpote.com/surete-nucleaire-et-changement-climatique-etat-des-lieux-et-reflexions-2-2/"
+  },
+  {
+    "Nom": "Claire Céfoutu",
+    "Description": "A eux de faire des efforts - et puis c'est trop tard",
     "Arguments": "Les gestes individuels c'est que 25% des émissions alors à quoi bon...",
     "Réponse": "Non, c'est pas vraiment comme ça que ça marche. Les actions individuelles et collectivent sont combinées, pas additionnées. Les actions individuelles peuvent également mener à des changements collectifs.. Répétons-le tout le temps : nous aurons besoin des deux !",
     "En savoir plus": "https://bonpote.com/les-actions-individuelles-comptent-elles-vraiment-pour-25-des-emissions/"
   },
   {
     "Nom": "Claire Céfoutu",
-    "Description": "C'est eux les méchants - et puis c'est trop tard",
+    "Description": "A eux de faire des efforts - et puis c'est trop tard",
     "Arguments": "Limiter le réchauffement mondial à 1,5°C c'est foutu, il faut viser +2°C",
     "Réponse": "Si nous échouons à maintenir le réchauffement à +1.5°C, la prochaine cible n’est pas +2.°C, mais +1.51°C. Le GIEC est très clair sur le sujet : chaque tonne émise participe au réchauffement.",
     "En savoir plus": "https://bonpote.com/cest-trop-tard-on-est-foutus-pourquoi-cest-faux-et-comment-y-repondre/"
@@ -425,33 +502,5 @@
     "Arguments": "Pour se reconnecter à la nature, rien de tel qu'une retraite yoga à Marrakech !",
     "Réponse": "L'aller-retour en avion participe grandement au réchauffement climatique, est-ce que cela peut avoir lieu autre part ?",
     "En savoir plus": "https://bonpote.com/avion-calculer-en-3-clics-votre-empreinte-carbone/"
-  },
-  {
-    "Nom": null,
-    "Description": null,
-    "Arguments": null,
-    "Réponse": null,
-    "En savoir plus": null
-  },
-  {
-    "Nom": "Suggestions",
-    "Description": null,
-    "Arguments": null,
-    "Réponse": null,
-    "En savoir plus": null
-  },
-  {
-    "Nom": "xxxx",
-    "Description": null,
-    "Arguments": null,
-    "Réponse": null,
-    "En savoir plus": null
-  },
-  {
-    "Nom": "xxxx",
-    "Description": null,
-    "Arguments": null,
-    "Réponse": null,
-    "En savoir plus": null
   }
 ]
