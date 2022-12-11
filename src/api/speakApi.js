@@ -28,7 +28,7 @@ const sayArgument = async (pickedArgument, pickedPerson, width) => {
         }), position: (width > 800 ? 'bottom-right' : 'bottom-center'),
     })
 
-    await delay(getWordsInSentence(pickedArgument.content) * 250)
+    await delay(getWordsInSentence(pickedArgument.content) * 230)
     document.querySelectorAll(`[data-name="${pickedPerson.name}"] path.colorable`)
         .forEach((svgElement) => svgElement.setAttribute('fill', "#fff"))
     document.querySelectorAll(`.toaster-container > div:nth-child(1) > div > div`)
@@ -55,7 +55,7 @@ const answerArgument = async (pickedArgument, width) => {
             // marginBottom: (width > 800 ? '-30px' : '0'),
         }), position: (width > 800 ? 'bottom-left' : 'bottom-center'),
     })
-    await delay(2000)
+    await delay(getWordsInSentence(pickedArgument.answer) * 230)
     document.querySelectorAll(`[data-name="${ecoloData.name}"] path.colorable`)
         .forEach((svgElement) => svgElement.setAttribute('fill', "#fff"))
     document.querySelectorAll(`.toaster-container > div:nth-child(1) > div > div`)

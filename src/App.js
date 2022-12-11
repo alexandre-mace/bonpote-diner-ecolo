@@ -38,7 +38,7 @@ function App() {
                 if (!randomPerson) handleStopInfinite()
                 let randomArgument = getRandomArgument(randomPerson, saidArguments)
                 await speak(randomPerson, randomArgument, width)
-                await delay(getWordsInSentence(randomArgument.content) * 250)
+                await delay(getWordsInSentence(randomArgument.content) * 230)
                 saidArguments.push(randomArgument)
                 if (window.infinite) {
                     infiniteTimeout.current = setTimeout(() => {
@@ -101,7 +101,7 @@ function App() {
     }
 
     const handlePickedArgument = async (argument) => {
-        setPickedArgument(true)
+        setPickedArgument(argument)
         await speak(pickedPerson, argument, width)
         setSpeaking(false)
         setSpoken(true)
@@ -136,8 +136,8 @@ function App() {
                             pickedPerson={pickedPerson}
                         />
                     }
-                    {(speaking && !infinite) &&
-                        <SpeakingIndicator/>
+                    {(speaking && !infinite && pickedArgument) &&
+                        <SpeakingIndicator pickedArgument={pickedArgument}/>
                     }
                     {infinite &&
                         <StopInfinite handleStopInfinite={handleStopInfinite}/>

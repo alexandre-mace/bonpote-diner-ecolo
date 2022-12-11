@@ -14,10 +14,10 @@ const SpeakingIcon = (props) => (
         <defs>
             <linearGradient id="left-to-right">
                 <stop offset="0" stopColor="#0EFAA5">
-                    <animate dur={props.duration + "s"} attributeName="offset" fill="freeze" from="0" to="1" />
+                    <animate dur={props.duration + "ms"} attributeName="offset" fill="freeze" from="0" to="1" />
                 </stop>
                 <stop offset="0" stopColor="#27BBB9">
-                    <animate dur={props.duration + "s"} attributeName="offset" fill="freeze" from="0" to="1" />
+                    <animate dur={props.duration + "ms"} attributeName="offset" fill="freeze" from="0" to="1" />
                 </stop>
             </linearGradient>
             <clipPath id="a">
