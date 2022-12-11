@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/bonpote-diner-ecolo/static/css/main.75a466ce.css",
-    "main.js": "/bonpote-diner-ecolo/static/js/main.ef1e60a6.js",
+    "main.js": "/bonpote-diner-ecolo/static/js/main.37a7409c.js",
     "static/js/787.044e6553.chunk.js": "/bonpote-diner-ecolo/static/js/787.044e6553.chunk.js",
     "static/media/crunold-oblique-webfont.woff": "/bonpote-diner-ecolo/static/media/crunold-oblique-webfont.890bee004409e9bb124f.woff",
     "static/media/crunold-regular-webfont.woff": "/bonpote-diner-ecolo/static/media/crunold-regular-webfont.8e7b54b74a99f01525d0.woff",
@@ -16,11 +16,11 @@
     "index.html": "/bonpote-diner-ecolo/index.html",
     "static/media/chevron-down.svg": "/bonpote-diner-ecolo/static/media/chevron-down.650ddc751452fde3c0717bf6c11c44f2.svg",
     "main.75a466ce.css.map": "/bonpote-diner-ecolo/static/css/main.75a466ce.css.map",
-    "main.ef1e60a6.js.map": "/bonpote-diner-ecolo/static/js/main.ef1e60a6.js.map",
+    "main.37a7409c.js.map": "/bonpote-diner-ecolo/static/js/main.37a7409c.js.map",
     "787.044e6553.chunk.js.map": "/bonpote-diner-ecolo/static/js/787.044e6553.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.75a466ce.css",
-    "static/js/main.ef1e60a6.js"
+    "static/js/main.37a7409c.js"
   ]
 }
