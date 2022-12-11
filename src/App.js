@@ -37,7 +37,7 @@ function App() {
                 if (!randomPerson) handleStopInfinite()
                 let randomArgument = getRandomArgument(randomPerson, saidArguments)
                 await speak(randomPerson, randomArgument, width)
-                await delay(1000)
+                await delay(2500)
                 saidArguments.push(randomArgument)
                 if (window.infinite) {
                     infiniteTimeout.current = setTimeout(() => {
@@ -105,7 +105,8 @@ function App() {
         setSpoken(true)
     }
 
-    const zoom = width > 1200 ? .7 : (width > 800 ? .5 : .4)
+    const zoom = (width > 1200) ? .7 : (width > 800 ? 0.5 : 0.44)
+    const cssZoom = (width > 1200) ? 1 : (width > 800 ? 1 : 0.8)
 
     return (
         <div className="flex md:h-screen">
@@ -150,14 +151,17 @@ function App() {
                                     <Toaster containerStyle={{position: "absolute"}}/>
                                 </div>
                             </div>
-                            <TableWithPeople
-                                zoom={zoom}
-                                handleHoveredPerson={(!pickedPerson && started && !speaking && !infinite && !spoken) ? handleHoveredPerson : () => {}}
-                                handlePickedPerson={(!infinite && !speaking && !spoken) ? handlePickedPerson : () => {}}
-                                setHoveredPerson={setHoveredPerson}
-                                hoveredPerson={hoveredPerson}
-                                pickedPerson={pickedPerson}
-                            />
+                            <div className={"table-container"}>
+                                <TableWithPeople
+                                    cssZoom={cssZoom}
+                                    zoom={zoom}
+                                    handleHoveredPerson={(!pickedPerson && started && !speaking && !infinite && !spoken) ? handleHoveredPerson : () => {}}
+                                    handlePickedPerson={(!infinite && !speaking && !spoken) ? handlePickedPerson : () => {}}
+                                    setHoveredPerson={setHoveredPerson}
+                                    hoveredPerson={hoveredPerson}
+                                    pickedPerson={pickedPerson}
+                                />
+                            </div>
                         </div>
                     </div>
                 </div>

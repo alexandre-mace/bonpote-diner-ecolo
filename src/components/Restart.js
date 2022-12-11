@@ -1,5 +1,5 @@
 const Restart = ({handleReset, handleStartInfinite}) => (
-    <div className="w-[90%] md:w-auto absolute -bottom-12 md:-bottom-4 left-1/2 -translate-x-1/2 z-50 text-center">
+    <div className="w-[90%] md:w-auto absolute -bottom-20 md:-bottom-12 md:-bottom-4 left-1/2 -translate-x-1/2 z-50 text-center">
         <div className={"flex flex-col md:flex-row w-full justify-center"}>
             <div
                 onClick={() => handleReset()}

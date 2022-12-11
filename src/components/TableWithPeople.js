@@ -19,6 +19,7 @@ const TableWithPeople = ({
                              handlePickedPerson,
                              zoom,
                              pickedPerson,
+                             cssZoom
                          }) => (
     <>
         <JeanMichelSvg
@@ -89,6 +90,11 @@ const TableWithPeople = ({
             zoom={zoom}
         />
         <style>{`
+            .table-container {
+                  zoom: ${cssZoom}; /* all browsers */
+                  -moz-transform: scale(${cssZoom});  /* Firefox */
+            }
+        
             #roxanne {
             position: absolute;
             top: -${75 * zoom}px;
