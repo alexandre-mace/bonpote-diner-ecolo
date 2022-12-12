@@ -150,7 +150,7 @@ function App() {
                         <div>
                             <div className={"absolute -top-28 w-full"}>
                                 <div className={"relative toaster-container"}>
-                                    <Toaster containerStyle={{position: "absolute"}}/>
+                                    <Toaster containerStyle={{position: "absolute", top: (width < 1200 ? 80 : 0)}}/>
                                 </div>
                             </div>
                             <div className={"table-container"}>
