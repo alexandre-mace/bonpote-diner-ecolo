@@ -9,9 +9,9 @@ const Credit = () => (
         </div>
         <div className={"absolute bottom-0 left-1/2 -translate-x-1/2 w-11/12"}>
             <div className={"text-xs md:text-sm text-white text-center"}>
-                <span className={"inline-block"}>Contenu : <a className={"underline"} rel={"noreferrer"} target={"_blank"} href="https://www.linkedin.com/in/thomas-wagner-0807b932/?originalSubdomain=fr">Thomas Wagner</a> <span className={"mx-2"}>—</span></span>
-                <span className={"inline-block"}>Développement : Alexandre Macé <span className={"mx-2"}>—</span></span>
-                <span className={"inline-block"}>Design : Valentine Michel</span>
+                <div className={"inline-block"}>Contenu : <a className={"underline"} rel={"noreferrer"} target={"_blank"} href="https://www.linkedin.com/in/thomas-wagner-0807b932/?originalSubdomain=fr">Thomas Wagner</a> <span className={"mx-2"}>—</span></div>
+                <div className={"inline-block"}>Développement : <a className={"underline"} rel={"noreferrer"} href="https://www.linkedin.com/in/alexandre-mac%C3%A9">Alexandre Macé</a> <span className={"mx-2"}>—</span></div>
+                <div className={"inline-block"}>Design : <a className={"underline"} rel={"noreferrer"} href="https://www.linkedin.com/in/valentine-michel-ux-ui-designer-%C3%A9coconception/">Valentine Michel</a></div>
             </div>
         </div>
     </>
