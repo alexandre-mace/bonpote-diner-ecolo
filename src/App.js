@@ -16,7 +16,6 @@ import StopInfinite from "./components/StopInfinite";
 import getPersonSvgNodeFromPath from "./utils/getPersonSvgNodeFromPath";
 import {delay} from "./utils/delay";
 import getExtraUiPersonData from "./utils/getExtraUiPersonData";
-import getWordsInSentence from "./utils/getWordsInSentence";
 
 function App() {
     const [started, setStarted] = useState(false)
