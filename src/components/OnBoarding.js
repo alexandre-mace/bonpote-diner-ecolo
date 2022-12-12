@@ -17,7 +17,7 @@ const OnBoarding = ({setStarted, handleStartInfinite}) => (
                             Pour vous aider dans cette épreuve, voici un petit guide interactif pour savoir quoi
                             répondre
                             aux
-                            bullshits les plus répandus lors de ces repas phares de l’année
+                            bullshits les plus répandus lors de ces repas phares de l’année.
                         </div>
                         <div className="mb-5 font-bold">
                             Pour jouer, cliquez sur le bouton commencer, puis sélectionnez un des personnages
