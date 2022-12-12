@@ -121,7 +121,7 @@ function App() {
                     }
                     {(started && !pickedPerson && !infinite) &&
                         <div className="w-[100%] absolute -top-4 left-1/2 -translate-x-1/2 text-center">
-                            <div className="text-vert-1 text-lg">Cliquez un personnage pour commencer un dialogue
+                            <div className="text-vert-1 text-lg">Cliquez sur un personnage pour commencer un dialogue 💬
                             </div>
                         </div>
                     }
