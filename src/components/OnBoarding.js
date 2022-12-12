@@ -1,5 +1,3 @@
-import playcircle from "../assets/play_circle.svg";
-
 const OnBoarding = ({setStarted, handleStartInfinite}) => (
     <>
         {
