@@ -31,7 +31,7 @@ const OnBoarding = ({setStarted, handleStartInfinite}) => (
                                  className="inline-flex w-full cursor-pointer justify-center items-center rounded-full px-6 py-3 text-center btn-primary md:mr-1">Commencer
                                 le repas 🍽️</div>
                             <div onClick={() => handleStartInfinite()}
-                                 className="inline-flex cursor-pointer w-full justify-center mt-2 md:mt-0 items-center rounded-full px-6 py-3 text-center btn-ternary md:ml-1">Diner infini 🔀 </div>
+                                 className="inline-flex cursor-pointer w-full justify-center mt-2 md:mt-0 items-center rounded-full px-6 py-3 text-center btn-ternary md:ml-1">Diner infini  🔀 </div>
                         </div>
                     </div>
             ))
