@@ -2,7 +2,7 @@ import {JeanMarc, peopleData} from "../domain/people";
 
 const MobilePersonPicker = ({setPickedPerson}) => {
     return (
-        <div className={"absolute -top-4 left-1/2 -translate-x-1/2 w-screen px-4"}>
+        <div className={"absolute -top-2 left-1/2 -translate-x-1/2 w-screen px-4"}>
             <div className={"grid grid-cols-3 gap-4 md:hidden pt-20 pb-10"}>
                 {
                     Array.from(peopleData).filter(person => person[1].name !== JeanMarc).map((person, i) => (

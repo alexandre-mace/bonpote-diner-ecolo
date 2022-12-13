@@ -16,6 +16,7 @@ import StopInfinite from "./components/StopInfinite";
 import getPersonSvgNodeFromPath from "./utils/getPersonSvgNodeFromPath";
 import {delay} from "./utils/delay";
 import getExtraUiPersonData from "./utils/getExtraUiPersonData";
+import ShareLink from "./components/ShareLink";
 
 function App() {
     const [started, setStarted] = useState(false)
@@ -25,6 +26,8 @@ function App() {
     const [speaking, setSpeaking] = useState(false)
     const [spoken, setSpoken] = useState(false)
     const [infinite, setInfinite] = useState(false)
+    const [infinitePaused, setInfinitePaused] = useState(false)
+    const [linkCopied, setLinkCopied] = useState(false)
     const {width} = useWindowDimensions();
     const infiniteTimeout = useRef()
     let saidArguments = []
@@ -76,6 +79,16 @@ function App() {
         saidArguments = []
     }
 
+    const handlePauseInfinite = () => {
+        setInfinite(false)
+        setInfinitePaused(true)
+    }
+
+    const handleContinueInfinite = () => {
+        setInfinite(true)
+        setInfinitePaused(false)
+    }
+
     const handleReset = () => {
         setSpoken(false)
         setPickedPerson(false)
@@ -106,68 +119,75 @@ function App() {
         setSpoken(true)
     }
 
-    const zoom = (width > 1200) ? .7 : (width > 800 ? 0.5 : 0.44)
-    const cssZoom = (width > 1200) ? 1 : (width > 800 ? 1 : 0.8)
+    const zoom = (width > 1200) ? .68  : (width > 800 ? 0.68 : 0.49)
+    const cssZoom = (width > 1200) ? 1 : (width > 800 ? 1 : 0.75)
 
     return (
-        <div className="flex md:h-screen">
-            <div className="m-auto">
-                <Header opacity={(speaking || (started && pickedPerson && !pickedArgument) || (width < 1200 && infinite) ? '30' : '100')}/>
+        <div className="flex flex-col h-full min-h-screen">
+            <Header
+                opacity={(speaking || (started && pickedPerson && !pickedArgument) || (width < 1200 && infinite) ? '30' : '100')}/>
+            <ShareLink setLinkCopied={setLinkCopied} linkCopied={linkCopied}/>
+            {!started &&
+                <OnBoarding setStarted={setStarted} handleStartInfinite={handleStartInfinite}/>
+            }
+            <div
+                className="px-0 md:px-10 md:max-w-xl container md:bg-[url('./assets/room-decoration.png')] bg-contain bg-top bg-no-repeat mx-auto relative">
+                {(started && !pickedPerson && !infinite) &&
+                    <div className="w-[90%] absolute -top-2 left-1/2 -translate-x-1/2 text-center">
+                        <div className="text-vert-1 text-lg">Cliquez sur un personnage pour commencer un dialogue 💬
+                        </div>
+                    </div>
+                }
+                {(started && !pickedPerson) &&
+                    <MobilePersonPicker setPickedPerson={setPickedPerson}/>
+                }
+                {(started && pickedPerson && !pickedArgument) &&
+                    <ArgumentPicker
+                        setPickedPerson={setPickedPerson}
+                        handlePickedArgument={handlePickedArgument}
+                        setSpeaking={setSpeaking}
+                        pickedPerson={pickedPerson}
+                    />
+                }
+                {(speaking && !infinite && pickedArgument) &&
+                    <SpeakingIndicator pickedArgument={pickedArgument}/>
+                }
+                {(infinite || infinitePaused) &&
+                    <StopInfinite
+                        handleStopInfinite={handleStopInfinite}
+                        handleContinueInfinite={handleContinueInfinite}
+                        handlePauseInfinite={handlePauseInfinite}
+                        infinitePaused={infinitePaused}
+                    />
+                }
+                {(spoken && !infinite && !infinitePaused) &&
+                    <Restart handleReset={handleReset} handleStartInfinite={handleStartInfinite}/>
+                }
                 <div
-                    className="px-0 md:px-10 md:max-w-4xl container md:bg-[url('./assets/room-decoration.png')] bg-contain bg-top bg-no-repeat mx-auto relative">
-                    {!started &&
-                        <OnBoarding setStarted={setStarted} handleStartInfinite={handleStartInfinite}/>
-                    }
-                    {(started && !pickedPerson && !infinite) &&
-                        <div className="w-[100%] absolute -top-4 left-1/2 -translate-x-1/2 text-center">
-                            <div className="text-vert-1 text-lg">Cliquez sur un personnage pour commencer un dialogue 💬
+                    className={`mt-[20rem] md:mt-56 mb-28 w-full inline-block relative ${((!started || (pickedPerson && !pickedArgument)) ? ' opacity-30 pointer-events-none' : '')}`}>
+                    <div>
+                        <div className={"absolute -top-28 w-full"}>
+                            <div className={"relative toaster-container"}>
+                                <Toaster containerStyle={{position: "absolute", top: (width < 1200 ? 80 : 30)}}/>
                             </div>
                         </div>
-                    }
-                    {(started && !pickedPerson) &&
-                        <MobilePersonPicker setPickedPerson={setPickedPerson}/>
-                    }
-                    {(started && pickedPerson && !pickedArgument) &&
-                        <ArgumentPicker
-                            setPickedPerson={setPickedPerson}
-                            handlePickedArgument={handlePickedArgument}
-                            setSpeaking={setSpeaking}
-                            pickedPerson={pickedPerson}
-                        />
-                    }
-                    {(speaking && !infinite && pickedArgument) &&
-                        <SpeakingIndicator pickedArgument={pickedArgument}/>
-                    }
-                    {infinite &&
-                        <StopInfinite handleStopInfinite={handleStopInfinite}/>
-                    }
-                    {(spoken && !infinite) &&
-                        <Restart handleReset={handleReset} handleStartInfinite={handleStartInfinite}/>
-                    }
-                    <div
-                        className={`mt-[20rem] md:mt-56 w-full inline-block relative ${((!started || (pickedPerson && !pickedArgument)) ? ' opacity-30 pointer-events-none' : '')}`}>
-                        <div>
-                            <div className={"absolute -top-28 w-full"}>
-                                <div className={"relative toaster-container"}>
-                                    <Toaster containerStyle={{position: "absolute", top: (width < 1200 ? 80 : 0)}}/>
-                                </div>
-                            </div>
-                            <div className={"table-container"}>
-                                <TableWithPeople
-                                    cssZoom={cssZoom}
-                                    zoom={zoom}
-                                    handleHoveredPerson={(!pickedPerson && started && !speaking && !infinite && !spoken) ? handleHoveredPerson : () => {}}
-                                    handlePickedPerson={(!infinite && !speaking && !spoken) ? handlePickedPerson : () => {}}
-                                    setHoveredPerson={setHoveredPerson}
-                                    hoveredPerson={hoveredPerson}
-                                    pickedPerson={pickedPerson}
-                                />
-                            </div>
+                        <div className={"table-container"}>
+                            <TableWithPeople
+                                cssZoom={cssZoom}
+                                zoom={zoom}
+                                handleHoveredPerson={(!pickedPerson && started && !speaking && !infinite && !spoken) ? handleHoveredPerson : () => {
+                                }}
+                                handlePickedPerson={(!infinite && !speaking && !spoken) ? handlePickedPerson : () => {
+                                }}
+                                setHoveredPerson={setHoveredPerson}
+                                hoveredPerson={hoveredPerson}
+                                pickedPerson={pickedPerson}
+                            />
                         </div>
                     </div>
                 </div>
-                <Credit/>
             </div>
+            <Credit/>
             {hoveredPerson &&
                 <PersonInfo
                     name={hoveredPerson.name}
