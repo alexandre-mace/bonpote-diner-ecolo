@@ -8,7 +8,7 @@ const StopInfinite = ({handleStopInfinite, handlePauseInfinite, infinitePaused, 
             {infinitePaused &&
                 <div
                     onClick={() => handleContinueInfinite()}
-                    className="inline-flex whitespace-nowrap justify-center cursor-pointer md:mr-3 items-center rounded-full px-6 py-3 text-center btn-primary">
+                    className="inline-flex whitespace-nowrap justify-center cursor-pointer md:mr-3 items-center rounded-full px-6 py-3 text-center btn-secondary">
                     Reprendre la discussion <img className="ml-1" src={playcircle} alt="play"/>
                 </div>
             }

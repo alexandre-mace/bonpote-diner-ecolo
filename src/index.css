@@ -96,7 +96,7 @@ path.colorable {
 }
 
 .btn-secondary {
-  @apply border border-white text-white transition-all hover:backdrop-brightness-110
+  @apply border border-white text-white bg-[#464DC5] transition-all hover:bg-[#4c53c2]
 }
 
 .btn-ternary {
