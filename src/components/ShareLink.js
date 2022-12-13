@@ -3,7 +3,7 @@ import copyToClipboard from "../utils/copyToClipboard";
 
 const ShareLink = ({linkCopied, setLinkCopied}) => (
     <div className="w-auto absolute top-3 right-8 md:top-6 md:right-6 z-50">
-        <div className={"flex flex-col md:flex-row w-full justify-center text-sm md:text-base"}>
+        <div className={"flex flex-col md:flex-row w-full justify-center text-xs md:text-base"}>
             <div
                 onClick={() => {
                     setLinkCopied(true)
@@ -18,7 +18,7 @@ const ShareLink = ({linkCopied, setLinkCopied}) => (
                 }
                 {!linkCopied &&
                     <>
-                        <img className="mr-2" src={shareicon} alt="pause"/> Partager le lien
+                        <img className="mr-2 h-4 md:h-6" src={shareicon} alt="pause"/> Partager le lien
                     </>
                 }
             </div>
