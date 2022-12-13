@@ -1,4 +1,4 @@
-import pausecircle from "../assets/pause_circle.svg";
+import pausewhitecircle from "../assets/pause_circle_white.svg";
 import playcircle from "../assets/play_circle.svg";
 import stop from "../assets/power_settings_new.svg";
 
@@ -15,8 +15,8 @@ const StopInfinite = ({handleStopInfinite, handlePauseInfinite, infinitePaused, 
             {!infinitePaused &&
                 <div
                     onClick={() => handlePauseInfinite()}
-                    className="inline-flex whitespace-nowrap justify-center cursor-pointer md:mr-3 items-center rounded-full px-6 py-3 text-center btn-primary">
-                    Mettre pause à la discussion <img className="ml-1" src={pausecircle} alt="pause"/>
+                    className="inline-flex whitespace-nowrap justify-center cursor-pointer md:mr-3 items-center rounded-full px-6 py-3 text-center btn-secondary">
+                    Mettre pause à la discussion <img className="ml-1" src={pausewhitecircle} alt="pause"/>
                 </div>
             }
             <div

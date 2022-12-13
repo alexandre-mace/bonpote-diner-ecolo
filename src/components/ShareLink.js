@@ -12,7 +12,7 @@ const ShareLink = ({linkCopied, setLinkCopied}) => (
                         setLinkCopied(false)
                     }, 2000)
                 }}
-                className="inline-flex whitespace-nowrap justify-center cursor-pointer md:mr-3 items-center py-3 text-center btn-quartary">
+                className="inline-flex whitespace-nowrap justify-center cursor-pointer md:mr-3 items-center py-2 text-center btn-quartary">
                 {linkCopied &&
                     <div>✅ Lien copié</div>
                 }
