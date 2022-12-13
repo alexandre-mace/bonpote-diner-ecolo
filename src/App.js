@@ -76,6 +76,7 @@ function App() {
     const handleStopInfinite = () => {
         setInfinite(false)
         setSpoken(true)
+        setInfinitePaused(false)
         saidArguments = []
     }
 
