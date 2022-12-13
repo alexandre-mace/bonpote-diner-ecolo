@@ -120,8 +120,8 @@ function App() {
         setSpoken(true)
     }
 
-    const zoom = (width > 1200) ? .68  : (width > 700 ? 0.68 : 0.49)
-    const cssZoom = (width > 1200) ? 1 : (width > 700 ? 1 : 0.75)
+    const zoom = (width > 1200) ? .68  : (width > 768 ? 0.68 : (width > 640 ? 0.62 : 0.44))
+    const cssZoom = (width > 1200) ? 1 : (width > 768 ? 1 : (width > 640 ? .9 : 0.8))
 
     return (
         <div className="flex flex-col h-full min-h-screen">
@@ -169,10 +169,10 @@ function App() {
                     <div>
                         <div className={"absolute -top-28 w-full"}>
                             <div className={"relative toaster-container"}>
-                                <Toaster containerStyle={{position: "absolute", top: (width < 1200 ? 80 : 30)}}/>
+                                <Toaster containerStyle={{position: "absolute", top: (width > 1200) ? 80  : (width > 768 ? 50 : (width > 640 ? 70 : 85))}}/>
                             </div>
                         </div>
-                        <div className={"table-container"}>
+                        <div className={"table-container max-w-xs sm:max-w-md md:max-w-xl mx-auto"}>
                             <TableWithPeople
                                 cssZoom={cssZoom}
                                 zoom={zoom}
