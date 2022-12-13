@@ -3,6 +3,7 @@ import toast from "react-hot-toast";
 import Phrase from "../components/Phrase";
 import {ecoloData} from "../domain/people";
 import getWordsInSentence from "../utils/getWordsInSentence";
+import resetEcoloPersonState from "../utils/resetEcoloPersonState";
 
 const speak = async (person, argument, width) => {
     await sayArgument(argument, person, width)
@@ -56,8 +57,7 @@ const answerArgument = async (pickedArgument, width) => {
         }), position: (width > 800 ? 'bottom-left' : 'bottom-center'),
     })
     await delay(getWordsInSentence(pickedArgument.answer) * 230)
-    document.querySelectorAll(`[data-name="${ecoloData.name}"] path.colorable`)
-        .forEach((svgElement) => svgElement.setAttribute('fill', "#fff"))
+    resetEcoloPersonState()
     document.querySelectorAll(`.toaster-container > div:nth-child(1) > div > div`)
         .forEach((node) => node.style.backgroundColor = 'rgba(21, 25, 36, .3)')
 }

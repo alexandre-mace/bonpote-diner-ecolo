@@ -17,6 +17,7 @@ import getPersonSvgNodeFromPath from "./utils/getPersonSvgNodeFromPath";
 import {delay} from "./utils/delay";
 import getExtraUiPersonData from "./utils/getExtraUiPersonData";
 import ShareLink from "./components/ShareLink";
+import resetEcoloPersonState from "./utils/resetEcoloPersonState";
 
 function App() {
     const [started, setStarted] = useState(false)
@@ -66,6 +67,7 @@ function App() {
     }, [infinite, started])
 
     const handleStartInfinite = () => {
+        resetEcoloPersonState()
         toast.dismiss()
         setPickedPerson(true)
         setPickedArgument(true)
@@ -95,6 +97,7 @@ function App() {
         setPickedPerson(false)
         setPickedArgument(false)
         toast.dismiss()
+        resetEcoloPersonState()
     }
 
     const handleHoveredPerson = (e) => {
