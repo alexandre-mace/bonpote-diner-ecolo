@@ -120,8 +120,8 @@ function App() {
         setSpoken(true)
     }
 
-    const zoom = (width > 1200) ? .68  : (width > 800 ? 0.68 : 0.49)
-    const cssZoom = (width > 1200) ? 1 : (width > 800 ? 1 : 0.75)
+    const zoom = (width > 1200) ? .68  : (width > 700 ? 0.68 : 0.49)
+    const cssZoom = (width > 1200) ? 1 : (width > 700 ? 1 : 0.75)
 
     return (
         <div className="flex flex-col h-full min-h-screen">
