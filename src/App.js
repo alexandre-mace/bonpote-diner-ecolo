@@ -125,7 +125,7 @@ function App() {
     return (
         <div className="flex flex-col h-full min-h-screen">
             <Header
-                opacity={(speaking || (started && pickedPerson && !pickedArgument) || (width < 1200 && infinite) ? '30' : '100')}/>
+                opacity={(speaking || (started && pickedPerson && !pickedArgument) || infinite ? '30' : '100')}/>
             <ShareLink setLinkCopied={setLinkCopied} linkCopied={linkCopied}/>
             {!started &&
                 <OnBoarding setStarted={setStarted} handleStartInfinite={handleStartInfinite}/>
