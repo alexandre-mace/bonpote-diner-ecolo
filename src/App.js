@@ -169,7 +169,7 @@ function App() {
                     <div>
                         <div className={"absolute -top-28 w-full"}>
                             <div className={"relative toaster-container"}>
-                                <Toaster containerStyle={{position: "absolute", top: (width > 1200) ? 80  : (width > 768 ? 50 : (width > 640 ? 70 : 85))}}/>
+                                <Toaster containerStyle={{position: "absolute", top: (width > 1200) ? 80  : (width > 768 ? 50 : (width > 640 ? 70 : 95))}}/>
                             </div>
                         </div>
                         <div className={"table-container max-w-xs sm:max-w-md md:max-w-xl mx-auto"}>
