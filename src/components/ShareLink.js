@@ -17,9 +17,9 @@ const ShareLink = ({linkCopied, setLinkCopied}) => (
                     <div>✅ Lien copié</div>
                 }
                 {!linkCopied &&
-                    <>
-                        <img className="mr-2 h-4 md:h-6" src={shareicon} alt="pause"/> Partager le lien
-                    </>
+                    <div className={'flex'}>
+                        <img className="mr-2 h-4 md:h-6" src={shareicon} alt="pause"/> <div>Partager le lien</div>
+                    </div>
                 }
             </div>
         </div>
