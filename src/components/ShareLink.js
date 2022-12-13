@@ -2,7 +2,7 @@ import shareicon from "../assets/share.svg";
 import copyToClipboard from "../utils/copyToClipboard";
 
 const ShareLink = ({linkCopied, setLinkCopied}) => (
-    <div className="w-auto absolute top-3 right-8 md:top-6 md:right-6 z-50">
+    <div className="w-auto absolute top-3 right-8 md:top-6 md:right-6 z-[99]">
         <div className={"flex flex-col md:flex-row w-full justify-center text-xs md:text-base"}>
             <div
                 onClick={() => {
