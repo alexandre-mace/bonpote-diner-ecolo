@@ -9,15 +9,15 @@ import Credit from "./components/Credit";
 import Header from "./components/Header";
 import ArgumentPicker from "./components/ArgumentPicker";
 import {getRandomArgument, getRandomPerson, peopleData} from "./domain/people";
-import {speak} from "./api/speakApi";
+import {cantSpeak, speak} from "./api/speakApi";
 import MobilePersonPicker from "./components/MobilePersonPicker";
 import useWindowDimensions from "./utils/useWindowDimensions";
-import StopInfinite from "./components/StopInfinite";
+import InfinitePlayer from "./components/InfinitePlayer";
 import getPersonSvgNodeFromPath from "./utils/getPersonSvgNodeFromPath";
 import {delay} from "./utils/delay";
 import getExtraUiPersonData from "./utils/getExtraUiPersonData";
 import ShareLink from "./components/ShareLink";
-import resetEcoloPersonState from "./utils/resetEcoloPersonState";
+import resetPeopletates from "./utils/resetPeopleStates";
 
 function App() {
     const [started, setStarted] = useState(false)
@@ -28,54 +28,40 @@ function App() {
     const [spoken, setSpoken] = useState(false)
     const [infinite, setInfinite] = useState(false)
     const [infinitePaused, setInfinitePaused] = useState(false)
-    const [linkCopied, setLinkCopied] = useState(false)
     const {width} = useWindowDimensions();
-    const infiniteTimeout = useRef()
     let saidArguments = []
 
-    useEffect(() => {
-        window.infinite = infinite
-        if (infinite) {
-            const speakInfiniteCallback = async () => {
-                let randomPerson = getRandomPerson(peopleData, saidArguments)
-                if (!randomPerson) handleStopInfinite()
-                let randomArgument = getRandomArgument(randomPerson, saidArguments)
-                await speak(randomPerson, randomArgument, width)
-                await delay(1000)
-                saidArguments.push(randomArgument)
-                if (window.infinite) {
-                    infiniteTimeout.current = setTimeout(() => {
-                        speakInfiniteCallback()
-                    }, 0)
-                }
-            }
-            speakInfiniteCallback()
-        }
-        return () => {
-            let infiniteTimeoutId = infiniteTimeout.current
-            while (infiniteTimeoutId--) {
-                window.clearTimeout(infiniteTimeoutId);
-            }
-            clearTimeout(infiniteTimeout.current)
-        }
-    }, [infinite])
-
-    useEffect(() => {
-        if (infinite && !started) {
-            setStarted(true)
-        }
-    }, [infinite, started])
+    const speakInfiniteCallback = async (infiniteThread) => {
+        if (cantSpeak()) return
+        if (infiniteThread !== window.infiniteThread) return;
+        window.infiniteAwaiting = false
+        let randomPerson = getRandomPerson(peopleData, saidArguments)
+        if (!randomPerson) handleStopInfinite()
+        let randomArgument = getRandomArgument(randomPerson, saidArguments)
+        await speak(randomPerson, randomArgument, width)
+        await delay(1000)
+        saidArguments.push(randomArgument)
+        window.infiniteAwaiting = true
+        await speakInfiniteCallback(infiniteThread)
+    }
 
     const handleStartInfinite = () => {
-        resetEcoloPersonState()
+        resetPeopletates()
         toast.dismiss()
         setPickedPerson(true)
         setPickedArgument(true)
         setInfinite(true)
+        window.infinite = true
+        window.infiniteAwaiting = true
         saidArguments = []
     }
 
     const handleStopInfinite = () => {
+        resetPeopletates()
+        toast.dismiss()
+        window.infinite = false
+        window.infinitePaused = false
+        window.lastInfiniteStopped = Date.now()
         setInfinite(false)
         setSpoken(true)
         setInfinitePaused(false)
@@ -83,12 +69,12 @@ function App() {
     }
 
     const handlePauseInfinite = () => {
-        setInfinite(false)
+        window.infinitePaused = true
         setInfinitePaused(true)
     }
 
     const handleContinueInfinite = () => {
-        setInfinite(true)
+        window.infinitePaused = false
         setInfinitePaused(false)
     }
 
@@ -97,14 +83,14 @@ function App() {
         setPickedPerson(false)
         setPickedArgument(false)
         toast.dismiss()
-        resetEcoloPersonState()
+        resetPeopletates()
     }
 
     const handleHoveredPerson = (e) => {
         if (!e || !e.target) return
         const svgNode = getPersonSvgNodeFromPath(e)
         const person = peopleData.get(svgNode.dataset.name)
-        if (!person) return;
+        if (!person) return
         setHoveredPerson({...person, ...getExtraUiPersonData(person, svgNode)})
     }
 
@@ -112,7 +98,7 @@ function App() {
         if (!e || !e.target) return
         const svgNode = getPersonSvgNodeFromPath(e)
         const person = peopleData.get(svgNode.dataset.name)
-        if (!person) return;
+        if (!person) return
         setPickedPerson({...person, ...getExtraUiPersonData(person, svgNode)})
     }
 
@@ -126,11 +112,17 @@ function App() {
     const zoom = (width > 1200) ? .68  : (width > 768 ? 0.68 : (width > 640 ? 0.62 : 0.44))
     const cssZoom = (width > 1200) ? 1 : (width > 768 ? 1 : (width > 640 ? .9 : 0.8))
 
+    if (infinite && window.infinite && window.infiniteAwaiting) {
+        const infiniteThreadId = Date.now()
+        window.infiniteThread = infiniteThreadId
+        speakInfiniteCallback(infiniteThreadId)
+    }
+
     return (
         <div className="flex flex-col h-full min-h-screen">
             <Header
                 opacity={(speaking || (started && pickedPerson && !pickedArgument) || infinite ? '30' : '100')}/>
-            <ShareLink setLinkCopied={setLinkCopied} linkCopied={linkCopied}/>
+            <ShareLink/>
             {!started &&
                 <OnBoarding setStarted={setStarted} handleStartInfinite={handleStartInfinite}/>
             }
@@ -153,11 +145,11 @@ function App() {
                         pickedPerson={pickedPerson}
                     />
                 }
-                {(speaking && !infinite && pickedArgument) &&
+                {(pickedArgument && speaking && !infinite) &&
                     <SpeakingIndicator pickedArgument={pickedArgument}/>
                 }
                 {(infinite || infinitePaused) &&
-                    <StopInfinite
+                    <InfinitePlayer
                         handleStopInfinite={handleStopInfinite}
                         handleContinueInfinite={handleContinueInfinite}
                         handlePauseInfinite={handlePauseInfinite}
@@ -172,7 +164,7 @@ function App() {
                     <div>
                         <div className={"absolute -top-28 w-full"}>
                             <div className={"relative toaster-container"}>
-                                <Toaster containerStyle={{position: "absolute", top: (width > 1200) ? 80  : (width > 768 ? 50 : (width > 640 ? 70 : 95))}}/>
+                                <Toaster containerStyle={{position: "absolute", top: (width > 1200) ? 60  : (width > 768 ? 50 : (width > 640 ? 70 : 95))}}/>
                             </div>
                         </div>
                         <div className={"table-container max-w-xs sm:max-w-md md:max-w-xl mx-auto"}>

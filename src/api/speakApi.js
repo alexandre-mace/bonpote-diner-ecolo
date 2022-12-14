@@ -3,7 +3,7 @@ import toast from "react-hot-toast";
 import Phrase from "../components/Phrase";
 import {ecoloData} from "../domain/people";
 import getWordsInSentence from "../utils/getWordsInSentence";
-import resetEcoloPersonState from "../utils/resetEcoloPersonState";
+import resetEcoloPersonState from "../utils/resetPeopleStates";
 
 const speak = async (person, argument, width) => {
     await sayArgument(argument, person, width)
@@ -37,6 +37,7 @@ const sayArgument = async (pickedArgument, pickedPerson, width) => {
 }
 
 const answerArgument = async (pickedArgument, width) => {
+    if (hasJustStoppedSpeakInfinite()) return
     document.querySelectorAll(`[data-name="${ecoloData.name}"] path.colorable`)
         .forEach((svgElement) => svgElement.setAttribute('fill', ecoloData.color))
     toast(<Phrase
@@ -62,5 +63,12 @@ const answerArgument = async (pickedArgument, width) => {
         .forEach((node) => node.style.backgroundColor = 'rgba(21, 25, 36, .3)')
 }
 
+const cantSpeak = () => {
+    return window.infinitePaused || !window.infiniteAwaiting || !window.infinite
+}
 
-export {sayArgument, answerArgument, speak}
+const hasJustStoppedSpeakInfinite = () => {
+    return window.lastInfiniteStopped && (Date.now() - window.lastInfiniteStopped < 3800)
+}
+
+export {sayArgument, answerArgument, speak, cantSpeak}

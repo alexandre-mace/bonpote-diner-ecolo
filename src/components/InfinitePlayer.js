@@ -2,7 +2,7 @@ import pausewhitecircle from "../assets/pause_circle_white.svg";
 import playcircle from "../assets/play_circle.svg";
 import stop from "../assets/power_settings_new.svg";
 
-const StopInfinite = ({handleStopInfinite, handlePauseInfinite, infinitePaused, handleContinueInfinite}) => (
+const InfinitePlayer = ({handleStopInfinite, handlePauseInfinite, infinitePaused, handleContinueInfinite}) => (
     <div className="w-[80%] md:w-full md:w-auto absolute bottom-10 md:bottom-12 left-1/2 -translate-x-1/2 z-50 text-center">
         <div className={"flex flex-col md:flex-row w-full justify-center"}>
             {infinitePaused &&
@@ -28,4 +28,4 @@ const StopInfinite = ({handleStopInfinite, handlePauseInfinite, infinitePaused, 
     </div>
 )
 
-export default StopInfinite
+export default InfinitePlayer
