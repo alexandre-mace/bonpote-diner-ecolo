@@ -1,31 +1,56 @@
-import pausewhitecircle from "../assets/pause_circle_white.svg";
-import playcircle from "../assets/play_circle.svg";
-import stop from "../assets/power_settings_new.svg";
+import playIcon from "../assets/Play.svg";
+import stopIcon from "../assets/Stop.svg";
+import shutdownIcon from "../assets/power_settings_new.svg";
+import SpeakingIcon from "./SpeakingIcon";
+import nextIcon from "../assets/Next.svg";
 
-const InfinitePlayer = ({handleStopInfinite, handlePauseInfinite, infinitePaused, handleContinueInfinite}) => (
-    <div className="w-[80%] md:w-full absolute bottom-10 md:bottom-12 left-1/2 -translate-x-1/2 z-50 text-center">
-        <div className={"flex flex-col md:flex-row w-full justify-center"}>
-            {infinitePaused &&
-                <div
-                    onClick={() => handleContinueInfinite()}
-                    className="inline-flex whitespace-nowrap justify-center cursor-pointer md:mr-3 items-center rounded-full px-6 py-3 text-center btn-secondary">
-                    Reprendre la discussion <img className="ml-1" src={playcircle} alt="play"/>
-                </div>
-            }
-            {!infinitePaused &&
-                <div
-                    onClick={() => handlePauseInfinite()}
-                    className="inline-flex whitespace-nowrap justify-center cursor-pointer md:mr-3 items-center rounded-full px-6 py-3 text-center btn-secondary">
-                    Mettre pause à la discussion <img className="ml-1" src={pausewhitecircle} alt="pause"/>
-                </div>
-            }
-            <div
-                onClick={() => handleStopInfinite()}
-                className="inline-flex whitespace-nowrap justify-center mt-2 md:mt-0 cursor-pointer items-center rounded-full px-6 py-3 text-center btn-primary">
-                Terminer la discussion <img className="ml-1" src={stop} alt="stop"/>
+const InfinitePlayer = ({
+                            handleStopInfinite,
+                            handlePauseInfinite,
+                            infinitePaused,
+                            handleContinueInfinite,
+                            handleNextInfinite
+                        }) => {
+    return (
+        <div className="w-[90%] md:w-full absolute action-btn-bottom left-1/2 -translate-x-1/2 z-50 text-center">
+            <div className={"flex flex-row w-full justify-center"}>
+                <button
+                    className="inline-flex items-center rounded-full mr-3 px-4 text-center bg-vert-2 text-vert-1 whitespace-nowrap">
+                    <SpeakingIcon/>
+                </button>
+                {infinitePaused &&
+                    <button
+                        onClick={() => handleContinueInfinite()}
+                        className="inline-flex whitespace-nowrap justify-center cursor-pointer mr-3 items-center rounded-full px-3 py-1 md:px-3 md:py-3 text-center btn-secondary">
+                        <img className="h-7" src={playIcon} alt="play"/>
+                    </button>
+                }
+                {!infinitePaused &&
+                    <button
+                        onClick={() => handlePauseInfinite()}
+                        className="inline-flex whitespace-nowrap justify-center cursor-pointer mr-3 items-center rounded-full px-3 py-1 md:px-3 md:py-3 text-center btn-secondary">
+                        <img className="h-7" src={stopIcon} alt="pause"/>
+                    </button>
+                }
+                {infinitePaused &&
+                    <button
+                        onClick={() => handleStopInfinite()}
+                        className="inline-flex whitespace-nowrap justify-center cursor-pointer items-center rounded-full px-6 py-3 text-center btn-secondary">
+                        <div>Terminer la discussion</div>
+                        <img className="ml-1 h-6" src={shutdownIcon} alt="suivant"/>
+                    </button>
+                }
+                {!infinitePaused &&
+                    <button
+                        onClick={() => handleNextInfinite()}
+                        className="inline-flex whitespace-nowrap justify-center cursor-pointer items-center rounded-full px-6 py-3 text-center btn-secondary">
+                        <div>Discussion suivante</div>
+                        <img className="ml-1 h-6" src={nextIcon} alt="suivant"/>
+                    </button>
+                }
             </div>
         </div>
-    </div>
-)
+    )
+}
 
 export default InfinitePlayer

@@ -25,14 +25,14 @@ const OnBoarding = ({setStarted, handleStartInfinite}) => (
                             table afin de débuter une conversation.
                         </div>
                         <div className={"flex flex-col md:flex-row flex-wrap md:flex-nowrap justify-center"}>
-                            <div onClick={() => setStarted(true)}
-                                 className="inline-flex w-full cursor-pointer whitespace-nowrap justify-center items-center rounded-full px-6 py-3 text-center btn-primary md:mr-1">Commencer
-                                le repas 🍽️</div>
-                            <div onClick={() => {
+                            <button onClick={() => setStarted(true)}
+                                 className="inline-block w-full cursor-pointer whitespace-nowrap justify-center items-center rounded-full px-6 py-3 text-center btn-primary md:mr-1">Commencer
+                                le repas 🍽️</button>
+                            <button onClick={() => {
                                 setStarted(true)
                                 handleStartInfinite()
                             }}
-                                 className="inline-flex cursor-pointer w-full whitespace-nowrap justify-center mt-2 md:mt-0 items-center rounded-full px-6 py-3 text-center btn-ternary md:ml-1">Diner infini  🔀 </div>
+                                 className="inline-block cursor-pointer w-full whitespace-nowrap justify-center mt-3 md:mt-0 items-center rounded-full px-6 py-3 text-center btn-ternary md:ml-1">Diner infini  🔀 </button>
                         </div>
                     </div>
             ))

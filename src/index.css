@@ -106,3 +106,7 @@ path.colorable {
 .btn-quartary {
   @apply border-b border-white text-white transition md:hover:text-white/80
 }
+
+.action-btn-bottom {
+  @apply bottom-10 md:bottom-12
+}
