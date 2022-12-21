@@ -15,7 +15,7 @@ const InfinitePlayer = ({
         <div className="w-[100%] md:w-full absolute action-btn-bottom left-1/2 -translate-x-1/2 z-50 text-center">
             <div className={"flex flex-row w-full justify-center"}>
                 <button
-                    className="inline-flex items-center rounded-full mr-3 px-4 text-center bg-vert-2 text-vert-1 whitespace-nowrap">
+                    className="inline-flex items-center rounded-full cursor-auto mr-3 px-4 text-center bg-vert-2 text-vert-1 whitespace-nowrap">
                     <SpeakingIcon/>
                 </button>
                 {infinitePaused &&

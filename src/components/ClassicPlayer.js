@@ -6,7 +6,7 @@ const ClassicPlayer = ({handleNext}) => {
         <div className="w-[90%] md:w-full absolute action-btn-bottom left-1/2 -translate-x-1/2 z-30 text-center">
             <div className={"flex flex-row w-full justify-center"}>
                 <button
-                    className="inline-flex justify-center items-center rounded-full mr-3 px-4 md:px-6 py-3 text-center bg-vert-2 text-vert-1 whitespace-nowrap text-center">
+                    className="inline-flex justify-center cursor-auto items-center rounded-full mr-3 px-4 md:px-6 py-3 text-center bg-vert-2 text-vert-1 whitespace-nowrap text-center">
                 <span className={"hidden md:inline-block"}>
                     Discussion en cours
                 </span>
