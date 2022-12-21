@@ -1,25 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.437e9f66.css",
-    "main.js": "/static/js/main.03704e7f.js",
-    "static/js/787.044e6553.chunk.js": "/static/js/787.044e6553.chunk.js",
-    "static/media/crunold-oblique-webfont.woff": "/static/media/crunold-oblique-webfont.890bee004409e9bb124f.woff",
-    "static/media/crunold-regular-webfont.woff": "/static/media/crunold-regular-webfont.8e7b54b74a99f01525d0.woff",
-    "static/media/crunold-oblique-webfont.woff2": "/static/media/crunold-oblique-webfont.10b87daf3f01ef431150.woff2",
-    "static/media/crunold-regular-webfont.woff2": "/static/media/crunold-regular-webfont.9def95bdae591bcd6e31.woff2",
-    "static/media/ApfelGrotezk-Regular.woff": "/static/media/ApfelGrotezk-Regular.3962214aa1ef74c74bc8.woff",
-    "static/media/ApfelGrotezk-Fett.woff": "/static/media/ApfelGrotezk-Fett.9d12ec37b1a4c8a44369.woff",
-    "static/media/ApfelGrotezk-Regular.woff2": "/static/media/ApfelGrotezk-Regular.0f390dd4da172465f1f1.woff2",
-    "static/media/ApfelGrotezk-Fett.woff2": "/static/media/ApfelGrotezk-Fett.6739c46c0311db9b5190.woff2",
-    "static/media/pause_circle.svg": "/static/media/pause_circle.d98a7b9eb5a826af503eb7a3d5fb9c1a.svg",
-    "index.html": "/index.html",
-    "static/media/chevron-down.svg": "/static/media/chevron-down.650ddc751452fde3c0717bf6c11c44f2.svg",
-    "main.437e9f66.css.map": "/static/css/main.437e9f66.css.map",
-    "main.03704e7f.js.map": "/static/js/main.03704e7f.js.map",
-    "787.044e6553.chunk.js.map": "/static/js/787.044e6553.chunk.js.map"
+    "main.css": "/bonpote-diner-ecolo/static/css/main.0e072bab.css",
+    "main.js": "/bonpote-diner-ecolo/static/js/main.89d1af8d.js",
+    "static/js/787.044e6553.chunk.js": "/bonpote-diner-ecolo/static/js/787.044e6553.chunk.js",
+    "static/media/crunold-oblique-webfont.woff": "/bonpote-diner-ecolo/static/media/crunold-oblique-webfont.890bee004409e9bb124f.woff",
+    "static/media/crunold-regular-webfont.woff": "/bonpote-diner-ecolo/static/media/crunold-regular-webfont.8e7b54b74a99f01525d0.woff",
+    "static/media/crunold-oblique-webfont.woff2": "/bonpote-diner-ecolo/static/media/crunold-oblique-webfont.10b87daf3f01ef431150.woff2",
+    "static/media/crunold-regular-webfont.woff2": "/bonpote-diner-ecolo/static/media/crunold-regular-webfont.9def95bdae591bcd6e31.woff2",
+    "static/media/ApfelGrotezk-Regular.woff": "/bonpote-diner-ecolo/static/media/ApfelGrotezk-Regular.3962214aa1ef74c74bc8.woff",
+    "static/media/ApfelGrotezk-Fett.woff": "/bonpote-diner-ecolo/static/media/ApfelGrotezk-Fett.9d12ec37b1a4c8a44369.woff",
+    "static/media/ApfelGrotezk-Regular.woff2": "/bonpote-diner-ecolo/static/media/ApfelGrotezk-Regular.0f390dd4da172465f1f1.woff2",
+    "static/media/ApfelGrotezk-Fett.woff2": "/bonpote-diner-ecolo/static/media/ApfelGrotezk-Fett.6739c46c0311db9b5190.woff2",
+    "static/media/share.svg": "/bonpote-diner-ecolo/static/media/share.328a32f75e1e667507d2cde7d6932ebc.svg",
+    "static/media/Switch.svg": "/bonpote-diner-ecolo/static/media/Switch.49ac1a4be472aabd32268ef0dd081369.svg",
+    "static/media/power_settings_new.svg": "/bonpote-diner-ecolo/static/media/power_settings_new.898d83a7a9982cd327063a71a93ed75c.svg",
+    "index.html": "/bonpote-diner-ecolo/index.html",
+    "static/media/Next.svg": "/bonpote-diner-ecolo/static/media/Next.33439728d1b18742c6352982e73c3589.svg",
+    "static/media/Play.svg": "/bonpote-diner-ecolo/static/media/Play.85fe45d8336dce6eb544f8d43e229c68.svg",
+    "static/media/Stop.svg": "/bonpote-diner-ecolo/static/media/Stop.03a0dfb67cfaadd6742bbfd7567336bd.svg",
+    "static/media/chevron-down.svg": "/bonpote-diner-ecolo/static/media/chevron-down.650ddc751452fde3c0717bf6c11c44f2.svg",
+    "main.0e072bab.css.map": "/bonpote-diner-ecolo/static/css/main.0e072bab.css.map",
+    "main.89d1af8d.js.map": "/bonpote-diner-ecolo/static/js/main.89d1af8d.js.map",
+    "787.044e6553.chunk.js.map": "/bonpote-diner-ecolo/static/js/787.044e6553.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.437e9f66.css",
-    "static/js/main.03704e7f.js"
+    "static/css/main.0e072bab.css",
+    "static/js/main.89d1af8d.js"
   ]
 }
