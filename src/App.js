@@ -1,4 +1,4 @@
-import {useEffect, useState} from "react";
+import {useState} from "react";
 import TableWithPeople from "./components/TableWithPeople";
 import toast, {Toaster} from 'react-hot-toast';
 import OnBoarding from "./components/OnBoarding";
@@ -159,7 +159,7 @@ function App() {
                 <OnBoarding setStarted={setStarted} handleStartInfinite={handleStartInfinite}/>
             }
             <div
-                className="px-0 md:px-10 md:max-w-xl container md:bg-[url('./assets/room-decoration.png')] bg-contain bg-top bg-no-repeat mx-auto relative">
+                className="px-0 mb-6 md:px-10 md:max-w-xl container md:bg-[url('./assets/room-decoration.png')] bg-contain bg-top bg-no-repeat mx-auto relative">
                 {(started && !pickedPerson && !infinite) &&
                     <PersonPickerHelper/>
                 }
@@ -197,13 +197,13 @@ function App() {
                     />
                 }
                 <div
-                    className={`mt-[20rem] md:mt-56 mb-20 w-full inline-block relative ${(((!started || (pickedPerson && !pickedArgument)) && !infinite) ? ' opacity-30 pointer-events-none' : '')}`}>
+                    className={`mt-[20rem] mb-20 md:mt-56 w-full inline-block relative ${(((!started || (pickedPerson && !pickedArgument)) && !infinite) ? ' opacity-30 pointer-events-none' : '')}`}>
                     <div>
                         <div className={"absolute -top-28 w-full"}>
                             <div className={"relative toaster-container"}>
                                 <Toaster containerStyle={{
                                     position: "absolute",
-                                    top: (width > 1200) ? 60 : (width > 768 ? 50 : (width > 640 ? 70 : 95))
+                                    top: (width > 1200) ? 60 : (width > 768 ? 50 : (width > 640 ? 70 : 110))
                                 }}/>
                             </div>
                         </div>

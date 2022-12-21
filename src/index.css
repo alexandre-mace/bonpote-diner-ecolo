@@ -108,5 +108,5 @@ path.colorable {
 }
 
 .action-btn-bottom {
-  @apply bottom-10 md:bottom-12
+  @apply bottom-16 md:bottom-16 xl:md:bottom-16  2xl:bottom-8
 }
