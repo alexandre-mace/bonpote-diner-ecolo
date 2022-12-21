@@ -93,6 +93,7 @@ function App() {
     }
 
     const handlePauseInfinite = () => {
+        resetAudioAnimation()
         window.infinitePaused = true
         setPickedArgument(null)
         setInfinitePaused(true)
