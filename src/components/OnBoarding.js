@@ -26,7 +26,7 @@ const OnBoarding = ({setStarted, handleStartInfinite}) => (
                         </div>
                         <div className={"flex flex-col md:flex-row flex-wrap md:flex-nowrap justify-center"}>
                             <button onClick={() => setStarted(true)}
-                                 className="inline-block w-full cursor-pointer whitespace-nowrap justify-center items-center rounded-full px-6 py-3 text-center btn-primary md:mr-1">Commencer
+                                 className="inline-block w-full cursor-pointer whitespace-nowrap justify-center items-center rounded-full px-6 py-3 text-center btn-primary md:mr-2">Commencer
                                 le repas 🍽️</button>
                             <button onClick={() => {
                                 setStarted(true)
