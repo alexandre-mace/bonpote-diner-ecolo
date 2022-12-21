@@ -7,7 +7,7 @@ const ShareLink = () => {
 
     return (
         <button
-            className="w-auto absolute top-3 right-8 md:top-6 md:right-6 z-[99999] cursor-pointer md:mr-3 py-1 btn-quartary text-xs md:text-base"
+            className="w-auto absolute top-3 right-6 md:top-6 md:right-6 z-[99999] cursor-pointer md:mr-3 py-1 btn-quartary text-sm md:text-base"
             onClick={() => {
                 setLinkCopied(true)
                 copyToClipboard('https://ledinerdusiecle.bonpote.com')
