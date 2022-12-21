@@ -56,6 +56,7 @@ function App() {
     const handleStartInfinite = () => {
         resetPeopletates()
         toast.dismiss()
+        resetAudioAnimation()
         saidArguments = []
         window.infinite = true
         window.infiniteAwaiting = true
