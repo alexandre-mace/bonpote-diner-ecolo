@@ -12,7 +12,7 @@ const InfinitePlayer = ({
                             handleNextInfinite
                         }) => {
     return (
-        <div className="w-[90%] md:w-full absolute action-btn-bottom left-1/2 -translate-x-1/2 z-50 text-center">
+        <div className="w-[100%] md:w-full absolute action-btn-bottom left-1/2 -translate-x-1/2 z-50 text-center">
             <div className={"flex flex-row w-full justify-center"}>
                 <button
                     className="inline-flex items-center rounded-full mr-3 px-4 text-center bg-vert-2 text-vert-1 whitespace-nowrap">
@@ -35,7 +35,7 @@ const InfinitePlayer = ({
                 {infinitePaused &&
                     <button
                         onClick={() => handleStopInfinite()}
-                        className="inline-flex whitespace-nowrap justify-center cursor-pointer items-center rounded-full px-6 py-3 text-center btn-secondary">
+                        className="inline-flex text-xs md:text-base whitespace-nowrap justify-center cursor-pointer items-center rounded-full px-6 py-3 text-center btn-secondary">
                         <div>Terminer la discussion</div>
                         <img className="ml-1 h-6" src={shutdownIcon} alt="suivant"/>
                     </button>
@@ -43,7 +43,7 @@ const InfinitePlayer = ({
                 {!infinitePaused &&
                     <button
                         onClick={() => handleNextInfinite()}
-                        className="inline-flex whitespace-nowrap justify-center cursor-pointer items-center rounded-full px-6 py-3 text-center btn-secondary">
+                        className="inline-flex text-xs md:text-base whitespace-nowrap justify-center cursor-pointer items-center rounded-full px-6 py-3 text-center btn-secondary">
                         <div>Discussion suivante</div>
                         <img className="ml-1 h-6" src={nextIcon} alt="suivant"/>
                     </button>
