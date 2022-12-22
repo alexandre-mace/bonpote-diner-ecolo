@@ -16,7 +16,7 @@ const getAnimationDuration = (pickedArgument) => {
         return 0
     }
 
-    return (getWordsInSentence(pickedArgument.content) * 210 + getWordsInSentence(pickedArgument.answer) * 210)
+    return (getWordsInSentence(pickedArgument.content) * readingPace + getWordsInSentence(pickedArgument.answer) * readingPace)
 }
 
 const sayArgument = async (pickedArgument, pickedPerson, width, speakingThread) => {
@@ -41,7 +41,7 @@ const sayArgument = async (pickedArgument, pickedPerson, width, speakingThread) 
         }), position: (width > 800 ? 'bottom-right' : 'bottom-center'),
     })
 
-    await delay(getWordsInSentence(pickedArgument.content) * 210)
+    await delay(getWordsInSentence(pickedArgument.content) * readingPace)
     document.querySelectorAll(`[data-name="${pickedPerson.name}"] path.colorable`)
         .forEach((svgElement) => svgElement.setAttribute('fill', "#fff"))
     fadeMessages()
@@ -69,7 +69,7 @@ const answerArgument = async (pickedArgument, width, speakingThread) => {
             // marginBottom: (width > 800 ? '-30px' : '0'),
         }), position: (width > 800 ? 'bottom-left' : 'bottom-center'),
     })
-    await delay(getWordsInSentence(pickedArgument.answer) * 210)
+    await delay(getWordsInSentence(pickedArgument.answer) * readingPace)
     resetEcoloPersonState()
     fadeMessages()
 }
@@ -82,4 +82,6 @@ const hasJustStoppedSpeakInfinite = () => {
     return window.lastInfiniteStopped && (Date.now() - window.lastInfiniteStopped < 3800)
 }
 
-export {sayArgument, answerArgument, speak, cantSpeak}
+const readingPace = 230;
+
+export {sayArgument, answerArgument, speak, cantSpeak, readingPace}
