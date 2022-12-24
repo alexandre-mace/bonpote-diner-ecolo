@@ -77,6 +77,20 @@
     "En savoir plus": "https://bonpote.com/non-le-passage-a-30-km-h-en-ville-naugmente-pas-la-pollution/"
   },
   {
+    "Nom": "Jean-Michel Cyclesolaire",
+    "Description": "Tonton climatosceptique",
+    "Arguments": "Il fait froid, vous la ramenez moins là avec votre réchauffement climatique !",
+    "Réponse": "Attention à ne pas confondre météo et climat. Ce n'est pas parce qu'il fait exceptionnellement très froid pendant 2 ou 3 jours que cela vient réfuter le réchauffement climatique d'origine humaine. Il a par exemple fait très froid début décembre 2022, mais l'année 2022 est tout le même l'année la plus chaude enregistrée en France depuis que les mesures ont commencé en 1949 !",
+    "En savoir plus": "https://bonpote.com/comment-ne-plus-confondre-meteo-et-climat/"
+  },
+  {
+    "Nom": null,
+    "Description": null,
+    "Arguments": null,
+    "Réponse": null,
+    "En savoir plus": null
+  },
+  {
     "Nom": null,
     "Description": null,
     "Arguments": null,
@@ -143,7 +157,7 @@
     "Nom": "Catherine de France",
     "Description": "Tante conservatrice",
     "Arguments": "T'es écolo mais t'as un iphone ! ahah !",
-    "Réponse": "La technologie est omniprésente dans nos vies et de la difficulté de s’en passer. Le système n’allant pas disparaître du jour au lendemain, deux étapes s’imposent. La première, c’est de comprendre comment ce système nous impose la technologie et à quel point il est difficile d’en échapper. La deuxième étape consiste à réfléchir à comment ne pas perpétuer ce système mortifère et le changer. Par tous les moyens.",
+    "Réponse": "La technologie est omniprésente dans nos vies et  il est difficile de s’en passer. Le système n’allant pas disparaître du jour au lendemain, deux étapes s’imposent. La première, c’est de comprendre comment ce système nous impose la technologie et à quel point il est difficile d’en échapper. La deuxième étape consiste à réfléchir à comment ne pas perpétuer ce système mortifère et le changer. Par tous les moyens.",
     "En savoir plus": "https://bonpote.com/tes-ecolo-mais-tas-un-iphone/"
   },
   {
@@ -210,18 +224,39 @@
     "En savoir plus": "https://bonpote.com/fallait-pas-fermer-fessenheim/"
   },
   {
-    "Nom": null,
-    "Description": null,
-    "Arguments": null,
-    "Réponse": null,
-    "En savoir plus": null
+    "Nom": "Catherine de France",
+    "Description": "Tante conservatrice",
+    "Arguments": "C'est qu'un business l'écologie, les écolos ils font ça pour l'argent !",
+    "Réponse": "Il faudrait déjà définir ce qu'est un écolo. Elon Musk se considère écologiste, et pourtant il se balade en jet privé. Plus globalement, des milliers de personnes ont quitté un travail bien rémunéré pour un autre travail moins rémunéré mais qui avait plus de sens. Et puis quel est l'écolo le ou la mieux rémunéré(e) ? Est-ce plus intéressant financièrement que le salaire annuel du PDG de Total, 5.9m d'euros ?",
+    "En savoir plus": "https://rmc.bfmtv.com/actualites/economie/travail/patrick-pouyanne-le-pdg-de-total-publie-son-salaire-sur-twitter-et-justifie-son-augmentation_AN-202210190117.html"
   },
   {
-    "Nom": null,
-    "Description": null,
-    "Arguments": null,
-    "Réponse": null,
-    "En savoir plus": null
+    "Nom": "Catherine de France",
+    "Description": "Tante conservatrice",
+    "Arguments": "Les écolos ils veulent nous interdire de manger de la viande, ça suffit ! On peut plus vivre tranquille !",
+    "Réponse": "Aucune personne sérieuse n'interdira à tout le monde de manger de la viande. C'est inconcevable, et c'est le meilleur moyen pour provoquer de la réactance. En revanche, en plus de respecter les animaux, végétaliser notre alimentation est indispensable pour tendre vers la neutralité carbone. En moyenne, les Français doivent manger entre 3 à 4 fois moins de viande (aujourd'hui c'est tout de même 80kg/an !)",
+    "En savoir plus": "https://bonpote.com/les-infographies-bon-pote/"
+  },
+  {
+    "Nom": "Catherine de France",
+    "Description": "Tante conservatrice",
+    "Arguments": "Les écolos personnes n'en veut. La preuve, Yannick Jadot n’a fait que 4.6% !",
+    "Réponse": "Yannick Jadot n’était pas le seul à se revendiquer “candidat écologique”. Jean-Luc Mélenchon se présentait également comme un candidat écologique et a eu 22% des votes, bénéficiant d’un report des voix de personnes qui espéraient voir un candidat ‘écolo/de gauche’ au second tour à la place de Marine Le Pen. Par ailleurs, pensez-vous que les abstentionnistes se foutent de l’écologie ? De plus, pourquoi mettre de côté la possibilité que l’offre ne soit pas satisfaisante et que des personnes aient préféré ne pas voter, ou voter pour un autre candidat qu’ils considéraient comme ‘écolo’, ? Comme F. Roussel ou E. Macron...",
+    "En savoir plus": "https://bonpote.com/les-francais-se-foutent-ils-de-lecologie/"
+  },
+  {
+    "Nom": "Catherine de France",
+    "Description": "Tante conservatrice",
+    "Arguments": "Les français se foutent de l'écologie !!!",
+    "Réponse": "Les Français veulent bien changer, à condition que cela soit juste. Le mot juste a ici toute son importance. On ne peut pas demander à tout le monde de prendre son vélo si des exilés fiscaux sont sur leur yacht. On ne peut pas demander aux Français de prendre le train au lieu de l’avion quand le 1er ministre fait un aller-retour en jet privé pour voter, ou que les billets sont parfois jusqu’à 5 fois plus cher.",
+    "En savoir plus": "https://bonpote.com/les-francais-se-foutent-ils-de-lecologie/"
+  },
+  {
+    "Nom": "Catherine de France",
+    "Description": "Tante conservatrice",
+    "Arguments": "De toute façon dans 10 ans je serai morte",
+    "Réponse": "Je... je vais invoquer la loi de Brandolini",
+    "En savoir plus": "https://bonpote.com/loi-de-brandolini-doit-on-repondre-aux-cons/"
   },
   {
     "Nom": null,
@@ -269,7 +304,7 @@
     "Nom": "David Rassuriste",
     "Description": "C'est pas si grave - La technologie va nous sauver",
     "Arguments": "Tu vas pas m’emmerder pour 2 degrés de plus, c’est pas si terrible !",
-    "Réponse": "2 degrés de plus, c’est une moyenne mondiale. une moyenne, ça veut tout et rien dire. La moyenne cache par exemple qu’il va faire 50 degrés dans votre ville et qu’enlever un pull ne vous empêchera pas de souffrir.",
+    "Réponse": "2 degrés de plus, c’est une moyenne mondiale. une moyenne, ça veut tout et rien dire. La moyenne cache par exemple qu’il va faire 50 degrés dans votre ville et qu’enlever un pull ne vous empêchera pas de souffrir. Pour l'imager facilement, imagine que ton corps passe de 37 à 39°C. Cela n'aurait aucune conséquence ?",
     "En savoir plus": "https://bonpote.com/canicules-a-venir-des-etes-a-50-degres-en-france/"
   },
   {
@@ -371,6 +406,41 @@
     "En savoir plus": "https://bonpote.com/le-jaitoutcomprisme/"
   },
   {
+    "Nom": "David Rassuriste",
+    "Description": "C'est pas si grave - La technologie va nous sauver",
+    "Arguments": "Ca fait 50 ans qu'on entend qu'il y aura plus de pétrole, arrêtez de vouloir faire peur aux Français !",
+    "Réponse": "Qui a dit qu'il n'y aurait plus de pétrole ? Un organisme sérieux ? Quoi qu'il en soit, aujourd'hui le problème n'est pas qu'il n'y ait plus de pétrole, c'est qu'il y en ait assez pour dépasser un réchauffement mondial de +2°C, ce qui aurait des conséquences sociales et environnementales dramatiques. L'objectif, c'est réduire drastiquement la consommation de pétrole et de nous imposer nous-mêmes des limites !",
+    "En savoir plus": "https://bonpote.com/nouveau-rapport-du-giec-agir-coutera-moins-cher-que-le-business-as-usual/"
+  },
+  {
+    "Nom": "David Rassuriste",
+    "Description": "C'est pas si grave - La technologie va nous sauver",
+    "Arguments": "L'homme a toujours modifié son environnement, on fait juste pareil aujourd'hui, je ne vois pas le problème",
+    "Réponse": "C'est vrai ! L'humain a toujours modifié son environnement, même s'il est courant d'entendre que ce n'était pas le cas avant l'ère industrielle. En revanche, des centaines de millions d'humains vivent de façon soutenable et respectent l'environnement, ce qui n'est pas le cas des sociétés occidentales !",
+    "En savoir plus": "https://www.cairn.info/magazine-sciences-humaines-2020-7-page-2.html"
+  },
+  {
+    "Nom": "David Rassuriste",
+    "Description": "C'est pas si grave - La technologie va nous sauver",
+    "Arguments": "Mais de toute façon on aura toujours besoin de pétrole ! Tu as une voiture ? Tu te chauffes ? Tu utilises un stylo ? Le pétrole est partout !",
+    "Réponse": "Tu as raison, le pétrole est partout, et il sera extrêmement difficile de s'en passer. Mais personne n'a dit que nous devions nous en passer du jour au lendemain. L'idéal est ici de réfléchir collectivement à comment sortir des énergies fossiles le plus rapidement possible afin d'éviter d'aggraver le réchauffement climatique. Pour cela, il va falloir questionner nos usages, et probablement réduire certaines activités...",
+    "En savoir plus": "https://bonpote.com/climat-les-12-excuses-de-linaction-et-comment-y-repondre/"
+  },
+  {
+    "Nom": "David Rassuriste",
+    "Description": "C'est pas si grave - La technologie va nous sauver",
+    "Arguments": "J'ai bien baissé la viande rouge, j'ai remplacé par le poulet, c'est beaucoup moins de CO2 !",
+    "Réponse": "C'est vrai que d'un point de vue carbone, c'est une bonne chose de passer du boeuf au poulet. Mais il ne faut pas oublier le bien être des animaux. Nous abattons plus de 700 millions de poulets chaque année en France. Il faut aller plus loin que la simple logique de CO2 et prendre en compte l'éthique animale",
+    "En savoir plus": "https://bonpote.com/une-economie-pour-sauver-les-animaux-romain-espinosa/"
+  },
+  {
+    "Nom": "David Rassuriste",
+    "Description": "C'est pas si grave - La technologie va nous sauver",
+    "Arguments": "Ca va, on a le temps, le changement climatique c'est dans quelques décennies",
+    "Réponse": "Ah non, malheureusement, le changement climatique, c'est maintenant ! Il a déjà des conséquences terribles partout dans le monde, y compris en France. Savais-tu que les canicules de l'été 2022 ont fait des milliers de morts en France ? Tout le monde est malheureusement concerné !",
+    "En savoir plus": "https://bonpote.com/synthese-et-analyse-du-nouveau-rapport-du-giec/"
+  },
+  {
     "Nom": null,
     "Description": null,
     "Arguments": null,
@@ -448,6 +518,48 @@
     "En savoir plus": "https://bonpote.com/cest-trop-tard-on-est-foutus-pourquoi-cest-faux-et-comment-y-repondre/"
   },
   {
+    "Nom": "Claire Céfoutu",
+    "Description": "A eux de faire des efforts - et puis c'est trop tard",
+    "Arguments": "Quoi qu'on fasse maintenant, on ne verra les effets que dans 20 ou 40 ans !",
+    "Réponse": "Et bien pour une fois, bonne nouvelle ! Si nous limitons drastiquement nos émissions de gaz à effet de serre, non seulement nous verrons des effets bénéfiques bien avant 20 ans, mais en plus, si la neutralité carbone est atteinte, nous arrêtons le réchauffement climatique. De quoi avoir envie de changer rapidement non ?",
+    "En savoir plus": "https://bonpote.com/existe-t-il-vraiment-une-inertie-climatique-de-20-ans/"
+  },
+  {
+    "Nom": "Claire Céfoutu",
+    "Description": "A eux de faire des efforts - et puis c'est trop tard",
+    "Arguments": "Le réchauffement me fait flipper, j'ai l'impression que même si je fais des efforts ça sert à rien vu ce que font les autres...",
+    "Réponse": "C'est un sentiment compréhensible. Il est certain que la transition écologique devrait avant tout peser sur les entreprises, l'Etat et les collectivités locales, puisque ce sont ces entités qui ont les moyens les plus importants pour provoquer les changements nécessaires. Mais nous avons aussi besoin que les citoyens changent à leur échelle. Et puis vous pouvez changer pour vous aussi, être en adéquation avec vos valeurs",
+    "En savoir plus": "https://bonpote.com/les-francais-se-foutent-ils-de-lecologie/"
+  },
+  {
+    "Nom": "Claire Céfoutu",
+    "Description": "A eux de faire des efforts - et puis c'est trop tard",
+    "Arguments": "Je suis complètement perdu(e), je ne sais pas par où commencer",
+    "Réponse": "Il y a des milliers de façons d'agir pour le climat et la biodiversité. Se former est probablement la première des actions. Ensuite, simuler son empreinte carbone pour savoir où agir et être le plus efficace pour réduire son empreinte sur le vivant, tout en gardant en tête que nous aurons besoin à la fois des actions individuelles et collectives.",
+    "En savoir plus": "https://bonpote.com/10-actions-simples-pour-devenir-ecolo/"
+  },
+  {
+    "Nom": "Claire Céfoutu",
+    "Description": "A eux de faire des efforts - et puis c'est trop tard",
+    "Arguments": "Même si je suis déjà sensibilisée, je ne vois pas comment même si on agit à l'échelle d'un pays cela pourrait avoir une quelconque utilité.",
+    "Réponse": "Prenons l'exemple de la France. C'est inscrit dans la loi d'atteindre la neutralité carbone, donc ce n'est pas un simple souhait des écolos. Si la France prend une mesure efficace pour le climat, cela peut avoir un effet de contagion sur d'autres. Un exemple récent pour illlustrer ? Lorsque les vols nationaux en dessous de 2H30 ont été interdits, il y a eu couverture internationale du sujet et c'est depuis poussé politiquement dans d'autres pays.",
+    "En savoir plus": "https://bonpote.com/climat-les-12-excuses-de-linaction-et-comment-y-repondre/"
+  },
+  {
+    "Nom": "Claire Céfoutu",
+    "Description": "A eux de faire des efforts - et puis c'est trop tard",
+    "Arguments": "L'Humain a de tout temps toujours tout détruit, ça sert à rien d'agir",
+    "Réponse": "C'est une posture fataliste, qui peut se comprendre, mais qui est malheureusement un discours qui mène à l'inaction climatique. C'est également une posture privilégiée d'avoir ce discours, car des populations souffrent bien plus du changement climatique que d'autres, et elles n'ont pas le luxe de se dire que cela ne sert à rien d'agir...",
+    "En savoir plus": "https://bonpote.com/climat-les-12-excuses-de-linaction-et-comment-y-repondre/"
+  },
+  {
+    "Nom": "Claire Céfoutu",
+    "Description": "A eux de faire des efforts - et puis c'est trop tard",
+    "Arguments": "Si on arrête d’acheter à l’étranger que vont faire les petits pays exportateurs  ils vont se retrouver dans la pauvreté !",
+    "Réponse": "Il est évident que certains pays sont plus exposés que d'autres à une transition rapide et brutale. C'est pour cela que la transition écologique doit se penser sur le long terme, et toujours s'assurer que la justice sociale soit assurée. Sans justice sociale, pas de transition écologique. C'est l'une des conclusions fortes du 2ème volet du dernier rapport du GIEC !",
+    "En savoir plus": "https://bonpote.com/33-milliards-detres-humains-exposes-au-changement-climatique-le-nouveau-rapport-du-giec-est-sans-appel/"
+  },
+  {
     "Nom": null,
     "Description": null,
     "Arguments": null,
@@ -501,6 +613,13 @@
     "Description": "aime les retraites yoga et les fraises sur le balcon",
     "Arguments": "Pour se reconnecter à la nature, rien de tel qu'une retraite yoga à Marrakech !",
     "Réponse": "L'aller-retour en avion participe grandement au réchauffement climatique, est-ce que cela peut avoir lieu autre part ?",
+    "En savoir plus": "https://bonpote.com/avion-calculer-en-3-clics-votre-empreinte-carbone/"
+  },
+  {
+    "Nom": "Roxane Bobo",
+    "Description": "aime les retraites yoga et les fraises sur le balcon",
+    "Arguments": "j’ai pas d’enfant donc je pollue moins, je peux prendre l'avion autant que je veux ça va !",
+    "Réponse": "Ah ce serait bien si c'était aussi simple, mais malheureusement ce n'est pas vraiment un bon calcul.... l'idéal est de connaître l'empreinte carbone de ton ou tes voyages en avion, et de savoir si cela permet de respecter l'Accord de Paris. Un voyage long-courrier explose par exemple le budget carbone annuel. Pour calculer l'empreinte carbone de ton voyage, je connais un site pour le faire en 3 clics !",
     "En savoir plus": "https://bonpote.com/avion-calculer-en-3-clics-votre-empreinte-carbone/"
   }
 ]
