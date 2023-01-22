@@ -6,11 +6,11 @@ const Header = ({opacity}) => (
                 Guide de survie
             </div>
         </div>
-        <div
+        <h1
             className={`text-4xl md:text-5xl text-left sm:text-center font-display text-white font-extrabold mb-6 md:mb-10 uppercase opacity-${opacity} pl-3 md:pl-0`}>
             Le diner <span className="md:italic text-2xl md:text-5xl">(écolo)</span> <br/>
             du siecle
-        </div>
+        </h1>
     </>
 )
 
